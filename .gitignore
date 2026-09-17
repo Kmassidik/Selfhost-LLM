@@ -1,0 +1,47 @@
+# ── Weights and data. These are the reason this file exists. ──────────
+# The model files here run to hundreds of megabytes each and belong on
+# Hugging Face, not in git. models/configs/ IS committed — it is a few KB
+# of JSON and it is what makes the architecture claims reproducible.
+models/hf/
+models/gguf/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+!models/configs/**/*.json
+
+# ── Environments ──────────────────────────────────────────────────────
+.venv/
+engines/*/.venv/
+__pycache__/
+*.py[cod]
+uv.lock
+
+# ── Output: runs, checkpoints, logs, scratch ──────────────────────────
+runs/
+checkpoints/
+scratch/
+data/raw/
+data/tokenized/
+*.log
+*.mp4
+*.wav
+
+# ── Measurements ARE committed — bench/results/*.json is the data the
+#    comparison tables read. Raw artefacts are not.
+gpu-samples/
+
+# ── Never ─────────────────────────────────────────────────────────────
+.env
+*.pem
+*.key
+id_*
+.DS_Store
+
+# ── Training outputs (regenerable adapters + checkpoints) ──────────────
+**/checkpoint-*/
+train/*/adapter/
+train/*/adapter_*/
+train/*/quant/
+rag/r3_adapter/

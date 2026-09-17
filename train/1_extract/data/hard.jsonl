@@ -1,0 +1,400 @@
+{"text": "sip totalling \u20ac1,500 against #29117 room 15", "gold": {"intent": "deadline", "time": null, "amount": 1500, "ref": "29117", "person": null}}
+{"text": "ship see ticket 82908 totalling USD7800 at 1315h with Pia Kraus desk 31", "gold": {"intent": "deadline", "time": "13:15", "amount": 7800, "ref": "82908", "person": "Pia Kraus"}}
+{"text": "btw phone 7 am and loop in Lucia Adler my cell is 555-0197", "gold": {"intent": "call", "time": "07:00", "amount": null, "ref": null, "person": "Lucia Adler"}}
+{"text": "urgent: settle see ticket 76454 desk 17 9:15 in the morning desk 60 totalling $9,999.00", "gold": {"intent": "payment", "time": "09:15", "amount": 9999, "ref": "76454", "person": null}}
+{"text": "settel \u2014 USD150 [#15705] 11:45 in the morning and loop in Bruno Lindqvist", "gold": {"intent": "payment", "time": "11:45", "amount": 150, "ref": "15705", "person": "Bruno Lindqvist"}}
+{"text": "btw reemmber to rview with Bruno Kraus my cell is 555-0117 my cell is 555-0146", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Bruno Kraus"}}
+{"text": "when you can, catch up \u2014 Otto Gallo \u2014 8 pm", "gold": {"intent": "meeting", "time": "20:00", "amount": null, "ref": null, "person": "Otto Gallo"}}
+{"text": "when you can, settle see ticket 7766 desk 61 at 1100h desk 9 \u2014 $1,500.00 and loop in Ines Hoshino", "gold": {"intent": "payment", "time": "11:00", "amount": 1500, "ref": "7766", "person": "Ines Hoshino"}}
+{"text": "btw remember to rview worth USD275 room 6 desk 59", "gold": {"intent": "reminder", "time": null, "amount": 275, "ref": null, "person": null}}
+{"text": "note \u2014 phone desk 59 at 1700h with Rosa Dubois my cell is 555-0124", "gold": {"intent": "call", "time": "17:00", "amount": null, "ref": null, "person": "Rosa Dubois"}}
+{"text": "btw ship against #81377 worth \u20ac40 desk 91 2.00pm", "gold": {"intent": "deadline", "time": "14:00", "amount": 40, "ref": "81377", "person": null}}
+{"text": "urgent: cath up room 17 \u2014 Hugo Faber \u2014 my cell is 555-0130", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Hugo Faber"}}
+{"text": "urgent: remembre to review with Gita Iqbal \u2014 40 bucks", "gold": {"intent": "reminder", "time": null, "amount": 40, "ref": null, "person": "Gita Iqbal"}}
+{"text": "ship my cell is 555-0148 at 1100h totalling \u20ac1,500 with Otto Iqbal", "gold": {"intent": "deadline", "time": "11:00", "amount": 1500, "ref": null, "person": "Otto Iqbal"}}
+{"text": "note \u2014 phone and loop in Otto Iqbal my cell is 555-0121", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": "Otto Iqbal"}}
+{"text": "heads up reemmber to review my cell is 555-0136 [case 92269] 7.30am", "gold": {"intent": "reminder", "time": "07:30", "amount": null, "ref": "92269", "person": null}}
+{"text": "when you can, remember to review 5:15 in the evening \u2014 Pia Dubois \u2014", "gold": {"intent": "reminder", "time": "17:15", "amount": null, "ref": null, "person": "Pia Dubois"}}
+{"text": "when you can, ship with Noor Nakamura totalling 275 euro see po#34470", "gold": {"intent": "deadline", "time": null, "amount": 275, "ref": "34470", "person": "Noor Nakamura"}}
+{"text": "heads up phone my cell is 555-0120 10.15am with Carmen Gallo", "gold": {"intent": "call", "time": "10:15", "amount": null, "ref": null, "person": "Carmen Gallo"}}
+{"text": "note \u2014 phone totalling $250.00 room 14 with Carmen Iqbal 7.00am", "gold": {"intent": "call", "time": "07:00", "amount": 250, "ref": null, "person": "Carmen Iqbal"}}
+{"text": "btw remember to review and loop in Silas Jansen", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Silas Jansen"}}
+{"text": "catch up my cell is 555-0179 worth \u20ac60 at 1415h with Quinn Nakamura", "gold": {"intent": "meeting", "time": "14:15", "amount": 60, "ref": null, "person": "Quinn Nakamura"}}
+{"text": "heads up sip room 11 [case 7980] with Carmen Faber totalling USD130 desk 84", "gold": {"intent": "deadline", "time": null, "amount": 130, "ref": "7980", "person": "Carmen Faber"}}
+{"text": "heads up reember to reivew room 6 7:45 in the morning and loop in Noor Oduya", "gold": {"intent": "reminder", "time": "07:45", "amount": null, "ref": null, "person": "Noor Oduya"}}
+{"text": "pone room 25 \u2014 Jonas Iqbal \u2014 my cell is 555-0118 6:00 in the evening [#25060]", "gold": {"intent": "call", "time": "18:00", "amount": null, "ref": "25060", "person": "Jonas Iqbal"}}
+{"text": "note \u2014 settle \u2014 899 bucks 5.00pm see po#29972", "gold": {"intent": "payment", "time": "17:00", "amount": 899, "ref": "29972", "person": null}}
+{"text": "note \u2014 remember to review and loop in Kito Dubois my cell is 555-0113", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Kito Dubois"}}
+{"text": "catch up my cell is 555-0120 with Esra Adler my cell is 555-0148 8 am", "gold": {"intent": "meeting", "time": "08:00", "amount": null, "ref": null, "person": "Esra Adler"}}
+{"text": "heads up ship [inv-80590] totalling $275.00", "gold": {"intent": "deadline", "time": null, "amount": 275, "ref": "80590", "person": null}}
+{"text": "heads up catch up 10.15am", "gold": {"intent": "meeting", "time": "10:15", "amount": null, "ref": null, "person": null}}
+{"text": "urgent: ship desk 25 1 pm worth $130.00 with Quinn Costa", "gold": {"intent": "deadline", "time": "13:00", "amount": 130, "ref": null, "person": "Quinn Costa"}}
+{"text": "note \u2014 phoen totalling $40.00 room 37 my cell is 555-0189 with Uma Adler 12:00pm", "gold": {"intent": "call", "time": "12:00", "amount": 40, "ref": null, "person": "Uma Adler"}}
+{"text": "heads up phnoe desk 52 7pm sharp room 5 totalling $275", "gold": {"intent": "call", "time": "19:00", "amount": 275, "ref": null, "person": null}}
+{"text": "btw cathc up room 29 my cell is 555-0118 9:45 in the morning", "gold": {"intent": "meeting", "time": "09:45", "amount": null, "ref": null, "person": null}}
+{"text": "heads up phone 2:15 in the evening", "gold": {"intent": "call", "time": "14:15", "amount": null, "ref": null, "person": null}}
+{"text": "urgent: sttle my cell is 555-0198 4:45 in the evening [inv-31387] and loop in Noor Hoshino my cell is 555-0182", "gold": {"intent": "payment", "time": "16:45", "amount": null, "ref": "31387", "person": "Noor Hoshino"}}
+{"text": "when you can, phone \u2014 Ines Eriksen \u2014 room 20", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": "Ines Eriksen"}}
+{"text": "note \u2014 catch up desk 54 my cell is 555-0162 with Pia Costa", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Pia Costa"}}
+{"text": "heads up remmeber to review totalling $7,800.00 room 8 \u2014 Uma Kraus \u2014", "gold": {"intent": "reminder", "time": null, "amount": 7800, "ref": null, "person": "Uma Kraus"}}
+{"text": "heads up remmber to review my cell is 555-0166 desk 62 totalling 130 euro", "gold": {"intent": "reminder", "time": null, "amount": 130, "ref": null, "person": null}}
+{"text": "heads up phone my cell is 555-0169", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": null}}
+{"text": "sip worth 1500 bucks [case 52552] my cell is 555-0190 \u2014 Silas Moreau \u2014", "gold": {"intent": "deadline", "time": null, "amount": 1500, "ref": "52552", "person": "Silas Moreau"}}
+{"text": "phoen with Hugo Bianchi 2 pm", "gold": {"intent": "call", "time": "14:00", "amount": null, "ref": null, "person": "Hugo Bianchi"}}
+{"text": "urgent: reemmber to review 7 pm my cell is 555-0120 and loop in Carmen Nakamura room 14", "gold": {"intent": "reminder", "time": "19:00", "amount": null, "ref": null, "person": "Carmen Nakamura"}}
+{"text": "heads up phnoe room 14 and loop in Lucia Kraus 9:45 in the morning my cell is 555-0106", "gold": {"intent": "call", "time": "09:45", "amount": null, "ref": null, "person": "Lucia Kraus"}}
+{"text": "when you can, remember to reveiw 7:30 in the morning with Hugo Iqbal desk 75", "gold": {"intent": "reminder", "time": "07:30", "amount": null, "ref": null, "person": "Hugo Iqbal"}}
+{"text": "note \u2014 remember to review my cell is 555-0115 see inv-48742 totalling 15000 bucks", "gold": {"intent": "reminder", "time": null, "amount": 15000, "ref": "48742", "person": null}}
+{"text": "heads up phnoe and loop in Farid Nakamura 5:00pm my cell is 555-0166", "gold": {"intent": "call", "time": "17:00", "amount": null, "ref": null, "person": "Farid Nakamura"}}
+{"text": "heads up rememebr to review 4:00pm my cell is 555-0141", "gold": {"intent": "reminder", "time": "16:00", "amount": null, "ref": null, "person": null}}
+{"text": "catch up desk 10 \u2014 Bruno Adler \u2014", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Bruno Adler"}}
+{"text": "when you can, catch up \u2014 Hugo Nakamura \u2014 worth $9,999.00 my cell is 555-0198", "gold": {"intent": "meeting", "time": null, "amount": 9999, "ref": null, "person": "Hugo Nakamura"}}
+{"text": "remember to review desk 19 6pm sharp and loop in Rosa Hoshino my cell is 555-0145", "gold": {"intent": "reminder", "time": "18:00", "amount": null, "ref": null, "person": "Rosa Hoshino"}}
+{"text": "note \u2014 catch up \u2014 Ines Hoshino \u2014 8:00pm my cell is 555-0193", "gold": {"intent": "meeting", "time": "20:00", "amount": null, "ref": null, "person": "Ines Hoshino"}}
+{"text": "note \u2014 remember to review worth USD899 with Carmen Nakamura my cell is 555-0199", "gold": {"intent": "reminder", "time": null, "amount": 899, "ref": null, "person": "Carmen Nakamura"}}
+{"text": "settle room 20 worth USD40 \u2014 Rosa Nakamura \u2014 against po#90006", "gold": {"intent": "payment", "time": null, "amount": 40, "ref": "90006", "person": "Rosa Nakamura"}}
+{"text": "urgent: cathc up \u2014 USD40", "gold": {"intent": "meeting", "time": null, "amount": 40, "ref": null, "person": null}}
+{"text": "heads up remember to review desk 91 desk 19 with Otto Gallo worth 250 bucks at 1100h", "gold": {"intent": "reminder", "time": "11:00", "amount": 250, "ref": null, "person": "Otto Gallo"}}
+{"text": "heads up settle worth \u20ac275 against ticket 92307 3 pm", "gold": {"intent": "payment", "time": "15:00", "amount": 275, "ref": "92307", "person": null}}
+{"text": "note \u2014 settle 12:00pm worth 130 bucks \u2014 Quinn Nakamura \u2014 [case 31829]", "gold": {"intent": "payment", "time": "12:00", "amount": 130, "ref": "31829", "person": "Quinn Nakamura"}}
+{"text": "urgent: cach up and loop in Carmen Costa 3 o'clock pm my cell is 555-0111", "gold": {"intent": "meeting", "time": "15:00", "amount": null, "ref": null, "person": "Carmen Costa"}}
+{"text": "phone \u2014 Uma Pires \u2014 room 33", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": "Uma Pires"}}
+{"text": "note \u2014 ship \u2014 Ines Lindqvist \u2014 \u2014 40 euro see #26556 9.45am", "gold": {"intent": "deadline", "time": "09:45", "amount": 40, "ref": "26556", "person": "Ines Lindqvist"}}
+{"text": "when you can, phone my cell is 555-0165 7.15am", "gold": {"intent": "call", "time": "07:15", "amount": null, "ref": null, "person": null}}
+{"text": "btw settel worth \u20ac40 desk 88 6 o'clock pm \u2014 Pia Lindqvist \u2014 against po#41846", "gold": {"intent": "payment", "time": "18:00", "amount": 40, "ref": "41846", "person": "Pia Lindqvist"}}
+{"text": "when you can, settle [#75921] 1:00 in the evening totalling 40 euro", "gold": {"intent": "payment", "time": "13:00", "amount": 40, "ref": "75921", "person": null}}
+{"text": "when you can, remember to review my cell is 555-0168 room 23 4 pm with Ines Pires", "gold": {"intent": "reminder", "time": "16:00", "amount": null, "ref": null, "person": "Ines Pires"}}
+{"text": "heads up setle my cell is 555-0130 worth \u20ac15,000 7 o'clock am", "gold": {"intent": "payment", "time": "07:00", "amount": 15000, "ref": null, "person": null}}
+{"text": "urgent: settle \u2014 Pia Moreau \u2014 [case 16018] at 0715h", "gold": {"intent": "payment", "time": "07:15", "amount": null, "ref": "16018", "person": "Pia Moreau"}}
+{"text": "urgent: reemmber to review 12:00pm with Farid Costa", "gold": {"intent": "reminder", "time": "12:00", "amount": null, "ref": null, "person": "Farid Costa"}}
+{"text": "heads up remember to review 10am sharp \u2014 Farid Nakamura \u2014 see po#67735 \u2014 250 euro my cell is 555-0174", "gold": {"intent": "reminder", "time": "10:00", "amount": 250, "ref": "67735", "person": "Farid Nakamura"}}
+{"text": "urgent: phnoe see case 24767 4:30 in the evening and loop in Farid Bianchi", "gold": {"intent": "call", "time": "16:30", "amount": null, "ref": "24767", "person": "Farid Bianchi"}}
+{"text": "note \u2014 settel room 23 4:45pm with Quinn Pires see #25721", "gold": {"intent": "payment", "time": "16:45", "amount": null, "ref": "25721", "person": "Quinn Pires"}}
+{"text": "note \u2014 sip 8 o'clock am against #91668 and loop in Otto Gallo", "gold": {"intent": "deadline", "time": "08:00", "amount": null, "ref": "91668", "person": "Otto Gallo"}}
+{"text": "urgent: phoe 2:15 in the evening desk 34 with Hugo Nakamura worth \u20ac275", "gold": {"intent": "call", "time": "14:15", "amount": 275, "ref": null, "person": "Hugo Nakamura"}}
+{"text": "heads up catch up 1:45pm \u2014 Dev Dubois \u2014 worth $9,999.00 room 39", "gold": {"intent": "meeting", "time": "13:45", "amount": 9999, "ref": null, "person": "Dev Dubois"}}
+{"text": "note \u2014 setle and loop in Jonas Faber see po#70826 desk 75 1:15 in the evening \u2014 250 euro", "gold": {"intent": "payment", "time": "13:15", "amount": 250, "ref": "70826", "person": "Jonas Faber"}}
+{"text": "heads up cach up my cell is 555-0182 and loop in Bruno Lindqvist room 15 worth USD3200", "gold": {"intent": "meeting", "time": null, "amount": 3200, "ref": null, "person": "Bruno Lindqvist"}}
+{"text": "pohne at 1300h", "gold": {"intent": "call", "time": "13:00", "amount": null, "ref": null, "person": null}}
+{"text": "when you can, remembre to reiew desk 27 my cell is 555-0155 1.00pm with Otto Iqbal", "gold": {"intent": "reminder", "time": "13:00", "amount": null, "ref": null, "person": "Otto Iqbal"}}
+{"text": "btw remember to reivew and loop in Esra Hoshino", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Esra Hoshino"}}
+{"text": "urgent: rmeember to rveiew and loop in Pia Moreau see po#28657", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": "28657", "person": "Pia Moreau"}}
+{"text": "note \u2014 reember to review with Lucia Eriksen 8:15am", "gold": {"intent": "reminder", "time": "08:15", "amount": null, "ref": null, "person": "Lucia Eriksen"}}
+{"text": "when you can, rememer to reveiw desk 56 room 25 and loop in Kito Jansen 2:15pm", "gold": {"intent": "reminder", "time": "14:15", "amount": null, "ref": null, "person": "Kito Jansen"}}
+{"text": "when you can, settle desk 78 5:30 in the evening against ticket 12825 \u2014 Ines Adler \u2014 \u2014 3200 euro desk 90", "gold": {"intent": "payment", "time": "17:30", "amount": 3200, "ref": "12825", "person": "Ines Adler"}}
+{"text": "note \u2014 cath up worth \u20ac3,200 4.15pm with Hugo Costa", "gold": {"intent": "meeting", "time": "16:15", "amount": 3200, "ref": null, "person": "Hugo Costa"}}
+{"text": "urgent: remember to review at 2030h against ticket 56861 my cell is 555-0137", "gold": {"intent": "reminder", "time": "20:30", "amount": null, "ref": "56861", "person": null}}
+{"text": "ctach up 5:15pm with Gita Pires", "gold": {"intent": "meeting", "time": "17:15", "amount": null, "ref": null, "person": "Gita Pires"}}
+{"text": "heads up catch up \u2014 Kito Pires \u2014 7 o'clock pm", "gold": {"intent": "meeting", "time": "19:00", "amount": null, "ref": null, "person": "Kito Pires"}}
+{"text": "urgent: phone my cell is 555-0136 my cell is 555-0143 and loop in Bruno Costa 12:00pm", "gold": {"intent": "call", "time": "12:00", "amount": null, "ref": null, "person": "Bruno Costa"}}
+{"text": "btw remember to review \u2014 Lucia Bianchi \u2014", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Lucia Bianchi"}}
+{"text": "note \u2014 remeber to reivew my cell is 555-0173 and loop in Jonas Oduya at 1500h", "gold": {"intent": "reminder", "time": "15:00", "amount": null, "ref": null, "person": "Jonas Oduya"}}
+{"text": "urgent: shpi 12 o'clock pm against case 18755 \u2014 USD15000 desk 62", "gold": {"intent": "deadline", "time": "12:00", "amount": 15000, "ref": "18755", "person": null}}
+{"text": "when you can, cath up desk 7 with Rosa Adler desk 83 against inv-34340", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": "34340", "person": "Rosa Adler"}}
+{"text": "when you can, remember to reiew with Carmen Moreau", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Carmen Moreau"}}
+{"text": "when you can, phoe desk 47 at 1130h and loop in Noor Moreau", "gold": {"intent": "call", "time": "11:30", "amount": null, "ref": null, "person": "Noor Moreau"}}
+{"text": "settle against inv-11620 worth \u20ac899 \u2014 Rosa Nakamura \u2014", "gold": {"intent": "payment", "time": null, "amount": 899, "ref": "11620", "person": "Rosa Nakamura"}}
+{"text": "urgent: shp see case 15046 and loop in Otto Gallo desk 8 at 1345h totalling $1,500", "gold": {"intent": "deadline", "time": "13:45", "amount": 1500, "ref": "15046", "person": "Otto Gallo"}}
+{"text": "heads up rememer to review 5:30pm", "gold": {"intent": "reminder", "time": "17:30", "amount": null, "ref": null, "person": null}}
+{"text": "remebmer to review \u2014 Jonas Faber \u2014 at 1500h worth $275", "gold": {"intent": "reminder", "time": "15:00", "amount": 275, "ref": null, "person": "Jonas Faber"}}
+{"text": "when you can, phoen desk 79 against case 46096 with Gita Adler 8:00pm", "gold": {"intent": "call", "time": "20:00", "amount": null, "ref": "46096", "person": "Gita Adler"}}
+{"text": "remember to review 9.30am \u2014 Jonas Gallo \u2014 desk 54 my cell is 555-0130", "gold": {"intent": "reminder", "time": "09:30", "amount": null, "ref": null, "person": "Jonas Gallo"}}
+{"text": "btw stetle \u2014 $9,999 \u2014 Carmen Bianchi \u2014 [po#51429] my cell is 555-0177 at 1615h", "gold": {"intent": "payment", "time": "16:15", "amount": 9999, "ref": "51429", "person": "Carmen Bianchi"}}
+{"text": "urgent: remebmer to rview 3.45pm and loop in Carmen Adler see #24600", "gold": {"intent": "reminder", "time": "15:45", "amount": null, "ref": "24600", "person": "Carmen Adler"}}
+{"text": "sette my cell is 555-0129 8.45pm my cell is 555-0197", "gold": {"intent": "payment", "time": "20:45", "amount": null, "ref": null, "person": null}}
+{"text": "when you can, phone 4:30 in the evening my cell is 555-0179 with Hugo Bianchi", "gold": {"intent": "call", "time": "16:30", "amount": null, "ref": null, "person": "Hugo Bianchi"}}
+{"text": "settle totalling 1500 euro at 1215h with Ines Pires", "gold": {"intent": "payment", "time": "12:15", "amount": 1500, "ref": null, "person": "Ines Pires"}}
+{"text": "when you can, sihp totalling $15,000.00 with Noor Faber against ticket 86267", "gold": {"intent": "deadline", "time": null, "amount": 15000, "ref": "86267", "person": "Noor Faber"}}
+{"text": "when you can, cathc up and loop in Silas Hoshino 7.30am my cell is 555-0117", "gold": {"intent": "meeting", "time": "07:30", "amount": null, "ref": null, "person": "Silas Hoshino"}}
+{"text": "settle \u2014 Lucia Faber \u2014 against po#34019 8.15pm", "gold": {"intent": "payment", "time": "20:15", "amount": null, "ref": "34019", "person": "Lucia Faber"}}
+{"text": "note \u2014 phone 4pm sharp room 13 \u2014 Gita Nakamura \u2014 my cell is 555-0136", "gold": {"intent": "call", "time": "16:00", "amount": null, "ref": null, "person": "Gita Nakamura"}}
+{"text": "urgent: remembr to rview desk 2 11 am", "gold": {"intent": "reminder", "time": "11:00", "amount": null, "ref": null, "person": null}}
+{"text": "note \u2014 reember to reviw 11 am [po#5727] worth \u20ac9,999 room 13", "gold": {"intent": "reminder", "time": "11:00", "amount": 9999, "ref": "5727", "person": null}}
+{"text": "btw settle 2:15pm see #88017 \u2014 $250", "gold": {"intent": "payment", "time": "14:15", "amount": 250, "ref": "88017", "person": null}}
+{"text": "when you can, ship room 36 against #36991 totalling $150.00 10am sharp", "gold": {"intent": "deadline", "time": "10:00", "amount": 150, "ref": "36991", "person": null}}
+{"text": "phoen with Rosa Nakamura", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": "Rosa Nakamura"}}
+{"text": "shp worth 275 bucks [case 45218]", "gold": {"intent": "deadline", "time": null, "amount": 275, "ref": "45218", "person": null}}
+{"text": "note \u2014 phoe 4:45pm and loop in Rosa Pires", "gold": {"intent": "call", "time": "16:45", "amount": null, "ref": null, "person": "Rosa Pires"}}
+{"text": "note \u2014 phone 11 o'clock am with Aiko Pires worth USD3200", "gold": {"intent": "call", "time": "11:00", "amount": 3200, "ref": null, "person": "Aiko Pires"}}
+{"text": "heads up settle totalling \u20ac3,200 room 7 room 24 at 1715h", "gold": {"intent": "payment", "time": "17:15", "amount": 3200, "ref": null, "person": null}}
+{"text": "catch up my cell is 555-0170", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": null}}
+{"text": "note \u2014 ship and loop in Farid Jansen worth 3200 bucks", "gold": {"intent": "deadline", "time": null, "amount": 3200, "ref": null, "person": "Farid Jansen"}}
+{"text": "when you can, shp \u2014 Pia Iqbal \u2014 worth USD7800 7:00 in the morning", "gold": {"intent": "deadline", "time": "07:00", "amount": 7800, "ref": null, "person": "Pia Iqbal"}}
+{"text": "phone my cell is 555-0187 1 o'clock pm", "gold": {"intent": "call", "time": "13:00", "amount": null, "ref": null, "person": null}}
+{"text": "note \u2014 catch up \u2014 $9,999 7 o'clock pm \u2014 Aiko Oduya \u2014", "gold": {"intent": "meeting", "time": "19:00", "amount": 9999, "ref": null, "person": "Aiko Oduya"}}
+{"text": "note \u2014 remember to reviwe 5.30pm my cell is 555-0136 \u2014 Otto Hoshino \u2014", "gold": {"intent": "reminder", "time": "17:30", "amount": null, "ref": null, "person": "Otto Hoshino"}}
+{"text": "btw shp my cell is 555-0128 worth \u20ac130 \u2014 Esra Moreau \u2014 see po#20452", "gold": {"intent": "deadline", "time": null, "amount": 130, "ref": "20452", "person": "Esra Moreau"}}
+{"text": "note \u2014 ship [case 28101] \u2014 7800 euro room 16 1:00 in the evening my cell is 555-0156", "gold": {"intent": "deadline", "time": "13:00", "amount": 7800, "ref": "28101", "person": null}}
+{"text": "urgent: remebmer to reviwe with Gita Faber 7pm sharp my cell is 555-0158", "gold": {"intent": "reminder", "time": "19:00", "amount": null, "ref": null, "person": "Gita Faber"}}
+{"text": "urgent: remmber to review against #61115 8:30 in the evening room 25 \u2014 Gita Lindqvist \u2014", "gold": {"intent": "reminder", "time": "20:30", "amount": null, "ref": "61115", "person": "Gita Lindqvist"}}
+{"text": "urgent: remember to review totalling 15000 euro 3pm sharp desk 63 desk 10 \u2014 Bruno Faber \u2014", "gold": {"intent": "reminder", "time": "15:00", "amount": 15000, "ref": null, "person": "Bruno Faber"}}
+{"text": "urgent: phoen room 10 10 am", "gold": {"intent": "call", "time": "10:00", "amount": null, "ref": null, "person": null}}
+{"text": "shpi totalling \u20ac3,200 4:00pm see case 36213 with Kito Faber", "gold": {"intent": "deadline", "time": "16:00", "amount": 3200, "ref": "36213", "person": "Kito Faber"}}
+{"text": "heads up phone desk 21", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": null}}
+{"text": "when you can, phoe desk 17 my cell is 555-0195 7:45 in the evening and loop in Gita Kraus", "gold": {"intent": "call", "time": "19:45", "amount": null, "ref": null, "person": "Gita Kraus"}}
+{"text": "note \u2014 settle room 36 my cell is 555-0116 [po#32501] totalling 130 euro 11:30 in the morning", "gold": {"intent": "payment", "time": "11:30", "amount": 130, "ref": "32501", "person": null}}
+{"text": "btw rmeember to reviw 12:00pm my cell is 555-0119 and loop in Esra Dubois totalling USD15000 my cell is 555-0175", "gold": {"intent": "reminder", "time": "12:00", "amount": 15000, "ref": null, "person": "Esra Dubois"}}
+{"text": "when you can, shpi 3 o'clock pm see #58930 desk 30 totalling 3200 euro my cell is 555-0165", "gold": {"intent": "deadline", "time": "15:00", "amount": 3200, "ref": "58930", "person": null}}
+{"text": "btw phoe with Otto Hoshino [po#99298] desk 94", "gold": {"intent": "call", "time": null, "amount": null, "ref": "99298", "person": "Otto Hoshino"}}
+{"text": "btw catch up room 33 desk 41 11 o'clock am \u2014 Bruno Pires \u2014", "gold": {"intent": "meeting", "time": "11:00", "amount": null, "ref": null, "person": "Bruno Pires"}}
+{"text": "remeber to reviw 10 am desk 98 my cell is 555-0114", "gold": {"intent": "reminder", "time": "10:00", "amount": null, "ref": null, "person": null}}
+{"text": "heads up phne at 1045h room 5 and loop in Carmen Bianchi", "gold": {"intent": "call", "time": "10:45", "amount": null, "ref": null, "person": "Carmen Bianchi"}}
+{"text": "btw remember to reviw 12:30pm room 14 my cell is 555-0113", "gold": {"intent": "reminder", "time": "12:30", "amount": null, "ref": null, "person": null}}
+{"text": "note \u2014 remebmer to review desk 31 totalling USD275 at 1800h", "gold": {"intent": "reminder", "time": "18:00", "amount": 275, "ref": null, "person": null}}
+{"text": "urgent: settle at 1100h [case 26522] my cell is 555-0121 my cell is 555-0194 totalling 250 bucks \u2014 Bruno Adler \u2014", "gold": {"intent": "payment", "time": "11:00", "amount": 250, "ref": "26522", "person": "Bruno Adler"}}
+{"text": "rmeember to review and loop in Uma Nakamura", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Uma Nakamura"}}
+{"text": "heads up remebmer to reviw 1.45pm against case 68297 \u2014 Otto Nakamura \u2014 my cell is 555-0134", "gold": {"intent": "reminder", "time": "13:45", "amount": null, "ref": "68297", "person": "Otto Nakamura"}}
+{"text": "urgent: phone 2:45 in the evening my cell is 555-0190", "gold": {"intent": "call", "time": "14:45", "amount": null, "ref": null, "person": null}}
+{"text": "when you can, catch up \u2014 \u20ac275 at 1245h with Esra Jansen", "gold": {"intent": "meeting", "time": "12:45", "amount": 275, "ref": null, "person": "Esra Jansen"}}
+{"text": "note \u2014 settle and loop in Noor Adler desk 44 my cell is 555-0189 6:30 in the evening", "gold": {"intent": "payment", "time": "18:30", "amount": null, "ref": null, "person": "Noor Adler"}}
+{"text": "btw settle worth $7,800.00 my cell is 555-0110 against inv-73903 7 o'clock am desk 12", "gold": {"intent": "payment", "time": "07:00", "amount": 7800, "ref": "73903", "person": null}}
+{"text": "phne and loop in Carmen Eriksen 7.15pm", "gold": {"intent": "call", "time": "19:15", "amount": null, "ref": null, "person": "Carmen Eriksen"}}
+{"text": "urgent: cathc up room 37 room 25 6:45 in the evening worth \u20ac150 and loop in Dev Jansen", "gold": {"intent": "meeting", "time": "18:45", "amount": 150, "ref": null, "person": "Dev Jansen"}}
+{"text": "urgent: setle see inv-57111 desk 21 with Uma Pires totalling $250.00 9:00 in the morning", "gold": {"intent": "payment", "time": "09:00", "amount": 250, "ref": "57111", "person": "Uma Pires"}}
+{"text": "urgent: stetle desk 98 7:00pm desk 77 totalling $40.00 with Uma Moreau see ticket 27146", "gold": {"intent": "payment", "time": "19:00", "amount": 40, "ref": "27146", "person": "Uma Moreau"}}
+{"text": "when you can, catch up desk 31 desk 2 and loop in Esra Bianchi 3:45pm", "gold": {"intent": "meeting", "time": "15:45", "amount": null, "ref": null, "person": "Esra Bianchi"}}
+{"text": "when you can, settle worth \u20ac9,999 see case 92919", "gold": {"intent": "payment", "time": null, "amount": 9999, "ref": "92919", "person": null}}
+{"text": "note \u2014 remember to reviw \u2014 Rosa Dubois \u2014 8:45am \u2014 \u20ac3,200", "gold": {"intent": "reminder", "time": "08:45", "amount": 3200, "ref": null, "person": "Rosa Dubois"}}
+{"text": "urgent: phone 6:15pm [po#13118] my cell is 555-0108", "gold": {"intent": "call", "time": "18:15", "amount": null, "ref": "13118", "person": null}}
+{"text": "pohne my cell is 555-0182 3.00pm", "gold": {"intent": "call", "time": "15:00", "amount": null, "ref": null, "person": null}}
+{"text": "when you can, remember to reviw with Milo Moreau my cell is 555-0146 desk 98", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Milo Moreau"}}
+{"text": "shp desk 75 with Otto Faber against ticket 40054 \u2014 130 bucks 2:00 in the evening room 10", "gold": {"intent": "deadline", "time": "14:00", "amount": 130, "ref": "40054", "person": "Otto Faber"}}
+{"text": "urgent: sip 4 pm desk 4 \u2014 USD15000 against ticket 45694 \u2014 Kito Costa \u2014", "gold": {"intent": "deadline", "time": "16:00", "amount": 15000, "ref": "45694", "person": "Kito Costa"}}
+{"text": "when you can, sihp room 15", "gold": {"intent": "deadline", "time": null, "amount": null, "ref": null, "person": null}}
+{"text": "when you can, remember to review at 1300h \u2014 Quinn Kraus \u2014 my cell is 555-0119 totalling \u20ac60 desk 90", "gold": {"intent": "reminder", "time": "13:00", "amount": 60, "ref": null, "person": "Quinn Kraus"}}
+{"text": "note \u2014 settel my cell is 555-0162 2 pm \u2014 150 euro [#17371] with Bruno Nakamura my cell is 555-0133", "gold": {"intent": "payment", "time": "14:00", "amount": 150, "ref": "17371", "person": "Bruno Nakamura"}}
+{"text": "heads up setle 4 o'clock pm [ticket 10920] and loop in Ines Costa totalling \u20ac9,999", "gold": {"intent": "payment", "time": "16:00", "amount": 9999, "ref": "10920", "person": "Ines Costa"}}
+{"text": "when you can, phnoe room 40 my cell is 555-0115 5:00pm and loop in Noor Hoshino", "gold": {"intent": "call", "time": "17:00", "amount": null, "ref": null, "person": "Noor Hoshino"}}
+{"text": "btw settle [case 39686] 10:30 in the morning with Quinn Gallo worth \u20ac15,000", "gold": {"intent": "payment", "time": "10:30", "amount": 15000, "ref": "39686", "person": "Quinn Gallo"}}
+{"text": "when you can, phone 7.00pm with Noor Nakamura", "gold": {"intent": "call", "time": "19:00", "amount": null, "ref": null, "person": "Noor Nakamura"}}
+{"text": "when you can, shpi my cell is 555-0118 with Pia Kraus desk 53 see #89593 \u2014 USD7800", "gold": {"intent": "deadline", "time": null, "amount": 7800, "ref": "89593", "person": "Pia Kraus"}}
+{"text": "heads up ship my cell is 555-0147 see #41673 \u2014 Otto Gallo \u2014 my cell is 555-0103 totalling USD899", "gold": {"intent": "deadline", "time": null, "amount": 899, "ref": "41673", "person": "Otto Gallo"}}
+{"text": "note \u2014 settel room 27 totalling USD899 my cell is 555-0164 \u2014 Dev Eriksen \u2014 at 1300h", "gold": {"intent": "payment", "time": "13:00", "amount": 899, "ref": null, "person": "Dev Eriksen"}}
+{"text": "remember to revew my cell is 555-0118 \u2014 Uma Jansen \u2014 at 1930h", "gold": {"intent": "reminder", "time": "19:30", "amount": null, "ref": null, "person": "Uma Jansen"}}
+{"text": "when you can, setle with Aiko Jansen \u2014 $899 3 o'clock pm desk 94 [case 54442]", "gold": {"intent": "payment", "time": "15:00", "amount": 899, "ref": "54442", "person": "Aiko Jansen"}}
+{"text": "heads up shpi \u2014 Hugo Nakamura \u2014 [ticket 76860] \u2014 $250 my cell is 555-0135", "gold": {"intent": "deadline", "time": null, "amount": 250, "ref": "76860", "person": "Hugo Nakamura"}}
+{"text": "note \u2014 settle at 1400h [case 54283] \u2014 \u20ac40", "gold": {"intent": "payment", "time": "14:00", "amount": 40, "ref": "54283", "person": null}}
+{"text": "btw reemmber to review desk 42 at 1645h \u2014 60 bucks my cell is 555-0178 \u2014 Jonas Kraus \u2014", "gold": {"intent": "reminder", "time": "16:45", "amount": 60, "ref": null, "person": "Jonas Kraus"}}
+{"text": "cath up 5:15pm \u2014 $40", "gold": {"intent": "meeting", "time": "17:15", "amount": 40, "ref": null, "person": null}}
+{"text": "when you can, phone 7.30pm \u2014 Aiko Iqbal \u2014", "gold": {"intent": "call", "time": "19:30", "amount": null, "ref": null, "person": "Aiko Iqbal"}}
+{"text": "when you can, phone with Carmen Costa my cell is 555-0118 8.15pm my cell is 555-0162", "gold": {"intent": "call", "time": "20:15", "amount": null, "ref": null, "person": "Carmen Costa"}}
+{"text": "btw ship room 37 2 o'clock pm with Uma Lindqvist totalling 250 bucks [po#67523]", "gold": {"intent": "deadline", "time": "14:00", "amount": 250, "ref": "67523", "person": "Uma Lindqvist"}}
+{"text": "remember to review 6:00 in the evening [#17714] desk 69 desk 9 and loop in Dev Costa", "gold": {"intent": "reminder", "time": "18:00", "amount": null, "ref": "17714", "person": "Dev Costa"}}
+{"text": "urgent: remember to reveiw with Quinn Adler room 39 9:45 in the morning", "gold": {"intent": "reminder", "time": "09:45", "amount": null, "ref": null, "person": "Quinn Adler"}}
+{"text": "remember to rveiew 2:15pm", "gold": {"intent": "reminder", "time": "14:15", "amount": null, "ref": null, "person": null}}
+{"text": "note \u2014 settle desk 92 see case 77456 and loop in Aiko Hoshino", "gold": {"intent": "payment", "time": null, "amount": null, "ref": "77456", "person": "Aiko Hoshino"}}
+{"text": "note \u2014 settle [po#15835] my cell is 555-0137 with Jonas Jansen 8:15am", "gold": {"intent": "payment", "time": "08:15", "amount": null, "ref": "15835", "person": "Jonas Jansen"}}
+{"text": "heads up catch up desk 14 with Pia Bianchi desk 28", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Pia Bianchi"}}
+{"text": "phone", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": null}}
+{"text": "heads up reember to rveiew 6.00pm", "gold": {"intent": "reminder", "time": "18:00", "amount": null, "ref": null, "person": null}}
+{"text": "btw settle at 1045h room 4 see inv-62513 my cell is 555-0150 and loop in Kito Dubois \u2014 $40.00", "gold": {"intent": "payment", "time": "10:45", "amount": 40, "ref": "62513", "person": "Kito Dubois"}}
+{"text": "when you can, catch up room 8 and loop in Jonas Eriksen", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Jonas Eriksen"}}
+{"text": "sip desk 11 and loop in Lucia Iqbal my cell is 555-0155 totalling $150.00 [po#77662] at 2015h", "gold": {"intent": "deadline", "time": "20:15", "amount": 150, "ref": "77662", "person": "Lucia Iqbal"}}
+{"text": "urgent: settle see po#8366 worth USD40", "gold": {"intent": "payment", "time": null, "amount": 40, "ref": "8366", "person": null}}
+{"text": "settle 8.00am desk 11 worth $150.00 and loop in Ines Eriksen", "gold": {"intent": "payment", "time": "08:00", "amount": 150, "ref": null, "person": "Ines Eriksen"}}
+{"text": "phone my cell is 555-0149 at 1730h \u2014 Rosa Iqbal \u2014", "gold": {"intent": "call", "time": "17:30", "amount": null, "ref": null, "person": "Rosa Iqbal"}}
+{"text": "heads up rememebr to review and loop in Silas Iqbal 10:30am", "gold": {"intent": "reminder", "time": "10:30", "amount": null, "ref": null, "person": "Silas Iqbal"}}
+{"text": "when you can, sihp against po#20414 my cell is 555-0187 7:45 in the morning worth $275", "gold": {"intent": "deadline", "time": "07:45", "amount": 275, "ref": "20414", "person": null}}
+{"text": "urgent: phone my cell is 555-0150 and loop in Silas Hoshino \u2014 60 bucks 3.45pm against #60328", "gold": {"intent": "call", "time": "15:45", "amount": 60, "ref": "60328", "person": "Silas Hoshino"}}
+{"text": "remembre to review and loop in Aiko Hoshino room 24 worth 1500 euro 7.15am", "gold": {"intent": "reminder", "time": "07:15", "amount": 1500, "ref": null, "person": "Aiko Hoshino"}}
+{"text": "note \u2014 pohne 10:00 in the morning", "gold": {"intent": "call", "time": "10:00", "amount": null, "ref": null, "person": null}}
+{"text": "urgent: settle \u2014 USD130 10:45am and loop in Uma Nakamura room 18 see po#11253", "gold": {"intent": "payment", "time": "10:45", "amount": 130, "ref": "11253", "person": "Uma Nakamura"}}
+{"text": "heads up ship 7am sharp [inv-64342] totalling USD3200 my cell is 555-0156", "gold": {"intent": "deadline", "time": "07:00", "amount": 3200, "ref": "64342", "person": null}}
+{"text": "heads up cach up 10 o'clock am and loop in Pia Oduya", "gold": {"intent": "meeting", "time": "10:00", "amount": null, "ref": null, "person": "Pia Oduya"}}
+{"text": "when you can, catch up at 1930h desk 24 \u2014 15000 euro", "gold": {"intent": "meeting", "time": "19:30", "amount": 15000, "ref": null, "person": null}}
+{"text": "heads up shpi worth $40.00 my cell is 555-0178 [case 92683] and loop in Uma Kraus", "gold": {"intent": "deadline", "time": null, "amount": 40, "ref": "92683", "person": "Uma Kraus"}}
+{"text": "sette and loop in Rosa Bianchi my cell is 555-0174 at 1415h see #20133 my cell is 555-0180", "gold": {"intent": "payment", "time": "14:15", "amount": null, "ref": "20133", "person": "Rosa Bianchi"}}
+{"text": "urgent: phone \u2014 Milo Adler \u2014 worth USD250 10 o'clock am desk 25", "gold": {"intent": "call", "time": "10:00", "amount": 250, "ref": null, "person": "Milo Adler"}}
+{"text": "when you can, catch up 8:00pm room 7 my cell is 555-0152 \u2014 Bruno Faber \u2014 worth \u20ac3,200", "gold": {"intent": "meeting", "time": "20:00", "amount": 3200, "ref": null, "person": "Bruno Faber"}}
+{"text": "heads up remember to review room 35 8:15 in the evening and loop in Quinn Dubois", "gold": {"intent": "reminder", "time": "20:15", "amount": null, "ref": null, "person": "Quinn Dubois"}}
+{"text": "urgent: rmember to reveiw room 32 against po#65434 worth USD150 and loop in Kito Iqbal room 23", "gold": {"intent": "reminder", "time": null, "amount": 150, "ref": "65434", "person": "Kito Iqbal"}}
+{"text": "heads up remembre to reveiw \u2014 Gita Oduya \u2014 12.00pm", "gold": {"intent": "reminder", "time": "12:00", "amount": null, "ref": null, "person": "Gita Oduya"}}
+{"text": "note \u2014 sttle desk 39 7:15 in the morning and loop in Silas Costa \u2014 USD9999 against case 94319", "gold": {"intent": "payment", "time": "07:15", "amount": 9999, "ref": "94319", "person": "Silas Costa"}}
+{"text": "btw phoe \u2014 Farid Lindqvist \u2014 desk 62", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": "Farid Lindqvist"}}
+{"text": "note \u2014 catch up 6 o'clock pm my cell is 555-0137 desk 38", "gold": {"intent": "meeting", "time": "18:00", "amount": null, "ref": null, "person": null}}
+{"text": "urgent: settle against ticket 33959 my cell is 555-0111 totalling USD130", "gold": {"intent": "payment", "time": null, "amount": 130, "ref": "33959", "person": null}}
+{"text": "urgent: ship against case 31897 totalling 40 bucks my cell is 555-0113 my cell is 555-0189 7pm sharp and loop in Gita Adler", "gold": {"intent": "deadline", "time": "19:00", "amount": 40, "ref": "31897", "person": "Gita Adler"}}
+{"text": "heads up ship against #38267 desk 94 my cell is 555-0133", "gold": {"intent": "deadline", "time": null, "amount": null, "ref": "38267", "person": null}}
+{"text": "heads up remember to review at 1615h my cell is 555-0131 and loop in Gita Oduya my cell is 555-0197", "gold": {"intent": "reminder", "time": "16:15", "amount": null, "ref": null, "person": "Gita Oduya"}}
+{"text": "note \u2014 stetle and loop in Uma Faber room 15 worth 9999 bucks [#20349]", "gold": {"intent": "payment", "time": null, "amount": 9999, "ref": "20349", "person": "Uma Faber"}}
+{"text": "when you can, setlte against #64606 9:45 in the morning and loop in Aiko Adler \u2014 $9,999", "gold": {"intent": "payment", "time": "09:45", "amount": 9999, "ref": "64606", "person": "Aiko Adler"}}
+{"text": "when you can, sihp with Pia Adler 8.45pm my cell is 555-0131 \u2014 9999 euro", "gold": {"intent": "deadline", "time": "20:45", "amount": 9999, "ref": null, "person": "Pia Adler"}}
+{"text": "btw ship at 1900h worth \u20ac15,000 room 24 with Esra Jansen", "gold": {"intent": "deadline", "time": "19:00", "amount": 15000, "ref": null, "person": "Esra Jansen"}}
+{"text": "heads up remember to review 6.15pm with Noor Moreau [#67370]", "gold": {"intent": "reminder", "time": "18:15", "amount": null, "ref": "67370", "person": "Noor Moreau"}}
+{"text": "btw ship 1:45pm room 4 and loop in Uma Faber room 32 against ticket 13453 totalling USD60", "gold": {"intent": "deadline", "time": "13:45", "amount": 60, "ref": "13453", "person": "Uma Faber"}}
+{"text": "btw remebmer to review [po#90253] with Esra Adler 10:30am", "gold": {"intent": "reminder", "time": "10:30", "amount": null, "ref": "90253", "person": "Esra Adler"}}
+{"text": "note \u2014 ctach up and loop in Jonas Oduya my cell is 555-0148", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Jonas Oduya"}}
+{"text": "note \u2014 reember to review 9.15am room 19 with Rosa Nakamura", "gold": {"intent": "reminder", "time": "09:15", "amount": null, "ref": null, "person": "Rosa Nakamura"}}
+{"text": "phone 12:00pm with Noor Moreau", "gold": {"intent": "call", "time": "12:00", "amount": null, "ref": null, "person": "Noor Moreau"}}
+{"text": "heads up remember to rview \u2014 Rosa Moreau \u2014 desk 30 my cell is 555-0194", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Rosa Moreau"}}
+{"text": "catch up 4:30 in the evening and loop in Jonas Iqbal", "gold": {"intent": "meeting", "time": "16:30", "amount": null, "ref": null, "person": "Jonas Iqbal"}}
+{"text": "urgent: catch up \u2014 Jonas Oduya \u2014 room 9 3 pm desk 59", "gold": {"intent": "meeting", "time": "15:00", "amount": null, "ref": null, "person": "Jonas Oduya"}}
+{"text": "urgent: setlte and loop in Milo Hoshino worth $9,999.00 desk 44 room 10 [po#45992]", "gold": {"intent": "payment", "time": null, "amount": 9999, "ref": "45992", "person": "Milo Hoshino"}}
+{"text": "note \u2014 sihp desk 5 \u2014 Esra Oduya \u2014 \u2014 $275 my cell is 555-0113 against #69033", "gold": {"intent": "deadline", "time": null, "amount": 275, "ref": "69033", "person": "Esra Oduya"}}
+{"text": "when you can, cath up 8 pm worth 150 euro \u2014 Jonas Costa \u2014", "gold": {"intent": "meeting", "time": "20:00", "amount": 150, "ref": null, "person": "Jonas Costa"}}
+{"text": "btw remember to review 12.00pm my cell is 555-0112 and loop in Quinn Costa", "gold": {"intent": "reminder", "time": "12:00", "amount": null, "ref": null, "person": "Quinn Costa"}}
+{"text": "note \u2014 cacth up and loop in Aiko Iqbal at 1715h", "gold": {"intent": "meeting", "time": "17:15", "amount": null, "ref": null, "person": "Aiko Iqbal"}}
+{"text": "btw remember to reveiw worth USD7800 my cell is 555-0118 desk 73 7am sharp", "gold": {"intent": "reminder", "time": "07:00", "amount": 7800, "ref": null, "person": null}}
+{"text": "cacth up", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": null}}
+{"text": "btw ctch up room 40 with Carmen Oduya at 2030h", "gold": {"intent": "meeting", "time": "20:30", "amount": null, "ref": null, "person": "Carmen Oduya"}}
+{"text": "btw remember to reveiw 9:30 in the morning room 37", "gold": {"intent": "reminder", "time": "09:30", "amount": null, "ref": null, "person": null}}
+{"text": "urgent: shp \u2014 9999 euro [po#2340] with Otto Gallo my cell is 555-0165", "gold": {"intent": "deadline", "time": null, "amount": 9999, "ref": "2340", "person": "Otto Gallo"}}
+{"text": "when you can, cach up [po#64930] room 26 room 6", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": "64930", "person": null}}
+{"text": "settle worth \u20ac275 9:15 in the morning against po#75380", "gold": {"intent": "payment", "time": "09:15", "amount": 275, "ref": "75380", "person": null}}
+{"text": "urgent: catch up at 1100h my cell is 555-0118 and loop in Esra Jansen", "gold": {"intent": "meeting", "time": "11:00", "amount": null, "ref": null, "person": "Esra Jansen"}}
+{"text": "urgent: remember to review worth $1,500 room 3 with Hugo Jansen 7.45am", "gold": {"intent": "reminder", "time": "07:45", "amount": 1500, "ref": null, "person": "Hugo Jansen"}}
+{"text": "urgent: catch up \u2014 Noor Nakamura \u2014 desk 31", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Noor Nakamura"}}
+{"text": "btw catch up 6:45pm my cell is 555-0110 \u2014 Lucia Eriksen \u2014 room 35", "gold": {"intent": "meeting", "time": "18:45", "amount": null, "ref": null, "person": "Lucia Eriksen"}}
+{"text": "urgent: catch up with Kito Faber room 30 my cell is 555-0132 1pm sharp", "gold": {"intent": "meeting", "time": "13:00", "amount": null, "ref": null, "person": "Kito Faber"}}
+{"text": "urgent: catch up desk 45 room 23", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": null}}
+{"text": "when you can, sip see case 85901 my cell is 555-0195 with Silas Adler my cell is 555-0161 1 pm totalling 150 euro", "gold": {"intent": "deadline", "time": "13:00", "amount": 150, "ref": "85901", "person": "Silas Adler"}}
+{"text": "btw phone 4 o'clock pm my cell is 555-0195 and loop in Silas Lindqvist", "gold": {"intent": "call", "time": "16:00", "amount": null, "ref": null, "person": "Silas Lindqvist"}}
+{"text": "note \u2014 shp desk 43 against po#27974 worth USD275", "gold": {"intent": "deadline", "time": null, "amount": 275, "ref": "27974", "person": null}}
+{"text": "btw sihp with Carmen Moreau 3.30pm \u2014 USD3200 desk 74", "gold": {"intent": "deadline", "time": "15:30", "amount": 3200, "ref": null, "person": "Carmen Moreau"}}
+{"text": "note \u2014 phone at 1830h \u2014 Kito Costa \u2014", "gold": {"intent": "call", "time": "18:30", "amount": null, "ref": null, "person": "Kito Costa"}}
+{"text": "btw rmember to rveiew room 38 11:45 in the morning my cell is 555-0145 and loop in Ines Nakamura", "gold": {"intent": "reminder", "time": "11:45", "amount": null, "ref": null, "person": "Ines Nakamura"}}
+{"text": "heads up cathc up room 31 and loop in Uma Moreau 10.00am my cell is 555-0135", "gold": {"intent": "meeting", "time": "10:00", "amount": null, "ref": null, "person": "Uma Moreau"}}
+{"text": "btw pone my cell is 555-0189 my cell is 555-0165 7 o'clock pm with Farid Moreau", "gold": {"intent": "call", "time": "19:00", "amount": null, "ref": null, "person": "Farid Moreau"}}
+{"text": "when you can, catch up my cell is 555-0162 and loop in Carmen Kraus my cell is 555-0140", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Carmen Kraus"}}
+{"text": "note \u2014 catch up and loop in Hugo Lindqvist 3.00pm", "gold": {"intent": "meeting", "time": "15:00", "amount": null, "ref": null, "person": "Hugo Lindqvist"}}
+{"text": "btw remember to reviwe 7:00pm \u2014 $150.00", "gold": {"intent": "reminder", "time": "19:00", "amount": 150, "ref": null, "person": null}}
+{"text": "when you can, settle 4:15 in the evening worth USD60 with Silas Adler", "gold": {"intent": "payment", "time": "16:15", "amount": 60, "ref": null, "person": "Silas Adler"}}
+{"text": "heads up ctch up [#8946] my cell is 555-0132 7:30 in the morning room 5 \u2014 Lucia Lindqvist \u2014", "gold": {"intent": "meeting", "time": "07:30", "amount": null, "ref": "8946", "person": "Lucia Lindqvist"}}
+{"text": "urgent: phone worth 1500 bucks 4:30 in the evening desk 96 desk 44 \u2014 Kito Pires \u2014", "gold": {"intent": "call", "time": "16:30", "amount": 1500, "ref": null, "person": "Kito Pires"}}
+{"text": "when you can, remember to review \u2014 Esra Oduya \u2014 my cell is 555-0180 desk 63", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Esra Oduya"}}
+{"text": "urgent: catch up and loop in Dev Hoshino desk 81 desk 61 3 o'clock pm", "gold": {"intent": "meeting", "time": "15:00", "amount": null, "ref": null, "person": "Dev Hoshino"}}
+{"text": "note \u2014 sttle room 28 room 26 and loop in Silas Kraus 10.15am", "gold": {"intent": "payment", "time": "10:15", "amount": null, "ref": null, "person": "Silas Kraus"}}
+{"text": "urgent: sttle room 5 with Esra Bianchi 8:00 in the evening see #60640", "gold": {"intent": "payment", "time": "20:00", "amount": null, "ref": "60640", "person": "Esra Bianchi"}}
+{"text": "phone with Otto Kraus at 0730h desk 94", "gold": {"intent": "call", "time": "07:30", "amount": null, "ref": null, "person": "Otto Kraus"}}
+{"text": "ship my cell is 555-0152 against inv-84327 totalling 150 bucks at 0715h", "gold": {"intent": "deadline", "time": "07:15", "amount": 150, "ref": "84327", "person": null}}
+{"text": "urgent: settle desk 43 \u2014 60 bucks [ticket 63164] at 1930h with Milo Pires", "gold": {"intent": "payment", "time": "19:30", "amount": 60, "ref": "63164", "person": "Milo Pires"}}
+{"text": "urgent: catch up and loop in Otto Kraus", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Otto Kraus"}}
+{"text": "btw remember to review 2 pm with Esra Costa", "gold": {"intent": "reminder", "time": "14:00", "amount": null, "ref": null, "person": "Esra Costa"}}
+{"text": "urgent: remembr to reveiw totalling \u20ac899 my cell is 555-0104 my cell is 555-0196 6.15pm and loop in Farid Dubois", "gold": {"intent": "reminder", "time": "18:15", "amount": 899, "ref": null, "person": "Farid Dubois"}}
+{"text": "btw settle my cell is 555-0171 9.45am totalling 899 euro see inv-89884", "gold": {"intent": "payment", "time": "09:45", "amount": 899, "ref": "89884", "person": null}}
+{"text": "note \u2014 settle my cell is 555-0138 7.00pm see ticket 72147 with Quinn Adler", "gold": {"intent": "payment", "time": "19:00", "amount": null, "ref": "72147", "person": "Quinn Adler"}}
+{"text": "phone 8:45 in the evening \u2014 Esra Pires \u2014", "gold": {"intent": "call", "time": "20:45", "amount": null, "ref": null, "person": "Esra Pires"}}
+{"text": "btw settle [ticket 73446] 8.30pm \u2014 60 euro my cell is 555-0109", "gold": {"intent": "payment", "time": "20:30", "amount": 60, "ref": "73446", "person": null}}
+{"text": "when you can, cath up against ticket 87912 7:15 in the morning my cell is 555-0156 room 21", "gold": {"intent": "meeting", "time": "07:15", "amount": null, "ref": "87912", "person": null}}
+{"text": "urgent: settle 2.30pm \u2014 Esra Iqbal \u2014 against #77803 totalling \u20ac1,500 room 14", "gold": {"intent": "payment", "time": "14:30", "amount": 1500, "ref": "77803", "person": "Esra Iqbal"}}
+{"text": "heads up phone totalling $899.00 \u2014 Farid Dubois \u2014 8.45pm", "gold": {"intent": "call", "time": "20:45", "amount": 899, "ref": null, "person": "Farid Dubois"}}
+{"text": "note \u2014 remmber to review my cell is 555-0177 at 1215h and loop in Jonas Nakamura", "gold": {"intent": "reminder", "time": "12:15", "amount": null, "ref": null, "person": "Jonas Nakamura"}}
+{"text": "note \u2014 ship worth \u20ac40 \u2014 Quinn Nakamura \u2014 see po#77106 7:45 in the morning", "gold": {"intent": "deadline", "time": "07:45", "amount": 40, "ref": "77106", "person": "Quinn Nakamura"}}
+{"text": "catch up room 14 1.00pm against inv-53158", "gold": {"intent": "meeting", "time": "13:00", "amount": null, "ref": "53158", "person": null}}
+{"text": "note \u2014 ship 1.45pm desk 42 worth 3200 bucks room 27", "gold": {"intent": "deadline", "time": "13:45", "amount": 3200, "ref": null, "person": null}}
+{"text": "settle totalling 1500 euro 9.30am room 15 against ticket 39887", "gold": {"intent": "payment", "time": "09:30", "amount": 1500, "ref": "39887", "person": null}}
+{"text": "note \u2014 catch up see #61967 and loop in Dev Iqbal 10:45 in the morning", "gold": {"intent": "meeting", "time": "10:45", "amount": null, "ref": "61967", "person": "Dev Iqbal"}}
+{"text": "heads up reemmber to revew my cell is 555-0188 11.00am", "gold": {"intent": "reminder", "time": "11:00", "amount": null, "ref": null, "person": null}}
+{"text": "heads up remember to reiew my cell is 555-0197 room 4 and loop in Quinn Nakamura 4 pm", "gold": {"intent": "reminder", "time": "16:00", "amount": null, "ref": null, "person": "Quinn Nakamura"}}
+{"text": "btw shpi worth \u20ac1,500 [ticket 30579] my cell is 555-0100 8am sharp", "gold": {"intent": "deadline", "time": "08:00", "amount": 1500, "ref": "30579", "person": null}}
+{"text": "btw settle against case 3123 2 o'clock pm my cell is 555-0121 totalling 60 euro", "gold": {"intent": "payment", "time": "14:00", "amount": 60, "ref": "3123", "person": null}}
+{"text": "urgent: remember to revew 9.00am with Quinn Adler desk 5 my cell is 555-0108", "gold": {"intent": "reminder", "time": "09:00", "amount": null, "ref": null, "person": "Quinn Adler"}}
+{"text": "when you can, catch up my cell is 555-0177 desk 88 \u2014 Aiko Adler \u2014", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Aiko Adler"}}
+{"text": "heads up remember to review my cell is 555-0199 room 25 8:45 in the evening", "gold": {"intent": "reminder", "time": "20:45", "amount": null, "ref": null, "person": null}}
+{"text": "urgent: sette worth \u20ac250 with Kito Kraus [case 25523]", "gold": {"intent": "payment", "time": null, "amount": 250, "ref": "25523", "person": "Kito Kraus"}}
+{"text": "when you can, remember to revew \u2014 Quinn Hoshino \u2014 at 1345h see inv-84961", "gold": {"intent": "reminder", "time": "13:45", "amount": null, "ref": "84961", "person": "Quinn Hoshino"}}
+{"text": "btw shpi 6:45pm totalling $275 [po#65810] my cell is 555-0122 with Hugo Faber", "gold": {"intent": "deadline", "time": "18:45", "amount": 275, "ref": "65810", "person": "Hugo Faber"}}
+{"text": "sip \u2014 Gita Nakamura \u2014 my cell is 555-0138 totalling $7,800.00 [po#5584] 8:30 in the morning", "gold": {"intent": "deadline", "time": "08:30", "amount": 7800, "ref": "5584", "person": "Gita Nakamura"}}
+{"text": "heads up settle my cell is 555-0122 with Hugo Kraus worth 275 euro desk 90 [inv-72431] 8:45 in the morning", "gold": {"intent": "payment", "time": "08:45", "amount": 275, "ref": "72431", "person": "Hugo Kraus"}}
+{"text": "urgent: catch up and loop in Pia Faber desk 72 totalling $1,500 at 1745h against ticket 2602 desk 26", "gold": {"intent": "meeting", "time": "17:45", "amount": 1500, "ref": "2602", "person": "Pia Faber"}}
+{"text": "when you can, remember to review desk 93", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": null}}
+{"text": "when you can, remember to reveiw desk 20 room 18 \u2014 Farid Bianchi \u2014 7 o'clock am", "gold": {"intent": "reminder", "time": "07:00", "amount": null, "ref": null, "person": "Farid Bianchi"}}
+{"text": "cach up 6 pm and loop in Aiko Iqbal", "gold": {"intent": "meeting", "time": "18:00", "amount": null, "ref": null, "person": "Aiko Iqbal"}}
+{"text": "when you can, settle [ticket 96044] 8pm sharp desk 11 and loop in Gita Dubois", "gold": {"intent": "payment", "time": "20:00", "amount": null, "ref": "96044", "person": "Gita Dubois"}}
+{"text": "btw catch up [#11739] 10.00am \u2014 Quinn Oduya \u2014", "gold": {"intent": "meeting", "time": "10:00", "amount": null, "ref": "11739", "person": "Quinn Oduya"}}
+{"text": "remeber to review 2.00pm \u2014 Farid Oduya \u2014 room 23", "gold": {"intent": "reminder", "time": "14:00", "amount": null, "ref": null, "person": "Farid Oduya"}}
+{"text": "note \u2014 cathc up 11:30am room 15", "gold": {"intent": "meeting", "time": "11:30", "amount": null, "ref": null, "person": null}}
+{"text": "remember to reviwe my cell is 555-0160 7:00 in the evening", "gold": {"intent": "reminder", "time": "19:00", "amount": null, "ref": null, "person": null}}
+{"text": "heads up catch up room 2 room 37 and loop in Aiko Dubois", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Aiko Dubois"}}
+{"text": "when you can, phone 8 am desk 84 [inv-11668]", "gold": {"intent": "call", "time": "08:00", "amount": null, "ref": "11668", "person": null}}
+{"text": "when you can, cacth up my cell is 555-0161 room 22 8.00am", "gold": {"intent": "meeting", "time": "08:00", "amount": null, "ref": null, "person": null}}
+{"text": "note \u2014 remember to rview \u2014 USD1500 10.00am and loop in Silas Iqbal my cell is 555-0195 room 10", "gold": {"intent": "reminder", "time": "10:00", "amount": 1500, "ref": null, "person": "Silas Iqbal"}}
+{"text": "when you can, phone 7pm sharp room 2 \u2014 $7,800.00", "gold": {"intent": "call", "time": "19:00", "amount": 7800, "ref": null, "person": null}}
+{"text": "btw shpi [po#84158] room 9", "gold": {"intent": "deadline", "time": null, "amount": null, "ref": "84158", "person": null}}
+{"text": "note \u2014 settle worth $7,800 and loop in Lucia Bianchi 11am sharp room 26", "gold": {"intent": "payment", "time": "11:00", "amount": 7800, "ref": null, "person": "Lucia Bianchi"}}
+{"text": "when you can, reember to reviwe 1 pm \u2014 USD275 \u2014 Otto Pires \u2014 room 17", "gold": {"intent": "reminder", "time": "13:00", "amount": 275, "ref": null, "person": "Otto Pires"}}
+{"text": "btw reember to review \u2014 Bruno Pires \u2014 7.15pm", "gold": {"intent": "reminder", "time": "19:15", "amount": null, "ref": null, "person": "Bruno Pires"}}
+{"text": "urgent: stetle room 26 totalling 9999 bucks 4:45pm [#28957] my cell is 555-0160", "gold": {"intent": "payment", "time": "16:45", "amount": 9999, "ref": "28957", "person": null}}
+{"text": "btw cacth up worth $60", "gold": {"intent": "meeting", "time": null, "amount": 60, "ref": null, "person": null}}
+{"text": "when you can, setle 3.45pm \u2014 \u20ac15,000 and loop in Milo Gallo [inv-3477]", "gold": {"intent": "payment", "time": "15:45", "amount": 15000, "ref": "3477", "person": "Milo Gallo"}}
+{"text": "heads up cathc up and loop in Otto Gallo", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Otto Gallo"}}
+{"text": "ship totalling 275 bucks 12:45 in the evening", "gold": {"intent": "deadline", "time": "12:45", "amount": 275, "ref": null, "person": null}}
+{"text": "urgent: pohne 11.15am desk 41 desk 29 totalling $3,200", "gold": {"intent": "call", "time": "11:15", "amount": 3200, "ref": null, "person": null}}
+{"text": "note \u2014 rmember to review 10:30am with Gita Jansen my cell is 555-0131 my cell is 555-0155", "gold": {"intent": "reminder", "time": "10:30", "amount": null, "ref": null, "person": "Gita Jansen"}}
+{"text": "note \u2014 ship \u2014 Hugo Oduya \u2014 against inv-33404 worth \u20ac3,200", "gold": {"intent": "deadline", "time": null, "amount": 3200, "ref": "33404", "person": "Hugo Oduya"}}
+{"text": "btw cath up 8.00pm see #3325", "gold": {"intent": "meeting", "time": "20:00", "amount": null, "ref": "3325", "person": null}}
+{"text": "heads up catch up worth 7800 bucks", "gold": {"intent": "meeting", "time": null, "amount": 7800, "ref": null, "person": null}}
+{"text": "heads up cath up 4 pm desk 92 see ticket 96809", "gold": {"intent": "meeting", "time": "16:00", "amount": null, "ref": "96809", "person": null}}
+{"text": "btw phone my cell is 555-0182 my cell is 555-0129 and loop in Otto Costa", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": "Otto Costa"}}
+{"text": "urgent: settle desk 24 desk 99 at 1830h \u2014 USD899", "gold": {"intent": "payment", "time": "18:30", "amount": 899, "ref": null, "person": null}}
+{"text": "note \u2014 pohne \u2014 Farid Adler \u2014", "gold": {"intent": "call", "time": null, "amount": null, "ref": null, "person": "Farid Adler"}}
+{"text": "heads up shp against ticket 48236 6:00pm room 37 room 13 \u2014 Noor Hoshino \u2014 totalling $60", "gold": {"intent": "deadline", "time": "18:00", "amount": 60, "ref": "48236", "person": "Noor Hoshino"}}
+{"text": "when you can, sihp 3.15pm with Lucia Dubois [inv-95215] my cell is 555-0164 totalling $9,999.00", "gold": {"intent": "deadline", "time": "15:15", "amount": 9999, "ref": "95215", "person": "Lucia Dubois"}}
+{"text": "heads up shpi room 15 at 1230h totalling 130 bucks with Aiko Kraus against case 88002", "gold": {"intent": "deadline", "time": "12:30", "amount": 130, "ref": "88002", "person": "Aiko Kraus"}}
+{"text": "when you can, sihp 1 pm totalling $275.00 and loop in Aiko Gallo room 37 against inv-89543", "gold": {"intent": "deadline", "time": "13:00", "amount": 275, "ref": "89543", "person": "Aiko Gallo"}}
+{"text": "urgent: pone room 40 6.45pm", "gold": {"intent": "call", "time": "18:45", "amount": null, "ref": null, "person": null}}
+{"text": "setle see ticket 53428 1:00pm worth $250.00", "gold": {"intent": "payment", "time": "13:00", "amount": 250, "ref": "53428", "person": null}}
+{"text": "when you can, catch up with Ines Gallo room 26 my cell is 555-0122", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Ines Gallo"}}
+{"text": "note \u2014 settle desk 56 worth USD130 \u2014 Ines Bianchi \u2014 10:15 in the morning", "gold": {"intent": "payment", "time": "10:15", "amount": 130, "ref": null, "person": "Ines Bianchi"}}
+{"text": "note \u2014 settle my cell is 555-0131 see #33586 totalling 250 bucks", "gold": {"intent": "payment", "time": null, "amount": 250, "ref": "33586", "person": null}}
+{"text": "catch up at 1100h desk 33 \u2014 $130.00", "gold": {"intent": "meeting", "time": "11:00", "amount": 130, "ref": null, "person": null}}
+{"text": "phone [po#42152] at 1300h", "gold": {"intent": "call", "time": "13:00", "amount": null, "ref": "42152", "person": null}}
+{"text": "note \u2014 rememebr to reviw with Lucia Adler my cell is 555-0188", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Lucia Adler"}}
+{"text": "phone totalling 150 euro and loop in Quinn Oduya my cell is 555-0115 8 o'clock am", "gold": {"intent": "call", "time": "08:00", "amount": 150, "ref": null, "person": "Quinn Oduya"}}
+{"text": "note \u2014 phone 11:00am \u2014 150 bucks", "gold": {"intent": "call", "time": "11:00", "amount": 150, "ref": null, "person": null}}
+{"text": "btw rememebr to rveiew totalling $275.00 against po#69893 at 1645h", "gold": {"intent": "reminder", "time": "16:45", "amount": 275, "ref": "69893", "person": null}}
+{"text": "urgent: rmember to reiew 3.30pm and loop in Carmen Eriksen", "gold": {"intent": "reminder", "time": "15:30", "amount": null, "ref": null, "person": "Carmen Eriksen"}}
+{"text": "heads up catch up and loop in Esra Nakamura", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Esra Nakamura"}}
+{"text": "btw remembre to review 11 am room 8 room 35", "gold": {"intent": "reminder", "time": "11:00", "amount": null, "ref": null, "person": null}}
+{"text": "urgent: pohne room 16 10 am room 26", "gold": {"intent": "call", "time": "10:00", "amount": null, "ref": null, "person": null}}
+{"text": "urgent: shpi 12 o'clock pm against inv-37490 \u2014 Gita Oduya \u2014 worth $9,999.00 desk 43", "gold": {"intent": "deadline", "time": "12:00", "amount": 9999, "ref": "37490", "person": "Gita Oduya"}}
+{"text": "urgent: phoe worth USD15000 9:00 in the morning and loop in Silas Moreau", "gold": {"intent": "call", "time": "09:00", "amount": 15000, "ref": null, "person": "Silas Moreau"}}
+{"text": "when you can, rememer to review at 1830h desk 99", "gold": {"intent": "reminder", "time": "18:30", "amount": null, "ref": null, "person": null}}
+{"text": "heads up remember to review desk 30 \u2014 Rosa Gallo \u2014 see ticket 88317", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": "88317", "person": "Rosa Gallo"}}
+{"text": "when you can, catch up see inv-80660", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": "80660", "person": null}}
+{"text": "when you can, sip totalling 7800 bucks 10:30 in the morning against ticket 98997", "gold": {"intent": "deadline", "time": "10:30", "amount": 7800, "ref": "98997", "person": null}}
+{"text": "when you can, ctch up 10 am with Ines Nakamura", "gold": {"intent": "meeting", "time": "10:00", "amount": null, "ref": null, "person": "Ines Nakamura"}}
+{"text": "urgent: stetle desk 17 totalling 9999 euro \u2014 Silas Moreau \u2014 see ticket 10510 8.15am", "gold": {"intent": "payment", "time": "08:15", "amount": 9999, "ref": "10510", "person": "Silas Moreau"}}
+{"text": "urgent: catch up 6:15pm with Gita Dubois", "gold": {"intent": "meeting", "time": "18:15", "amount": null, "ref": null, "person": "Gita Dubois"}}
+{"text": "note \u2014 sip my cell is 555-0188 worth $7,800 my cell is 555-0163 \u2014 Farid Pires \u2014 see inv-7730", "gold": {"intent": "deadline", "time": null, "amount": 7800, "ref": "7730", "person": "Farid Pires"}}
+{"text": "phne 2.45pm and loop in Bruno Dubois", "gold": {"intent": "call", "time": "14:45", "amount": null, "ref": null, "person": "Bruno Dubois"}}
+{"text": "when you can, settel worth $1,500 12:45pm and loop in Kito Faber my cell is 555-0140 room 9 against po#47681", "gold": {"intent": "payment", "time": "12:45", "amount": 1500, "ref": "47681", "person": "Kito Faber"}}
+{"text": "btw settel against #42216 at 1930h with Milo Costa \u2014 $40.00", "gold": {"intent": "payment", "time": "19:30", "amount": 40, "ref": "42216", "person": "Milo Costa"}}
+{"text": "heads up catch up my cell is 555-0168 desk 81 with Pia Dubois", "gold": {"intent": "meeting", "time": null, "amount": null, "ref": null, "person": "Pia Dubois"}}
+{"text": "heads up ship and loop in Noor Hoshino my cell is 555-0160 my cell is 555-0189 at 1300h [#69519] \u2014 899 bucks", "gold": {"intent": "deadline", "time": "13:00", "amount": 899, "ref": "69519", "person": "Noor Hoshino"}}
+{"text": "note \u2014 cacth up and loop in Uma Moreau [case 56109] 6pm sharp", "gold": {"intent": "meeting", "time": "18:00", "amount": null, "ref": "56109", "person": "Uma Moreau"}}
+{"text": "when you can, shpi with Uma Nakamura \u2014 \u20ac40 at 1600h desk 35", "gold": {"intent": "deadline", "time": "16:00", "amount": 40, "ref": null, "person": "Uma Nakamura"}}
+{"text": "when you can, settle see #94384 worth $130.00 1:15 in the evening with Hugo Moreau desk 99", "gold": {"intent": "payment", "time": "13:15", "amount": 130, "ref": "94384", "person": "Hugo Moreau"}}
+{"text": "heads up settle desk 95 totalling $7,800.00 my cell is 555-0179 see inv-51136", "gold": {"intent": "payment", "time": null, "amount": 7800, "ref": "51136", "person": null}}
+{"text": "note \u2014 phoen 8:00am room 19", "gold": {"intent": "call", "time": "08:00", "amount": null, "ref": null, "person": null}}
+{"text": "remember to rveiew desk 29 room 35 \u2014 Rosa Nakamura \u2014", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Rosa Nakamura"}}
+{"text": "when you can, phone 8.15am with Uma Adler", "gold": {"intent": "call", "time": "08:15", "amount": null, "ref": null, "person": "Uma Adler"}}
+{"text": "btw phone \u2014 Otto Iqbal \u2014 at 1900h", "gold": {"intent": "call", "time": "19:00", "amount": null, "ref": null, "person": "Otto Iqbal"}}
+{"text": "heads up rmeember to reivew with Gita Jansen desk 89 desk 25 at 0930h", "gold": {"intent": "reminder", "time": "09:30", "amount": null, "ref": null, "person": "Gita Jansen"}}
+{"text": "ctach up 5 o'clock pm desk 16", "gold": {"intent": "meeting", "time": "17:00", "amount": null, "ref": null, "person": null}}
+{"text": "btw setle my cell is 555-0150 against inv-47456", "gold": {"intent": "payment", "time": null, "amount": null, "ref": "47456", "person": null}}
+{"text": "when you can, ship 8:00pm totalling 3200 euro and loop in Hugo Bianchi", "gold": {"intent": "deadline", "time": "20:00", "amount": 3200, "ref": null, "person": "Hugo Bianchi"}}
+{"text": "catch up 12.15pm desk 32 worth USD899 desk 74 with Noor Costa", "gold": {"intent": "meeting", "time": "12:15", "amount": 899, "ref": null, "person": "Noor Costa"}}
+{"text": "when you can, catch up my cell is 555-0177 \u2014 Noor Pires \u2014 10:45 in the morning room 31", "gold": {"intent": "meeting", "time": "10:45", "amount": null, "ref": null, "person": "Noor Pires"}}
+{"text": "note \u2014 sttle 9am sharp room 39 room 8 with Kito Costa totalling 9999 euro", "gold": {"intent": "payment", "time": "09:00", "amount": 9999, "ref": null, "person": "Kito Costa"}}
+{"text": "when you can, pone my cell is 555-0157 totalling \u20ac60", "gold": {"intent": "call", "time": null, "amount": 60, "ref": null, "person": null}}
+{"text": "urgent: rmeember to review at 0800h room 34", "gold": {"intent": "reminder", "time": "08:00", "amount": null, "ref": null, "person": null}}
+{"text": "btw ship totalling 7800 euro desk 7 with Noor Nakamura 6 pm my cell is 555-0127", "gold": {"intent": "deadline", "time": "18:00", "amount": 7800, "ref": null, "person": "Noor Nakamura"}}
+{"text": "btw catch up 2:30pm [#90223] \u2014 \u20ac1,500", "gold": {"intent": "meeting", "time": "14:30", "amount": 1500, "ref": "90223", "person": null}}
+{"text": "note \u2014 sttle [ticket 27807] totalling 3200 euro", "gold": {"intent": "payment", "time": null, "amount": 3200, "ref": "27807", "person": null}}
+{"text": "urgent: phone desk 99 8.15am", "gold": {"intent": "call", "time": "08:15", "amount": null, "ref": null, "person": null}}
+{"text": "btw settle \u2014 $15,000 with Gita Hoshino see ticket 45978", "gold": {"intent": "payment", "time": null, "amount": 15000, "ref": "45978", "person": "Gita Hoshino"}}
+{"text": "urgent: stetle 8:15am [case 20863] totalling 60 bucks", "gold": {"intent": "payment", "time": "08:15", "amount": 60, "ref": "20863", "person": null}}
+{"text": "note \u2014 remember to review 12:30 in the evening my cell is 555-0153 desk 62", "gold": {"intent": "reminder", "time": "12:30", "amount": null, "ref": null, "person": null}}
+{"text": "when you can, settle my cell is 555-0108 with Esra Oduya 8:45 in the morning room 39 worth \u20ac150", "gold": {"intent": "payment", "time": "08:45", "amount": 150, "ref": null, "person": "Esra Oduya"}}
+{"text": "heads up remembr to reiew and loop in Jonas Faber", "gold": {"intent": "reminder", "time": null, "amount": null, "ref": null, "person": "Jonas Faber"}}
+{"text": "heads up catch up 10 am desk 20", "gold": {"intent": "meeting", "time": "10:00", "amount": null, "ref": null, "person": null}}
+{"text": "heads up shp 5:30pm [ticket 88616] desk 69 \u2014 250 euro and loop in Gita Dubois desk 50", "gold": {"intent": "deadline", "time": "17:30", "amount": 250, "ref": "88616", "person": "Gita Dubois"}}
+{"text": "heads up phone 2:00pm and loop in Jonas Moreau room 14", "gold": {"intent": "call", "time": "14:00", "amount": null, "ref": null, "person": "Jonas Moreau"}}
+{"text": "urgent: catch up worth $15,000 see case 56983 room 14", "gold": {"intent": "meeting", "time": null, "amount": 15000, "ref": "56983", "person": null}}
+{"text": "btw remember to review 8:45 in the morning room 32", "gold": {"intent": "reminder", "time": "08:45", "amount": null, "ref": null, "person": null}}
+{"text": "when you can, catch up \u2014 Jonas Costa \u2014 5.15pm", "gold": {"intent": "meeting", "time": "17:15", "amount": null, "ref": null, "person": "Jonas Costa"}}
+{"text": "note \u2014 remmber to review room 38 \u2014 Uma Eriksen \u2014 room 17 5.15pm", "gold": {"intent": "reminder", "time": "17:15", "amount": null, "ref": null, "person": "Uma Eriksen"}}
+{"text": "urgent: settle \u2014 Rosa Moreau \u2014 [#44344] totalling $1,500", "gold": {"intent": "payment", "time": null, "amount": 1500, "ref": "44344", "person": "Rosa Moreau"}}
+{"text": "btw sip 8:30am [inv-51350] \u2014 $3,200 \u2014 Farid Eriksen \u2014", "gold": {"intent": "deadline", "time": "08:30", "amount": 3200, "ref": "51350", "person": "Farid Eriksen"}}
+{"text": "when you can, shp 8.15am desk 14 \u2014 \u20ac130 \u2014 Aiko Hoshino \u2014", "gold": {"intent": "deadline", "time": "08:15", "amount": 130, "ref": null, "person": "Aiko Hoshino"}}

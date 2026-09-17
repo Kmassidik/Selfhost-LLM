@@ -1,0 +1,19 @@
+{
+ "id": "cmoeilb62",
+ "title": "hi",
+ "model": "DeepSeek-V4-Flash-0731-UD-IQ2_M-00001-of-00003.gguf",
+ "messages": [
+  {
+   "role": "user",
+   "content": "hi"
+  },
+  {
+   "role": "assistant",
+   "content": "Hi! How can I help you today?",
+   "think": "Hmm, the user just said \"hi\" with no other context. This is a very simple and common opening. \n\nI need to respond in a friendly and welcoming way to start the conversation. Since the user didn't specify a topic, I should keep it open-ended and invite them to share what they need. \n\nI can use a warm greeting, express readiness to help, and ask how I can assist. That covers all the basics for a good opening response.",
+   "finish": "stop",
+   "cap": 2048
+  }
+ ],
+ "updated": 1789442691.369696
+}
