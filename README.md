@@ -1,11 +1,11 @@
 # selfhostllm
 
-**Serving and eventually training language models on three second-hand 8 GB GPUs.**
+**Serving, stressing, and training language models on three second-hand 8 GB GPUs.**
 
 A build log with the numbers left in. Going from not understanding LLM serving at
 all, to running one model through five serving engines, to writing an engine by
-hand, to training a small model from scratch — on hardware that cost less than a
-single datacenter GPU.
+hand, to fine-tuning a small model that beats one 60× its size on a narrow task —
+on hardware that cost less than a single datacenter GPU.
 
 Nothing here is a benchmark roundup. **One model is held fixed and the engine is the
 variable**, which is the opposite of how these comparisons are usually done and the
@@ -41,10 +41,10 @@ faster than it can fetch**, and that single fact shapes everything downstream.
 ## The plan
 
 ```
-PART I    SERVING     five engines, easiest to hardest      <- here
-PART II   THE AGENT   a coding agent, and the harness that scores it
-PART III  THE WALLS   KV quantization, long context, multi-GPU
-PART IV   OUR MODEL   pretrain a small model from scratch
+PART I    SERVING     five engines, easiest to hardest       done
+PART II   THE AGENT   a coding agent, and the harness that scores it   done
+PART III  THE WALLS   KV quantization, long context, multi-GPU         done
+PART IV   OUR MODEL   a small model, fine-tuned and measured           done
 ```
 
 | Level | Engine | What it teaches |
@@ -56,7 +56,8 @@ PART IV   OUR MODEL   pretrain a small model from scratch
 | L4 | ours | **understanding** — written by hand, token-identical at temperature 0 |
 
 The exam at L4 is strict on purpose: at temperature zero the hand-written engine must
-produce *token-identical* output to the reference. Not similar. Identical.
+produce *token-identical* output to the reference. Not similar. Identical. The engine
+and its exam live in `source/15e_engine.py` and `source/15e_exam.py`.
 
 ## Getting started
 
@@ -101,24 +102,34 @@ decides whether the model runs at all.
 ## What is in here
 
 ```
-source/       the code. NN_<name>.py, numbered by the chapter it produced
+source/       the code. NN_<name>.py, numbered by the chapter it produced (01 -> 30)
 models/
   configs/    architecture only, a few KB each — committed
-  hf/         real weights — gitignored, fetch them yourself
-bench/        the measurement harness (results are committed; logs are not)
-docs/         longer-form writing
-engines/      one serving stack per level, each with its own venv
+  hf/, gguf/  real weights — gitignored, fetch them yourself
+bench/        the six-metric measuring harness (run.py); results committed, logs not
+serve/        serving experiments — batching, prefix cache, TTFT, KV quant, autoscale
+agent-tasks/  coding tasks the agent is scored on (t1..t4), each with its own tests
+train/        fine-tuning the custom-SLM: LoRA, quantization, distillation, results
+rag/          retrieval over this guide's own pages: ingest, embed, search, cite
+engines/      one serving stack per level — wrappers committed; upstream clones gitignored
+scripts/      serving & benchmarking harness (launch engines, drive load, measure GPU)
+docs/         longer-form writing (SETUP, DOWNLOADING-MODELS)
+planning/     fetch helpers
 ```
 
 Scripts are numbered so that **every measured claim is reproducible by running one
-file**:
+file**. A few that establish the spine:
 
 | Script | Establishes |
 |---|---|
 | `01_budget_from_config.py` | parameter budget from a config alone |
 | `02_inspect_model.py` | what is inside a safetensors file, without loading it |
-| `03_bench_card.py` | what this GPU actually does |
-| `04_embedding_similarity.py` | whether meaning is measurably in the embedding |
+| `06_box_survey.py` | what this GPU actually does |
+| `08_batching.py` | where throughput comes from |
+| `15e_engine.py` / `15e_exam.py` | the hand-written engine and its token-identical exam |
+| `18_parallelism_measured.py` | multi-GPU, and why the prediction missed |
+| `23_kv_quant.py` / `24_context.py` | the KV-cache and long-context walls |
+| `26_training_cost.py` / `28_the_run.py` | the cost and the run behind Part IV |
 
 `02_inspect_model.py` is the one worth running first. It predicts a model's parameter
 count from its config, then reads the real file and compares:
@@ -128,6 +139,30 @@ predicted    : 361,821,120
 actual       : 361,821,120
 difference   : 0   EXACT
 ```
+
+## Some of what came out
+
+Measured on this box; each has its results file.
+
+- **Serving.** One model, five engines, the same six metrics and a temperature-0
+  output hash — so the last question of Part I ("did these engines compute the same
+  thing?") is answered, not assumed. Batching, prefix caching, chunked prefill and
+  the autoscale-signal trap are in `serve/*_RESULTS.md`.
+- **Fine-tuning beats size — sometimes.** A LoRA-tuned **Qwen2.5-0.5B** against a
+  general model **60× larger**, scored on held-out phrasings (`train/README.md`):
+
+  | task | tuned 0.5B | 30B (60×) | who wins |
+  |---|---|---|---|
+  | extraction (strict schema) | **99.5%** | 17.8% | tuned, decisively |
+  | text→SQL (execution) | **99.5%** | 89.5% | tuned, modestly |
+  | classification (open-ended) | 86.8% | **99.0%** | the 30B |
+
+  The honest synthesis: a small tuned model wins when the task is obeying an
+  *arbitrary convention* the big model won't; it loses when the task is *open-ended
+  judgement over novel inputs*.
+- **RAG over the guide's own pages.** 35 pages → 677 chunks, embedded with
+  BGE-small in 2.4 s, **recall@5 93.3%** with plain numpy cosine — no vector DB
+  (`rag/README.md`).
 
 ## Method
 
@@ -141,14 +176,6 @@ difference   : 0   EXACT
 - **A number not measured on this machine is labelled an estimate, or it is absent.**
   A vendor specification is not a measurement.
 
-## Status
-
-**Part I has not started.** What exists so far is the groundwork: the hardware
-characterised, the file format understood, the arithmetic counted, and four
-reproducible scripts. No engine has served a token yet.
-
-The tables above are measurements. The plan below them is a prediction.
-
 ## Prior work
 
 The sibling project ran MiniMax-H3 — a 33-billion-parameter video and audio model —
@@ -157,5 +184,3 @@ responsible for the memory wall. It then rendered 15 seconds of native 720p acro
 three cards using a hand-written sequence-parallel engine. The ring attention built
 there is reused in Part III: it is attention, and it does not care what kind of model
 it sits inside.
-# Selfhost-LLM
-# Selfhost-LLM
