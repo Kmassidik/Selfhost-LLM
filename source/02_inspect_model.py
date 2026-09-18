@@ -64,6 +64,12 @@ def main():
     print("-" * 78)
     print(f"{'TOTAL':<36}{len(tensors):>4}{'':>22}{total:>16,}")
 
+    # how many directions does anything in here actually have?
+    dims = collections.Counter(len(m["shape"]) for m in tensors.values())
+    print("\ndimensions   " + " · ".join(
+        f"{d}D: {c}" for d, c in sorted(dims.items())) +
+        f"   (maximum {max(dims)})")
+
     dt = collections.Counter(m["dtype"] for m in tensors.values())
     size = os.path.getsize(path)
     bpp = size / total

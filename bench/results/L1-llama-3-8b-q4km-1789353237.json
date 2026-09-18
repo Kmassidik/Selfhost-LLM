@@ -1,0 +1,97 @@
+{
+  "run_id": "L1-llama-3-8b-q4km-1789353237",
+  "label": "L1 llama.cpp 3-card tensor",
+  "level": "L1",
+  "model": "llama-3-8b-q4km",
+  "quant": "Q4_K_M",
+  "endpoint": "http://10.0.0.20:8080/v1",
+  "note": "llama.cpp -sm tensor, tensor, 3x RTX 3060 Ti box",
+  "prompt_set_version": 1,
+  "temperature": 0.0,
+  "started": "2026-09-14T09:33:57",
+  "prompts": {
+    "short": {
+      "ttft_ms": 19.24,
+      "total_s": 0.111,
+      "decode_s": 0.092,
+      "out_tokens": 8,
+      "in_tokens": 15,
+      "token_source": "engine",
+      "decode_tps": 87.2,
+      "prefill_tps": 779.5,
+      "prompt_chars": 23,
+      "output_sha256": "ca4d29067163397c",
+      "output_head": "The capital of Japan is Tokyo.",
+      "repeats": 3
+    },
+    "medium": {
+      "ttft_ms": 38.94,
+      "total_s": 1.103,
+      "decode_s": 1.066,
+      "out_tokens": 87,
+      "in_tokens": 29,
+      "token_source": "engine",
+      "decode_tps": 81.6,
+      "prefill_tps": 744.7,
+      "prompt_chars": 101,
+      "output_sha256": "0cdf46ed0e09b47a",
+      "output_head": "Reading a model's weights from memory is slower than multiplying them because it requires accessing and retrieving the w",
+      "repeats": 3
+    },
+    "longctx": {
+      "ttft_ms": 30.63,
+      "total_s": 0.057,
+      "decode_s": 0.027,
+      "out_tokens": 3,
+      "in_tokens": 2060,
+      "token_source": "engine",
+      "decode_tps": 112.2,
+      "prefill_tps": 67245.4,
+      "prompt_chars": 11438,
+      "output_sha256": "ec2d191680171ca9",
+      "output_head": "Tokyo",
+      "repeats": 3
+    },
+    "code": {
+      "ttft_ms": 46.24,
+      "total_s": 1.513,
+      "decode_s": 1.462,
+      "out_tokens": 119,
+      "in_tokens": 33,
+      "token_source": "engine",
+      "decode_tps": 81.4,
+      "prefill_tps": 713.6,
+      "prompt_chars": 114,
+      "output_sha256": "bf995d19d7e2eb32",
+      "output_head": "```\nimport struct\n\ndef get_total_parameter_count(file_path):\n    with open(file_path, 'rb') as f:\n        magic = f.read",
+      "repeats": 3
+    }
+  },
+  "concurrency": {
+    "1": {
+      "wall_s": 1.101,
+      "total_tps": 79.0,
+      "per_stream_tps": 79.0,
+      "tokens": 87
+    },
+    "4": {
+      "wall_s": 1.789,
+      "total_tps": 189.5,
+      "per_stream_tps": 47.4,
+      "tokens": 339
+    },
+    "16": {
+      "wall_s": 8.449,
+      "total_tps": 153.0,
+      "per_stream_tps": 9.6,
+      "tokens": 1293
+    }
+  },
+  "vram_peak_mb": {
+    "0": 1999,
+    "1": 1975,
+    "2": 1977
+  },
+  "host_rss_peak_mb": 1273,
+  "finished": "2026-09-14T09:34:19"
+}

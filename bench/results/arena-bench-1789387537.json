@@ -1,0 +1,102 @@
+{
+ "model": "Qwen3.8-27B-Uncensored-Q4_K_M.gguf",
+ "cards": 3,
+ "when": "2026-09-14 19:03",
+ "prompts": [
+  {
+   "id": "short",
+   "in_tokens": 57,
+   "out_tokens": 28,
+   "ttft_ms": 914.4,
+   "decode_tps": 22.6,
+   "think_tokens": 23,
+   "answer_tokens": 2,
+   "prefill_tps": 62.0
+  },
+  {
+   "id": "medium",
+   "in_tokens": 71,
+   "out_tokens": 128,
+   "ttft_ms": 744.7,
+   "decode_tps": 22.1,
+   "think_tokens": 128,
+   "answer_tokens": 0,
+   "prefill_tps": 95.0
+  },
+  {
+   "id": "longctx",
+   "in_tokens": 3292,
+   "out_tokens": 64,
+   "ttft_ms": 4467.2,
+   "decode_tps": 22.0,
+   "think_tokens": 64,
+   "answer_tokens": 0,
+   "prefill_tps": 737.0
+  },
+  {
+   "id": "code",
+   "in_tokens": 75,
+   "out_tokens": 192,
+   "ttft_ms": 442.4,
+   "decode_tps": 22.1,
+   "think_tokens": 192,
+   "answer_tokens": 0,
+   "prefill_tps": 170.0
+  }
+ ],
+ "concurrency": [
+  {
+   "n": 1,
+   "total_tps": 20.6,
+   "per_stream_tps": 20.6,
+   "tokens": 128,
+   "wall_s": 6.21
+  },
+  {
+   "n": 4,
+   "total_tps": 42.8,
+   "per_stream_tps": 10.7,
+   "tokens": 512,
+   "wall_s": 11.97
+  },
+  {
+   "n": 16,
+   "total_tps": 42.1,
+   "per_stream_tps": 2.6,
+   "tokens": 2048,
+   "wall_s": 48.7
+  }
+ ],
+ "gpus": [
+  {
+   "card": 0,
+   "peak_mb": 5583,
+   "util_mean": 26.9,
+   "util_max": 100
+  },
+  {
+   "card": 1,
+   "peak_mb": 5435,
+   "util_mean": 29.1,
+   "util_max": 100
+  },
+  {
+   "card": 2,
+   "peak_mb": 6125,
+   "util_mean": 30.1,
+   "util_max": 100
+  }
+ ],
+ "bottleneck": {
+  "reads_per_token": "16.81 GB",
+  "achieved_gbps": "380",
+  "roof_gbps": 1344.0,
+  "pct_of_roof": 28.3,
+  "card": "3060 Ti",
+  "verdict": "Not the cards. They are idle most of the time, so the limit is ahead of them: per-token overhead, the HTTP hop, or a request too small to fill a batch. Send more at once.",
+  "notes": [],
+  "active_b": 23.42,
+  "total_b": 23.42,
+  "util_spread": 3.2
+ }
+}

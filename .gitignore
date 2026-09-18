@@ -45,3 +45,16 @@ train/*/adapter/
 train/*/adapter_*/
 train/*/quant/
 rag/r3_adapter/
+
+# ── Engine source clones & local builds ───────────────────────────────
+#    Third-party upstream clones (each has its own .git) + local builds,
+#    gigabytes each. Keep only dir placeholders and our wrapper scripts.
+engines/llamacpp/*
+!engines/llamacpp/.gitkeep
+engines/vllm-src/
+engines/sglang-src/
+engines/vllm/*
+engines/sglang/*
+!engines/*/.gitkeep
+!engines/vllm/serve.sh
+!engines/sglang/serve.sh

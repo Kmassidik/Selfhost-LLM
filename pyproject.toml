@@ -7,6 +7,7 @@ dependencies = [
     "numpy>=2.0",
     "safetensors>=0.4",
     "tokenizers>=0.20",
+    "transformers>=4.40",
 ]
 
 # torch is deliberately NOT a dependency here. The CUDA build is ~3 GB and is

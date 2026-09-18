@@ -1,0 +1,97 @@
+{
+  "run_id": "L4-ours-smollm2-360m-1789369015",
+  "label": "L4 ours, preallocated cache",
+  "level": "L4",
+  "model": "ours-smollm2-360m",
+  "quant": "bf16",
+  "endpoint": "http://10.0.0.20:8085/v1",
+  "note": "same engine, cache allocated once and written in place",
+  "prompt_set_version": 1,
+  "temperature": 0.0,
+  "started": "2026-09-14T13:56:55",
+  "prompts": {
+    "short": {
+      "ttft_ms": 75.7,
+      "total_s": 1.984,
+      "decode_s": 1.911,
+      "out_tokens": 32,
+      "in_tokens": 35,
+      "token_source": "engine",
+      "decode_tps": 16.7,
+      "prefill_tps": 462.4,
+      "prompt_chars": 23,
+      "output_sha256": "7441298693a926f3",
+      "output_head": "I've been a few days, and the other types of the other types of the other types of the other types of the other types of",
+      "repeats": 3
+    },
+    "medium": {
+      "ttft_ms": 75.2,
+      "total_s": 7.614,
+      "decode_s": 7.539,
+      "out_tokens": 128,
+      "in_tokens": 48,
+      "token_source": "engine",
+      "decode_tps": 17.0,
+      "prefill_tps": 638.3,
+      "prompt_chars": 101,
+      "output_sha256": "786b071b69bf1a95",
+      "output_head": "Reading the other types of the other types of the other types of the other types of the other types of the other types o",
+      "repeats": 3
+    },
+    "longctx": {
+      "ttft_ms": 150.52,
+      "total_s": 4.029,
+      "decode_s": 3.877,
+      "out_tokens": 64,
+      "in_tokens": 2201,
+      "token_source": "engine",
+      "decode_tps": 16.5,
+      "prefill_tps": 14622.4,
+      "prompt_chars": 11438,
+      "output_sha256": "4593c1de1b4b09a9",
+      "output_head": "To_user\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "repeats": 3
+    },
+    "code": {
+      "ttft_ms": 75.69,
+      "total_s": 11.779,
+      "decode_s": 11.704,
+      "out_tokens": 192,
+      "in_tokens": 53,
+      "token_source": "engine",
+      "decode_tps": 16.4,
+      "prefill_tps": 700.2,
+      "prompt_chars": 114,
+      "output_sha256": "d45bb980f505b46a",
+      "output_head": "```\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "repeats": 3
+    }
+  },
+  "concurrency": {
+    "1": {
+      "wall_s": 7.604,
+      "total_tps": 16.8,
+      "per_stream_tps": 16.8,
+      "tokens": 128
+    },
+    "4": {
+      "wall_s": 7.974,
+      "total_tps": 64.2,
+      "per_stream_tps": 16.1,
+      "tokens": 512
+    },
+    "16": {
+      "wall_s": 16.487,
+      "total_tps": 124.2,
+      "per_stream_tps": 7.8,
+      "tokens": 2048
+    }
+  },
+  "vram_peak_mb": {
+    "0": 1509,
+    "1": 15,
+    "2": 15
+  },
+  "host_rss_peak_mb": 48,
+  "finished": "2026-09-14T13:58:43"
+}

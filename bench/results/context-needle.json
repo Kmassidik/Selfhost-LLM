@@ -1,0 +1,52 @@
+[
+ {
+  "tokens": 520,
+  "found": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "tokens": 2440,
+  "found": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "tokens": 6040,
+  "found": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "tokens": null,
+  "found": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ },
+ {
+  "tokens": null,
+  "found": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ]
+ }
+]

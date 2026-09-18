@@ -1,0 +1,124 @@
+{
+ "label": "smollm2-360m",
+ "model": "smollm2:360m",
+ "endpoint": "http://10.0.0.20:11434/v1",
+ "n": 10,
+ "correct": 0,
+ "wrong": 0,
+ "gave_up": 10,
+ "sent": 29434,
+ "out": 1345,
+ "wall": 15.0,
+ "rows": [
+  {
+   "task": "files_source",
+   "truth": "40",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2532,
+   "out": 65,
+   "wall": 3.61
+  },
+  {
+   "task": "py_source",
+   "truth": "38",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2556,
+   "out": 65,
+   "wall": 0.56
+  },
+  {
+   "task": "run_exists",
+   "truth": "yes",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2492,
+   "out": 24,
+   "wall": 0.41
+  },
+  {
+   "task": "ghost_exists",
+   "truth": "no",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2492,
+   "out": 24,
+   "wall": 4.38
+  },
+  {
+   "task": "n_prompts",
+   "truth": "4",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2636,
+   "out": 65,
+   "wall": 0.55
+  },
+  {
+   "task": "readme_lines",
+   "truth": "159",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 3401,
+   "out": 348,
+   "wall": 1.56
+  },
+  {
+   "task": "layers",
+   "truth": "32",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 5087,
+   "out": 485,
+   "wall": 2.09
+  },
+  {
+   "task": "kv_heads",
+   "truth": "5",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2937,
+   "out": 128,
+   "wall": 0.76
+  },
+  {
+   "task": "vocab",
+   "truth": "49152",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2769,
+   "out": 76,
+   "wall": 0.56
+  },
+  {
+   "task": "files_bench",
+   "truth": "6",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2532,
+   "out": 65,
+   "wall": 0.52
+  }
+ ]
+}

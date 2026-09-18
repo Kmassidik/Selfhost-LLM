@@ -1,0 +1,29 @@
+{
+ "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf \u00b7 3 cards": {
+  "solved": 3,
+  "of": 4,
+  "steps": 27,
+  "sent": 17163,
+  "wall": 32.6,
+  "cards": 3,
+  "when": "2026-09-14 17:01"
+ },
+ "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf \u00b7 1 card": {
+  "solved": 4,
+  "of": 4,
+  "steps": 26,
+  "sent": 9577,
+  "wall": 9.7,
+  "cards": 1,
+  "when": "2026-09-14 17:02"
+ },
+ "Meta-Llama-3-8B-Instruct-Q8_0.gguf \u00b7 3 cards": {
+  "solved": 3,
+  "of": 4,
+  "steps": 27,
+  "sent": 11453,
+  "wall": 12.0,
+  "cards": 3,
+  "when": "2026-09-14 17:02"
+ }
+}

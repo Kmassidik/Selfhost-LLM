@@ -1,0 +1,239 @@
+[
+ {
+  "cache": "f16",
+  "mb": 5737,
+  "correct": 5,
+  "answered": 9,
+  "text": "Reading a model's weights from memory is slower than multiplying them because it requires accessing and retrieving the weights from the memory, which takes time due to the physical limitations of memory access. In contrast, multiplying the weights is a simple arithmetic operation that can be performed quickly and efficiently by the CPU. Additionally, modern CPUs have optimized instructions for matrix multiplication, making it even faster than memory access, which further exacerbates the difference in speed.",
+  "rows": [
+   {
+    "task": "files_source",
+    "truth": "42",
+    "got": "27",
+    "ok": false,
+    "answered": true
+   },
+   {
+    "task": "py_source",
+    "truth": "40",
+    "got": "0",
+    "ok": false,
+    "answered": true
+   },
+   {
+    "task": "run_exists",
+    "truth": "yes",
+    "got": "yes",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "ghost_exists",
+    "truth": "no",
+    "got": null,
+    "ok": false,
+    "answered": false
+   },
+   {
+    "task": "n_prompts",
+    "truth": "4",
+    "got": "39",
+    "ok": false,
+    "answered": true
+   },
+   {
+    "task": "readme_lines",
+    "truth": "159",
+    "got": "159",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "layers",
+    "truth": "32",
+    "got": "32",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "kv_heads",
+    "truth": "5",
+    "got": "5",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "vocab",
+    "truth": "49152",
+    "got": "49152",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "files_bench",
+    "truth": "6",
+    "got": "273",
+    "ok": false,
+    "answered": true
+   }
+  ]
+ },
+ {
+  "cache": "q8_0",
+  "mb": 5257,
+  "correct": 5,
+  "answered": 8,
+  "text": "Reading a model's weights from memory is slower than multiplying them because it requires accessing and retrieving the weights from the memory, which takes time due to the physical limitations of memory access. In contrast, multiplying the weights is a simple arithmetic operation that can be performed quickly and efficiently by the CPU. Additionally, modern CPUs have optimized instructions for matrix multiplication, making it even faster than memory access, which further exacerbates the difference in speed.",
+  "rows": [
+   {
+    "task": "files_source",
+    "truth": "42",
+    "got": "27",
+    "ok": false,
+    "answered": true
+   },
+   {
+    "task": "py_source",
+    "truth": "40",
+    "got": null,
+    "ok": false,
+    "answered": false
+   },
+   {
+    "task": "run_exists",
+    "truth": "yes",
+    "got": "yes",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "ghost_exists",
+    "truth": "no",
+    "got": null,
+    "ok": false,
+    "answered": false
+   },
+   {
+    "task": "n_prompts",
+    "truth": "4",
+    "got": "39",
+    "ok": false,
+    "answered": true
+   },
+   {
+    "task": "readme_lines",
+    "truth": "159",
+    "got": "159",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "layers",
+    "truth": "32",
+    "got": "32",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "kv_heads",
+    "truth": "5",
+    "got": "5",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "vocab",
+    "truth": "49152",
+    "got": "49152",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "files_bench",
+    "truth": "6",
+    "got": "273",
+    "ok": false,
+    "answered": true
+   }
+  ]
+ },
+ {
+  "cache": "q4_0",
+  "mb": 5001,
+  "correct": 6,
+  "answered": 10,
+  "text": "Reading a model's weights from memory is slower than multiplying them because it involves accessing and retrieving the weights from the memory, which takes time. Additionally, the memory access pattern is typically sequential, which can lead to cache misses and slower performance. In contrast, multiplying the weights is a simple arithmetic operation that can be performed quickly and efficiently by the CPU, without the need for memory access.",
+  "rows": [
+   {
+    "task": "files_source",
+    "truth": "42",
+    "got": "12",
+    "ok": false,
+    "answered": true
+   },
+   {
+    "task": "py_source",
+    "truth": "40",
+    "got": "23",
+    "ok": false,
+    "answered": true
+   },
+   {
+    "task": "run_exists",
+    "truth": "yes",
+    "got": "yes",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "ghost_exists",
+    "truth": "no",
+    "got": "no",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "n_prompts",
+    "truth": "4",
+    "got": "39",
+    "ok": false,
+    "answered": true
+   },
+   {
+    "task": "readme_lines",
+    "truth": "159",
+    "got": "159",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "layers",
+    "truth": "32",
+    "got": "32",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "kv_heads",
+    "truth": "5",
+    "got": "5",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "vocab",
+    "truth": "49152",
+    "got": "49152",
+    "ok": true,
+    "answered": true
+   },
+   {
+    "task": "files_bench",
+    "truth": "6",
+    "got": "39",
+    "ok": false,
+    "answered": true
+   }
+  ]
+ }
+]

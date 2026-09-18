@@ -137,12 +137,49 @@ numbers will be corrected here when it is.)*
   measurement disagrees, the gap is explained rather than the prediction deleted.
 - **A number not measured on this machine is labelled an estimate, or it is absent.**
 
+## The documents
+
+    docs/SETUP.md                how the box was built — drivers, engines, uv
+    docs/WORKSPACE.md            where everything lives on disk
+    docs/DOWNLOADING-MODELS.md   getting a model from Hugging Face, step by step
+    serve/README.md              the Arena — chat, model management, benchmarks
+
+The knowledge base — 28 chapters and the reference pages, every number measured
+here — lives in the Mac-side repository. This file is the operator's view; that
+is the reader's.
+
 ## Status
 
-**Scaffolded. No measurements taken yet.** Started 2026-09-11.
+**Version 2.0, since 2026-09-14.**
 
-Every table above is currently a prediction. They are published in advance
-deliberately — so that being wrong is on the record.
+Version 1.0 is done and measured: five serving engines compared on one fixed
+model, an engine written by hand that matched them, tensor and pipeline and
+data parallelism measured across three cards, an agent with a test suite as its
+judge, KV cache quantization, the context ceiling, and a small model trained
+from noise. Every prediction that was published in advance has been scored,
+including the wrong ones, which are kept and corrected in place rather than
+deleted.
+
+Version 2.0 changes the question. Small models were the right subject while the
+mechanics were the thing being learned; they stopped being informative once it
+became clear that capability comes from training rather than size — measured
+here, a 2025 model with 3.04 B active parameters per token matched a 2024 model
+with 7.50 B on the same tasks and the same hardware.
+
+So v2.0 runs the best models of 2026 on hardware that has no business running
+them, and puts the proof in the knowledge base rather than in another quick
+benchmark:
+
+    Qwen3-Coder-30B-A3B-Instruct   18.6 GB   3 cards      110.7 tok/s, measured
+    Qwen3.8-27B-Uncensored         16.8 GB   3 cards      downloading
+    DeepSeek-V4-Flash-0731         90.9 GB   cards + RAM  downloading
+
+That last one is 90.9 GB on a machine with 24 GB of graphics memory. It is
+possible because host memory is the second tier and this box has 125 GB of it,
+measured at 23.4 GB/s — which is also why it will be slow, and by how much.
+
+The v1.0 models stay on disk. Twenty-eight chapters cite them, and deleting
+them would make those measurements unreproducible.
 
 ## Prior work
 

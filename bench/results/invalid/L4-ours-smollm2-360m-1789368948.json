@@ -1,0 +1,97 @@
+{
+  "run_id": "L4-ours-smollm2-360m-1789368948",
+  "label": "L4 ours, recorded decode",
+  "level": "L4",
+  "model": "ours-smollm2-360m",
+  "quant": "bf16",
+  "endpoint": "http://10.0.0.20:8085/v1",
+  "note": "chapter 15 engine with the decode step captured as a CUDA graph",
+  "prompt_set_version": 1,
+  "temperature": 0.0,
+  "started": "2026-09-14T13:55:48",
+  "prompts": {
+    "short": {
+      "ttft_ms": 90.85,
+      "total_s": 0.373,
+      "decode_s": 0.282,
+      "out_tokens": 12,
+      "in_tokens": 35,
+      "token_source": "engine",
+      "decode_tps": 42.6,
+      "prefill_tps": 385.2,
+      "prompt_chars": 23,
+      "output_sha256": "9ffd449cd76ac850",
+      "output_head": "I'm sorry for the capital of the capital of Japan.",
+      "repeats": 3
+    },
+    "medium": {
+      "ttft_ms": 73.33,
+      "total_s": 0.877,
+      "decode_s": 0.804,
+      "out_tokens": 128,
+      "in_tokens": 48,
+      "token_source": "engine",
+      "decode_tps": 159.2,
+      "prefill_tps": 654.6,
+      "prompt_chars": 101,
+      "output_sha256": "26de7e7b6ef03336",
+      "output_head": "Reading a model weights from memory is slower than multiplying them from memory is slower than multiplying them from mem",
+      "repeats": 3
+    },
+    "longctx": {
+      "ttft_ms": 134.54,
+      "total_s": 0.407,
+      "decode_s": 0.271,
+      "out_tokens": 7,
+      "in_tokens": 2201,
+      "token_source": "engine",
+      "decode_tps": 25.9,
+      "prefill_tps": 16359.4,
+      "prompt_chars": 11438,
+      "output_sha256": "7064c9095be0a82e",
+      "output_head": "To answer the end the capital of",
+      "repeats": 3
+    },
+    "code": {
+      "ttft_ms": 72.0,
+      "total_s": 1.171,
+      "decode_s": 1.099,
+      "out_tokens": 192,
+      "in_tokens": 53,
+      "token_source": "engine",
+      "decode_tps": 174.7,
+      "prefill_tps": 736.1,
+      "prompt_chars": 114,
+      "output_sha256": "0895b3133a237aa9",
+      "output_head": "```python\ndef read_\ndef read_def read safet_\ndefreadfileheader = = = = = = = = = = = = = = = = = = = = = = = = = = = = =",
+      "repeats": 3
+    }
+  },
+  "concurrency": {
+    "1": {
+      "wall_s": 0.87,
+      "total_tps": 147.1,
+      "per_stream_tps": 147.1,
+      "tokens": 128
+    },
+    "4": {
+      "wall_s": 1.196,
+      "total_tps": 428.2,
+      "per_stream_tps": 107.1,
+      "tokens": 512
+    },
+    "16": {
+      "wall_s": 2.936,
+      "total_tps": 697.6,
+      "per_stream_tps": 43.6,
+      "tokens": 2048
+    }
+  },
+  "vram_peak_mb": {
+    "0": 1975,
+    "1": 15,
+    "2": 15
+  },
+  "host_rss_peak_mb": 48,
+  "finished": "2026-09-14T13:56:01"
+}

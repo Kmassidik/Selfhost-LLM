@@ -1,0 +1,39 @@
+{
+  "_comment": [
+    "THE FIXED PROMPT SET. Frozen 2026-09-13.",
+    "Changing anything here invalidates every measurement taken before the change.",
+    "If a prompt must change, add a new one with a new id and keep the old.",
+    "Every field is deliberate: max_tokens is fixed so runs are comparable, and",
+    "temperature is 0 everywhere so output can be hashed and compared exactly."
+  ],
+  "version": 1,
+  "frozen": "2026-09-13",
+  "temperature": 0.0,
+  "seed": 0,
+  "prompts": [
+    {
+      "id": "short",
+      "why": "Time to first token, with almost no prompt to read. Isolates fixed overhead.",
+      "max_tokens": 32,
+      "text": "The capital of Japan is"
+    },
+    {
+      "id": "medium",
+      "why": "A realistic single-turn request. The everyday case.",
+      "max_tokens": 128,
+      "text": "Explain in three sentences why reading a model's weights from memory is slower than multiplying them."
+    },
+    {
+      "id": "longctx",
+      "why": "Prefill cost at length, and whether the engine handles a large cache. About 2,000 tokens of filler \u2014 deliberately under the 8,192 context limit. The filler is repetitive on purpose so its content cannot flatter one engine over another.",
+      "max_tokens": 64,
+      "text": "REPEAT:120:Self-hosting a language model means understanding where every byte and every millisecond goes. \n\nIn one word, the capital of Japan is"
+    },
+    {
+      "id": "code",
+      "why": "Structured output. Different token distribution from prose, and the case Part II actually cares about.",
+      "max_tokens": 192,
+      "text": "Write a Python function that reads a safetensors file header and returns the total parameter count. Only the code."
+    }
+  ]
+}

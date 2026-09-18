@@ -1,0 +1,96 @@
+{
+ "model": "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+ "cards": 3,
+ "when": "2026-09-14 18:26",
+ "prompts": [
+  {
+   "id": "short",
+   "in_tokens": 13,
+   "out_tokens": 8,
+   "ttft_ms": 52.0,
+   "decode_tps": 107.1,
+   "prefill_tps": 250.0
+  },
+  {
+   "id": "medium",
+   "in_tokens": 27,
+   "out_tokens": 111,
+   "ttft_ms": 64.2,
+   "decode_tps": 110.3,
+   "prefill_tps": 421.0
+  },
+  {
+   "id": "longctx",
+   "in_tokens": 3248,
+   "out_tokens": 4,
+   "ttft_ms": 1626.0,
+   "decode_tps": 92.3,
+   "prefill_tps": 1998.0
+  },
+  {
+   "id": "code",
+   "in_tokens": 31,
+   "out_tokens": 192,
+   "ttft_ms": 79.5,
+   "decode_tps": 109.7,
+   "prefill_tps": 390.0
+  }
+ ],
+ "concurrency": [
+  {
+   "n": 1,
+   "total_tps": 86.7,
+   "per_stream_tps": 86.7,
+   "tokens": 24,
+   "wall_s": 0.28
+  },
+  {
+   "n": 4,
+   "total_tps": 178.9,
+   "per_stream_tps": 44.7,
+   "tokens": 95,
+   "wall_s": 0.53
+  },
+  {
+   "n": 16,
+   "total_tps": 180.6,
+   "per_stream_tps": 11.3,
+   "tokens": 385,
+   "wall_s": 2.13
+  }
+ ],
+ "gpus": [
+  {
+   "card": 0,
+   "peak_mb": 6641,
+   "util_mean": 27.2,
+   "util_max": 64
+  },
+  {
+   "card": 1,
+   "peak_mb": 6129,
+   "util_mean": 26.0,
+   "util_max": 69
+  },
+  {
+   "card": 2,
+   "peak_mb": 6179,
+   "util_mean": 31.3,
+   "util_max": 57
+  }
+ ],
+ "bottleneck": {
+  "reads_per_token": "1.87 GB",
+  "achieved_gbps": "206",
+  "roof_gbps": 1344.0,
+  "pct_of_roof": 15.3,
+  "card": "3060 Ti",
+  "verdict": "Not the cards. They are idle most of the time, so the limit is ahead of them: per-token overhead, the HTTP hop, or a request too small to fill a batch. Send more at once.",
+  "notes": [
+   "A mixture of experts: 3.04 B parameters of 30.22 B run per token, 10% of the file. Counted from the header, not assumed."
+  ],
+  "active_b": 3.04,
+  "total_b": 30.22,
+  "util_spread": 5.3
+ }
+}

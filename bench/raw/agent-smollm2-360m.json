@@ -1,0 +1,224 @@
+[
+ {
+  "ok": false,
+  "answer": null,
+  "steps": [
+   {
+    "step": 1,
+    "sent": 145,
+    "out": 2,
+    "s": 0.24,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 2,
+    "sent": 191,
+    "out": 9,
+    "s": 0.06,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 3,
+    "sent": 241,
+    "out": 9,
+    "s": 0.07,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 4,
+    "sent": 291,
+    "out": 9,
+    "s": 0.06,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 5,
+    "sent": 341,
+    "out": 9,
+    "s": 0.06,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 6,
+    "sent": 391,
+    "out": 9,
+    "s": 0.07,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 7,
+    "sent": 441,
+    "out": 9,
+    "s": 0.06,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 8,
+    "sent": 491,
+    "out": 9,
+    "s": 0.07,
+    "kind": "tool",
+    "what": "list_files"
+   }
+  ],
+  "sent": 2532,
+  "out": 65,
+  "wall": 0.6893268389976583,
+  "name": "count_source"
+ },
+ {
+  "ok": false,
+  "answer": null,
+  "steps": [
+   {
+    "step": 1,
+    "sent": 147,
+    "out": 3,
+    "s": 0.06,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 2,
+    "sent": 194,
+    "out": 3,
+    "s": 0.04,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 3,
+    "sent": 241,
+    "out": 3,
+    "s": 0.04,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 4,
+    "sent": 288,
+    "out": 3,
+    "s": 0.04,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 5,
+    "sent": 335,
+    "out": 3,
+    "s": 0.04,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 6,
+    "sent": 382,
+    "out": 3,
+    "s": 0.05,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 7,
+    "sent": 429,
+    "out": 3,
+    "s": 0.05,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 8,
+    "sent": 476,
+    "out": 3,
+    "s": 0.05,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   }
+  ],
+  "sent": 2492,
+  "out": 24,
+  "wall": 0.3679355710046366,
+  "name": "find_bench"
+ },
+ {
+  "ok": false,
+  "answer": null,
+  "steps": [
+   {
+    "step": 1,
+    "sent": 149,
+    "out": 2,
+    "s": 0.06,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 2,
+    "sent": 195,
+    "out": 9,
+    "s": 0.06,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 3,
+    "sent": 245,
+    "out": 9,
+    "s": 0.06,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 4,
+    "sent": 295,
+    "out": 9,
+    "s": 0.06,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 5,
+    "sent": 345,
+    "out": 9,
+    "s": 0.06,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 6,
+    "sent": 395,
+    "out": 9,
+    "s": 0.07,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 7,
+    "sent": 445,
+    "out": 9,
+    "s": 0.07,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 8,
+    "sent": 495,
+    "out": 9,
+    "s": 0.07,
+    "kind": "tool",
+    "what": "list_files"
+   }
+  ],
+  "sent": 2564,
+  "out": 65,
+  "wall": 0.5018199780024588,
+  "name": "read_prompts"
+ }
+]
