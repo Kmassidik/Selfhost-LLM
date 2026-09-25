@@ -1,0 +1,300 @@
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "the page freezes midway through", "label": "technical_bug"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "transaction gets rejected every time I check out", "label": "billing_payment_failure"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "when will my slow delivery actually show up", "label": "shipping_delay"}
+{"text": "help me change my passcode", "label": "account_password_reset"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "the page freezes midway through", "label": "technical_bug"}
+{"text": "the system won't accept my payment method", "label": "billing_payment_failure"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "stuck on the login screen, won't let me in", "label": "account_login"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "the unit I received is faulty", "label": "product_defect"}
+{"text": "the system won't accept my payment method", "label": "billing_payment_failure"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "the router came damaged", "label": "product_defect"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "how to ship the router back to you", "label": "product_return"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "my tablet came damaged", "label": "product_defect"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "initiate a return for the router please", "label": "product_return"}
+{"text": "transaction gets rejected every time I check out", "label": "billing_payment_failure"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "the system won't accept my payment method", "label": "billing_payment_failure"}
+{"text": "the router is malfunctioning right away", "label": "product_defect"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "sign-in refuses my details", "label": "account_login"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "carrier can't locate my consignment", "label": "shipping_lost"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "the page freezes midway through", "label": "technical_bug"}
+{"text": "suggestion: support keyboard shortcuts", "label": "feature_request"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "initiate a return for the blender please", "label": "product_return"}
+{"text": "would be nice to bulk-edit entries", "label": "feature_request"}
+{"text": "my tablet is malfunctioning right away", "label": "product_defect"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "still waiting on a parcel that's overdue", "label": "shipping_delay"}
+{"text": "how to ship the blender back to you", "label": "product_return"}
+{"text": "still waiting on a parcel that's overdue", "label": "shipping_delay"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "still waiting on a parcel that's overdue", "label": "shipping_delay"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "help me change my passcode", "label": "account_password_reset"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "when will my slow delivery actually show up", "label": "shipping_delay"}
+{"text": "the headset came damaged", "label": "product_defect"}
+{"text": "can you issue money back for order 4471", "label": "billing_refund"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "when will my slow delivery actually show up", "label": "shipping_delay"}
+{"text": "I need to send the router back for a refund", "label": "product_return"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "stuck on the login screen, won't let me in", "label": "account_login"}
+{"text": "initiate a return for the blender please", "label": "product_return"}
+{"text": "can you issue money back for order 4471", "label": "billing_refund"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "the unit I received is faulty", "label": "product_defect"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "would be nice to bulk-edit entries", "label": "feature_request"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "can you issue money back for order 4471", "label": "billing_refund"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "help me change my passcode", "label": "account_password_reset"}
+{"text": "carrier can't locate my consignment", "label": "shipping_lost"}
+{"text": "suggestion: support keyboard shortcuts", "label": "feature_request"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "help me change my passcode", "label": "account_password_reset"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "can you issue money back for order 4471", "label": "billing_refund"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "still waiting on a parcel that's overdue", "label": "shipping_delay"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "servers appear to be down globally", "label": "technical_outage"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "I need to send my tablet back for a refund", "label": "product_return"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "how to ship the blender back to you", "label": "product_return"}
+{"text": "sign-in refuses my details", "label": "account_login"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "the blender came damaged", "label": "product_defect"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "the page freezes midway through", "label": "technical_bug"}
+{"text": "I need to send my tablet back for a refund", "label": "product_return"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "sign-in refuses my details", "label": "account_login"}
+{"text": "which countries do you deliver to", "label": "general_inquiry"}
+{"text": "when will my slow delivery actually show up", "label": "shipping_delay"}
+{"text": "transaction gets rejected every time I check out", "label": "billing_payment_failure"}
+{"text": "how to ship the monitor back to you", "label": "product_return"}
+{"text": "the blender came damaged", "label": "product_defect"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "suggestion: support keyboard shortcuts", "label": "feature_request"}
+{"text": "transaction gets rejected every time I check out", "label": "billing_payment_failure"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "which countries do you deliver to", "label": "general_inquiry"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "the blender came damaged", "label": "product_defect"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "stuck on the login screen, won't let me in", "label": "account_login"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "carrier can't locate my consignment", "label": "shipping_lost"}
+{"text": "initiate a return for the blender please", "label": "product_return"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "the page freezes midway through", "label": "technical_bug"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "stuck on the login screen, won't let me in", "label": "account_login"}
+{"text": "my tablet is malfunctioning right away", "label": "product_defect"}
+{"text": "the page freezes midway through", "label": "technical_bug"}
+{"text": "servers appear to be down globally", "label": "technical_outage"}
+{"text": "which countries do you deliver to", "label": "general_inquiry"}
+{"text": "the kettle came damaged", "label": "product_defect"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "I need to send the blender back for a refund", "label": "product_return"}
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "when will my slow delivery actually show up", "label": "shipping_delay"}
+{"text": "the unit I received is faulty", "label": "product_defect"}
+{"text": "my tablet came damaged", "label": "product_defect"}
+{"text": "when will my slow delivery actually show up", "label": "shipping_delay"}
+{"text": "I need to send the router back for a refund", "label": "product_return"}
+{"text": "sign-in refuses my details", "label": "account_login"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "the unit I received is faulty", "label": "product_defect"}
+{"text": "suggestion: support keyboard shortcuts", "label": "feature_request"}
+{"text": "the kettle came damaged", "label": "product_defect"}
+{"text": "still waiting on a parcel that's overdue", "label": "shipping_delay"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "when will my slow delivery actually show up", "label": "shipping_delay"}
+{"text": "carrier can't locate my consignment", "label": "shipping_lost"}
+{"text": "the router came damaged", "label": "product_defect"}
+{"text": "I need to send the monitor back for a refund", "label": "product_return"}
+{"text": "would be nice to bulk-edit entries", "label": "feature_request"}
+{"text": "stuck on the login screen, won't let me in", "label": "account_login"}
+{"text": "the blender is malfunctioning right away", "label": "product_defect"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "I need to send the headset back for a refund", "label": "product_return"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "would be nice to bulk-edit entries", "label": "feature_request"}
+{"text": "initiate a return for the desk lamp please", "label": "product_return"}
+{"text": "I need to send the monitor back for a refund", "label": "product_return"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "would be nice to bulk-edit entries", "label": "feature_request"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "transaction gets rejected every time I check out", "label": "billing_payment_failure"}
+{"text": "the unit I received is faulty", "label": "product_defect"}
+{"text": "how to ship the kettle back to you", "label": "product_return"}
+{"text": "still waiting on a parcel that's overdue", "label": "shipping_delay"}
+{"text": "initiate a return for the blender please", "label": "product_return"}
+{"text": "servers appear to be down globally", "label": "technical_outage"}
+{"text": "help me change my passcode", "label": "account_password_reset"}
+{"text": "servers appear to be down globally", "label": "technical_outage"}
+{"text": "how to ship the router back to you", "label": "product_return"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "still waiting on a parcel that's overdue", "label": "shipping_delay"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "can you issue money back for order 4471", "label": "billing_refund"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "sign-in refuses my details", "label": "account_login"}
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "the router came damaged", "label": "product_defect"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "transaction gets rejected every time I check out", "label": "billing_payment_failure"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "clicking save produces a glitch", "label": "technical_bug"}
+{"text": "carrier can't locate my consignment", "label": "shipping_lost"}
+{"text": "the system won't accept my payment method", "label": "billing_payment_failure"}
+{"text": "the system won't accept my payment method", "label": "billing_payment_failure"}
+{"text": "which countries do you deliver to", "label": "general_inquiry"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "initiate a return for the headset please", "label": "product_return"}
+{"text": "the system won't accept my payment method", "label": "billing_payment_failure"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "transaction gets rejected every time I check out", "label": "billing_payment_failure"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "suggestion: support keyboard shortcuts", "label": "feature_request"}
+{"text": "the box vanished in transit", "label": "shipping_lost"}
+{"text": "can you issue money back for order 4471", "label": "billing_refund"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "the system won't accept my payment method", "label": "billing_payment_failure"}
+{"text": "how to ship the desk lamp back to you", "label": "product_return"}
+{"text": "carrier can't locate my consignment", "label": "shipping_lost"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "tracking says delivered yet nothing came", "label": "shipping_lost"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "I locked myself out and need a new password", "label": "account_password_reset"}
+{"text": "suggestion: support keyboard shortcuts", "label": "feature_request"}
+{"text": "nothing on your platform responds at all", "label": "technical_outage"}
+{"text": "can't get past authentication", "label": "account_login"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "the page freezes midway through", "label": "technical_bug"}
+{"text": "how to ship the desk lamp back to you", "label": "product_return"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "the kettle came damaged", "label": "product_defect"}
+{"text": "when will my slow delivery actually show up", "label": "shipping_delay"}
+{"text": "I need to send the desk lamp back for a refund", "label": "product_return"}
+{"text": "stuck on the login screen, won't let me in", "label": "account_login"}
+{"text": "the monitor is malfunctioning right away", "label": "product_defect"}
+{"text": "would be nice to bulk-edit entries", "label": "feature_request"}
+{"text": "would be nice to bulk-edit entries", "label": "feature_request"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "my tablet is malfunctioning right away", "label": "product_defect"}
+{"text": "my order's been in transit far too long", "label": "shipping_delay"}
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "sign-in refuses my details", "label": "account_login"}
+{"text": "which countries do you deliver to", "label": "general_inquiry"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "my visa bounces at the pay step", "label": "billing_payment_failure"}
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "I'd like my payment returned", "label": "billing_refund"}
+{"text": "how to ship the router back to you", "label": "product_return"}
+{"text": "something's broken in the dashboard", "label": "technical_bug"}
+{"text": "the unit I received is faulty", "label": "product_defect"}
+{"text": "transaction gets rejected every time I check out", "label": "billing_payment_failure"}
+{"text": "the system won't accept my payment method", "label": "billing_payment_failure"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "are you open on weekends", "label": "general_inquiry"}
+{"text": "the reset email never came, how do I set a password", "label": "account_password_reset"}
+{"text": "just a general question about your team", "label": "general_inquiry"}
+{"text": "help me change my passcode", "label": "account_password_reset"}
+{"text": "any chance of a scheduling option", "label": "feature_request"}
+{"text": "carrier can't locate my consignment", "label": "shipping_lost"}
+{"text": "kindly reverse the charge on my account", "label": "billing_refund"}
+{"text": "total blackout, the app is dead", "label": "technical_outage"}
+{"text": "would be nice to bulk-edit entries", "label": "feature_request"}
+{"text": "the router is malfunctioning right away", "label": "product_defect"}

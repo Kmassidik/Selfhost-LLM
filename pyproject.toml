@@ -1,0 +1,20 @@
+[project]
+name = "selfhostllm"
+version = "0.1.0"
+description = "Serving and training language models on three second-hand 8 GB GPUs"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "safetensors>=0.4",
+    "tokenizers>=0.20",
+    "transformers>=4.40",
+]
+
+# torch is deliberately NOT a dependency here. The CUDA build is ~3 GB and is
+# pinned to the driver on this machine, so it is installed explicitly:
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu128
+[project.optional-dependencies]
+gpu = ["torch>=2.8"]
+
+[tool.uv]
+package = false

@@ -1,0 +1,70 @@
+{
+ "model": "Qwen3.8-27B-Uncensored-Q4_K_M.gguf",
+ "cards": 3,
+ "when": "2026-09-14 18:58",
+ "prompts": [
+  {
+   "id": "short",
+   "in_tokens": 57,
+   "out_tokens": 28,
+   "ttft_ms": 1894.6,
+   "decode_tps": 305.0,
+   "prefill_tps": 30.0
+  }
+ ],
+ "concurrency": [
+  {
+   "n": 1,
+   "total_tps": 20.6,
+   "per_stream_tps": 20.6,
+   "tokens": 128,
+   "wall_s": 6.22
+  },
+  {
+   "n": 4,
+   "total_tps": 43.5,
+   "per_stream_tps": 10.9,
+   "tokens": 512,
+   "wall_s": 11.78
+  },
+  {
+   "n": 16,
+   "total_tps": 42.4,
+   "per_stream_tps": 2.6,
+   "tokens": 2048,
+   "wall_s": 48.35
+  }
+ ],
+ "gpus": [
+  {
+   "card": 0,
+   "peak_mb": 5583,
+   "util_mean": 28.8,
+   "util_max": 100
+  },
+  {
+   "card": 1,
+   "peak_mb": 5435,
+   "util_mean": 28.4,
+   "util_max": 100
+  },
+  {
+   "card": 2,
+   "peak_mb": 6125,
+   "util_mean": 31.2,
+   "util_max": 100
+  }
+ ],
+ "bottleneck": {
+  "reads_per_token": "16.81 GB",
+  "achieved_gbps": "5127",
+  "roof_gbps": 1344.0,
+  "pct_of_roof": 381.5,
+  "card": "3060 Ti",
+  "verdict": "Memory bandwidth. The cards are reading weights about as fast as the memory allows; a faster card, not better code, is what would move this.",
+  "notes": [],
+  "active_b": 23.42,
+  "total_b": 23.42,
+  "util_spread": 2.8
+ }
+}

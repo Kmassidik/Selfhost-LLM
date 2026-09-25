@@ -1,0 +1,11 @@
+{
+ "params": 361821120,
+ "bytes_per_param": 16.51175077894845,
+ "tok_per_s": 1059.2222755416265,
+ "stages_mb": {
+  "weights": 1452.053504,
+  "activations": 283.786752,
+  "gradients": 1313.661952,
+  "optimizer": 2924.797952
+ }
+}

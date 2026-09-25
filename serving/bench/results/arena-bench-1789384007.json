@@ -1,0 +1,92 @@
+{
+ "model": "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
+ "cards": 1,
+ "when": "2026-09-14 18:06",
+ "prompts": [
+  {
+   "id": "short",
+   "in_tokens": 15,
+   "out_tokens": 8,
+   "ttft_ms": 39.5,
+   "decode_tps": 76.8,
+   "prefill_tps": 379.0
+  },
+  {
+   "id": "medium",
+   "in_tokens": 29,
+   "out_tokens": 87,
+   "ttft_ms": 37.3,
+   "decode_tps": 73.6,
+   "prefill_tps": 777.0
+  },
+  {
+   "id": "longctx",
+   "in_tokens": 3250,
+   "out_tokens": 3,
+   "ttft_ms": 373.8,
+   "decode_tps": 79.1,
+   "prefill_tps": 8696.0
+  },
+  {
+   "id": "code",
+   "in_tokens": 33,
+   "out_tokens": 105,
+   "ttft_ms": 40.5,
+   "decode_tps": 73.3,
+   "prefill_tps": 816.0
+  }
+ ],
+ "concurrency": [
+  {
+   "n": 1,
+   "total_tps": 65.1,
+   "per_stream_tps": 65.1,
+   "tokens": 18,
+   "wall_s": 0.28
+  },
+  {
+   "n": 4,
+   "total_tps": 158.9,
+   "per_stream_tps": 39.7,
+   "tokens": 69,
+   "wall_s": 0.43
+  },
+  {
+   "n": 16,
+   "total_tps": 167.2,
+   "per_stream_tps": 10.5,
+   "tokens": 271,
+   "wall_s": 1.62
+  }
+ ],
+ "gpus": [
+  {
+   "card": 0,
+   "peak_mb": 5275,
+   "util_mean": 80.4,
+   "util_max": 100
+  },
+  {
+   "card": 1,
+   "peak_mb": 15,
+   "util_mean": 0.0,
+   "util_max": 0
+  },
+  {
+   "card": 2,
+   "peak_mb": 15,
+   "util_mean": 0.0,
+   "util_max": 0
+  }
+ ],
+ "bottleneck": {
+  "reads_per_token": "4.9 GB",
+  "achieved_gbps": "388",
+  "roof_gbps": 448.0,
+  "pct_of_roof": 86.5,
+  "card": "3060 Ti",
+  "verdict": "Memory bandwidth. The cards are reading weights about as fast as the memory allows; a faster card, not a smaller model, is what would move this.",
+  "notes": [],
+  "util_spread": 80.4
+ }
+}

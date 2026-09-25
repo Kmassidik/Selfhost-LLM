@@ -1,0 +1,27 @@
+READY after 3s
+--- devices llama.cpp reports ---
+--- GPU after load ---
+0, 1969 MiB, 0 %
+1, 1943 MiB, 0 %
+2, 1945 MiB, 0 %
+L1 llama.cpp 3-card tensor
+  endpoint http://10.0.0.20:8080/v1
+  model    llama-3-8b-q4km
+  run id   L1-llama-3-8b-q4km-1789353237
+
+  short     ttft    19.2 ms     87.2 tok/s      8 tok (engine)   hash ca4d29067163397c
+  medium    ttft    38.9 ms     81.6 tok/s     87 tok (engine)   hash 0cdf46ed0e09b47a
+  longctx   ttft    30.6 ms    112.2 tok/s      3 tok (engine)   hash ec2d191680171ca9
+  code      ttft    46.2 ms     81.4 tok/s    119 tok (engine)   hash bf995d19d7e2eb32
+
+  concurrency 1       79.0 tok/s total     79.0 per stream   (87 tokens in 1.10s)
+  concurrency 4      189.5 tok/s total     47.4 per stream   (339 tokens in 1.79s)
+  concurrency 16     153.0 tok/s total      9.6 per stream   (1293 tokens in 8.45s)
+
+  peak VRAM per card : {0: 1999, 1: 1975, 2: 1977}  (on the graphics card)
+  peak system RAM    : 1,273 MB  (host memory, engine process tree)
+  -> /root/Desktop/selfhostllm/bench/results/L1-llama-3-8b-q4km-1789353237.json
+--- GPU during run ---
+card 0: peak  1999 MiB | max util  55% | mean util  43.2% | samples>5% util: 42/49
+card 1: peak  1975 MiB | max util  48% | mean util  36.5% | samples>5% util: 45/49
+card 2: peak  1977 MiB | max util  47% | mean util  36.6% | samples>5% util: 43/49

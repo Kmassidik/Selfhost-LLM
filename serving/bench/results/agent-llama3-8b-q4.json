@@ -1,0 +1,47 @@
+{
+ "label": "llama3-8b-q4",
+ "n": 4,
+ "solved": 4,
+ "rows": [
+  {
+   "solved": true,
+   "steps": 5,
+   "sent": 1507,
+   "out": 59,
+   "wall": 1.0658979311119765,
+   "tested": true,
+   "why": "test passed",
+   "task": "t1_offbyone"
+  },
+  {
+   "solved": true,
+   "steps": 4,
+   "sent": 1344,
+   "out": 81,
+   "wall": 1.3023425380815752,
+   "tested": true,
+   "why": "test passed",
+   "task": "t2_bytes"
+  },
+  {
+   "solved": true,
+   "steps": 4,
+   "sent": 1122,
+   "out": 72,
+   "wall": 1.1482046449673362,
+   "tested": true,
+   "why": "test passed",
+   "task": "t3_empty"
+  },
+  {
+   "solved": true,
+   "steps": 5,
+   "sent": 1620,
+   "out": 45,
+   "wall": 0.8182658579898998,
+   "tested": true,
+   "why": "test passed",
+   "task": "t4_twofiles"
+  }
+ ]
+}

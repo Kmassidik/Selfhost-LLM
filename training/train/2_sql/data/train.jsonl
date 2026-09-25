@@ -1,0 +1,1500 @@
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "number of orders from Aiko Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Cole'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count the orders by Nadia Vega", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Vega'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many orders did Priya Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Priya Sato'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "orders with total greater than 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "average stationery price", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which furniture products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 300"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "average electronics price", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "how many customers are from DE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "what is the average price of electronics products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "count the orders by Dev Khan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Khan'"}
+{"q": "how many orders have a total above 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "average furniture price", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "average furniture price", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "number of orders from Yuki Petrov", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Petrov'"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "which customers are based in Rome? names only", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which customers are based in Rome? names only", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "average stationery price", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "orders with total greater than 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "count customers in country AT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "which garden products cost less than 200? names", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 200"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "average stationery price", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "orders with total greater than 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "average stationery price", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "mean price in stationery", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "which customers are based in Lisbon? names only", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "which customers are based in Lisbon? names only", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "list the names of customers in Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "number of orders from Nadia Vega", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Vega'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which customers are based in Paris? names only", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "mean price in furniture", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "count the orders by Gita Tan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Gita Tan'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the average price of furniture products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "names of customers from Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count the paid orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "which customers are based in Paris? names only", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "count the orders by Marcus Aziz", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Aziz'"}
+{"q": "count customers in country FR", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "sum the totals of paid orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count the orders by Aiko Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Cole'"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "which garden products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 100"}
+{"q": "which stationery products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 300"}
+{"q": "which kitchen products cost less than 500? names", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 500"}
+{"q": "number of orders with status paid", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "number of orders from Marcus Aziz", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Aziz'"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "number of orders from Sofia Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sofia Cole'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "which customers are based in Vienna? names only", "sql": "SELECT name FROM customers WHERE city = 'Vienna'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "how many orders did Nadia Ng place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Ng'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list the names of customers in Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "average furniture price", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which customers are based in Rome? names only", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "list the names of customers in Rome", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "names of furniture products under 50", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "which customers are based in Madrid? names only", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "names of customers from Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "how many customers are from ES?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "what is the average price of furniture products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "number of orders from Marcus Aziz", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Aziz'"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "list garden products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 100"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many orders did Yuki Vega place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Vega'"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "count customers in country IE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "which electronics products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 100"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "average furniture price", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count customers in country AT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "number of orders with status pending", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "names of customers from Munich", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "number of orders from Aiko Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Cole'"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "which customers are based in Berlin? names only", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "names of customers from Paris", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "which customers are based in Paris? names only", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "names of electronics products under 50", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 50"}
+{"q": "how many customers are from AT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "names of electronics products under 200", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 200"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "count customers in country DE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "how many customers are from FR?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "list the names of customers in Berlin", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "how many orders did Esra Roy place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Esra Roy'"}
+{"q": "list stationery products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 50"}
+{"q": "how many customers are from ES?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "how many orders did Gita Tan place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Gita Tan'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which kitchen products cost less than 50? names", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 50"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which stationery products cost less than 200? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 200"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders did Jonas Marin place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Jonas Marin'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count the orders by Yuki Patel", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Patel'"}
+{"q": "mean price in furniture", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many customers are from FR?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "what is the average price of furniture products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "count the orders by Esra Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Esra Roy'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "what is the average price of electronics products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "how many customers are from DE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Yuki Patel place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Patel'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "average garden price", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "which customers are based in Paris? names only", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "list garden products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 50"}
+{"q": "how many customers are from ES?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count the orders by Omar Khan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Omar Khan'"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "list the names of customers in Berlin", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "what is the average price of garden products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "how many orders did Marcus Frey place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Frey'"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "list electronics products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 100"}
+{"q": "count the pending orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "count the orders by Ben Frey", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ben Frey'"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country IE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "how many orders did Yuki Voss place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Voss'"}
+{"q": "list garden products cheaper than 500", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 500"}
+{"q": "number of orders from Bruno Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Bruno Roy'"}
+{"q": "list electronics products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 300"}
+{"q": "which furniture products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 100"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders have a total above 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many customers are from AT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "count customers in country AT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "list the names of customers in Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "average electronics price", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count customers in country DE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "list the names of customers in Paris", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "count the pending orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "which stationery products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 100"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many customers are from AT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "number of orders from Ines Voss", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Voss'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "which customers are based in Vienna? names only", "sql": "SELECT name FROM customers WHERE city = 'Vienna'"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "orders with total greater than 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "list kitchen products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 100"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "count the orders by Aiko Lim", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Lim'"}
+{"q": "how many customers are from ES?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "names of garden products under 100", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 100"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "count the orders by Yuki Voss", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Voss'"}
+{"q": "names of garden products under 300", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 300"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "number of orders from Nadia Ng", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Ng'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which electronics products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 100"}
+{"q": "how many orders have a total above 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "mean price in stationery", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "average stationery price", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "mean price in garden", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count customers in country FR", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which customers are based in Madrid? names only", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "count the orders by Sam Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sam Marin'"}
+{"q": "which electronics products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 300"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "which customers are based in Lyon? names only", "sql": "SELECT name FROM customers WHERE city = 'Lyon'"}
+{"q": "names of customers from Munich", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Sam Marin place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sam Marin'"}
+{"q": "names of customers from Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "list the names of customers in Munich", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "list the names of customers in Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "list furniture products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "count the paid orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "number of orders from Ben Park", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ben Park'"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "number of orders with status paid", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders did Nadia Ng place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Ng'"}
+{"q": "how many orders have a total above 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "how many orders have a total above 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "names of furniture products under 300", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 300"}
+{"q": "count customers in country PT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "how many orders did Dev Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Sato'"}
+{"q": "list garden products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 50"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "which customers are based in Lyon? names only", "sql": "SELECT name FROM customers WHERE city = 'Lyon'"}
+{"q": "which customers are based in Oslo? names only", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "names of electronics products under 200", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 200"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "revenue from orders that are paid", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the average price of garden products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "list kitchen products cheaper than 500", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 500"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum the totals of paid orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "count orders over 500", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "names of garden products under 50", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 50"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "average garden price", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "how many orders did Dev Khan place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Khan'"}
+{"q": "list kitchen products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 300"}
+{"q": "names of furniture products under 200", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 200"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "which customers are based in Madrid? names only", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "number of orders from Jonas Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Jonas Marin'"}
+{"q": "how many orders did Zoe Osei place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Zoe Osei'"}
+{"q": "average electronics price", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "list furniture products cheaper than 200", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 200"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "list stationery products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 100"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "count the orders by Aiko Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Cole'"}
+{"q": "number of orders from Omar Khan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Omar Khan'"}
+{"q": "average electronics price", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country PT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders did Bruno Roy place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Bruno Roy'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "list the names of customers in Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "names of customers from Vienna", "sql": "SELECT name FROM customers WHERE city = 'Vienna'"}
+{"q": "count the paid orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "what is the average price of furniture products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "names of garden products under 300", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 300"}
+{"q": "count the orders by Jonas Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Jonas Marin'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "how many customers are from AT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "list garden products cheaper than 500", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 500"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "number of orders with status pending", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "list the names of customers in Paris", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "list stationery products cheaper than 200", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 200"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many customers are from IT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count orders over 500", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count customers in country FR", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "count the paid orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count the orders by Nadia Ng", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Ng'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "names of stationery products under 200", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 200"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "which stationery products cost less than 500? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 500"}
+{"q": "orders with total greater than 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders did Marcus Marin place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Marin'"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "which stationery products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 100"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "names of customers from Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "count customers in country DE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "list the names of customers in Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which customers are based in Munich? names only", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "names of kitchen products under 200", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 200"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country DE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count the orders by Hans Aziz", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Hans Aziz'"}
+{"q": "how many orders did Jonas Marin place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Jonas Marin'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "number of orders with status paid", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "average furniture price", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "count orders over 500", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "orders with total greater than 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "which customers are based in Berlin? names only", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "how many orders did Dev Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Sato'"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country FR", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Elise Blum place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Elise Blum'"}
+{"q": "number of orders from Sam Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sam Marin'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "count the orders by Jonas Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Jonas Marin'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "list the names of customers in Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count the orders by Marcus Frey", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Frey'"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "list electronics products cheaper than 500", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 500"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "orders with total greater than 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what is the average price of furniture products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "list garden products cheaper than 500", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 500"}
+{"q": "list the names of customers in Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "number of orders from Nadia Patel", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Patel'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count the orders by Nadia Ng", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Ng'"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "names of customers from Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "count the orders by Bruno Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Bruno Roy'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which furniture products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 100"}
+{"q": "which customers are based in Oslo? names only", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "names of garden products under 500", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 500"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "which customers are based in Rome? names only", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "how many orders did Priya Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Priya Sato'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "mean price in stationery", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "which customers are based in Paris? names only", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "names of customers from Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "names of furniture products under 300", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 300"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "list stationery products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 300"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "what is the average price of furniture products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "which furniture products cost less than 500? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 500"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country DE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which garden products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 100"}
+{"q": "names of customers from Lyon", "sql": "SELECT name FROM customers WHERE city = 'Lyon'"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "count customers in country FR", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "count the orders by Dev Khan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Khan'"}
+{"q": "which customers are based in Munich? names only", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "revenue from orders that are paid", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "list kitchen products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 300"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "list the names of customers in Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "orders with total greater than 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "number of orders with status paid", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list the names of customers in Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "how many customers are from IT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "which furniture products cost less than 500? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 500"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list stationery products cheaper than 500", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 500"}
+{"q": "which customers are based in Dublin? names only", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "which electronics products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 300"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country PT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "how many orders did Priya Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Priya Sato'"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "which kitchen products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 100"}
+{"q": "which customers are based in Munich? names only", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "count the paid orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "list the names of customers in Munich", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "what is the average price of furniture products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "list furniture products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 100"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count customers in country IT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "names of customers from Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Hans Aziz place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Hans Aziz'"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "number of orders with status pending", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "names of stationery products under 50", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 50"}
+{"q": "how many orders did Nadia Lowe place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Lowe'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which customers are based in Madrid? names only", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "mean price in furniture", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "which electronics products cost less than 200? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 200"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "number of orders from Jonas Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Jonas Marin'"}
+{"q": "how many orders did Yuki Marin place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Marin'"}
+{"q": "names of customers from Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "count the orders by Ines Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Roy'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "orders with total greater than 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count the orders by Elise Blum", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Elise Blum'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "list stationery products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 300"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many customers are from FR?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "list the names of customers in Lyon", "sql": "SELECT name FROM customers WHERE city = 'Lyon'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "how many orders did Aiko Cole place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Cole'"}
+{"q": "which electronics products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 300"}
+{"q": "names of electronics products under 500", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 500"}
+{"q": "how many orders did Ben Frey place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ben Frey'"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "count the orders by Bruno Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Bruno Marin'"}
+{"q": "mean price in garden", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "mean price in stationery", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "which stationery products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 300"}
+{"q": "how many customers are from FR?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "list the names of customers in Paris", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "names of electronics products under 300", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 300"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "mean price in garden", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "names of customers from Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "count customers in country FR", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "names of furniture products under 200", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 200"}
+{"q": "number of orders with status cancelled", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "list stationery products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 100"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "average garden price", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "which electronics products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 300"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Ines Lowe place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Lowe'"}
+{"q": "revenue from orders that are paid", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "sum the totals of paid orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "list stationery products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 300"}
+{"q": "what is the average price of garden products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "count orders over 500", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "count the orders by Aiko Blum", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Blum'"}
+{"q": "count customers in country AT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "how many orders have a total above 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "list garden products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 100"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "names of kitchen products under 500", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 500"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "number of orders with status cancelled", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "names of kitchen products under 100", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 100"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which customers are based in Dublin? names only", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "list electronics products cheaper than 200", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 200"}
+{"q": "how many orders did Marcus Aziz place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Aziz'"}
+{"q": "how many orders have a total above 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "names of kitchen products under 500", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 500"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count the orders by Marcus Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Marin'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "count the orders by Aiko Blum", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Blum'"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "number of orders from Omar Khan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Omar Khan'"}
+{"q": "number of orders from Zoe Osei", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Zoe Osei'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "names of customers from Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "which customers are based in Munich? names only", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "average garden price", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "names of customers from Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "count customers in country PT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "which customers are based in Munich? names only", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "number of orders with status cancelled", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "names of customers from Paris", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "number of orders with status pending", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "which electronics products cost less than 500? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 500"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "names of customers from Vienna", "sql": "SELECT name FROM customers WHERE city = 'Vienna'"}
+{"q": "mean price in stationery", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list kitchen products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 300"}
+{"q": "how many customers are from FR?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "revenue from orders that are paid", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "names of stationery products under 100", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 100"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "which furniture products cost less than 50? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "list the names of customers in Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "names of stationery products under 200", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 200"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count the orders by Jonas Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Jonas Marin'"}
+{"q": "how many orders did Omar Khan place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Omar Khan'"}
+{"q": "which customers are based in Madrid? names only", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "count the orders by Yuki Voss", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Voss'"}
+{"q": "list the names of customers in Rome", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "number of orders from Ben Frey", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ben Frey'"}
+{"q": "what is the average price of garden products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "average stationery price", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "list garden products cheaper than 500", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 500"}
+{"q": "sum the totals of paid orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "number of orders from Marcus Frey", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Frey'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "number of orders from Aiko Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Cole'"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "mean price in furniture", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "orders with total greater than 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "count the orders by Hans Aziz", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Hans Aziz'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "count customers in country PT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "count the orders by Yuki Patel", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Patel'"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "count the orders by Yuki Vega", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Vega'"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "what is the average price of garden products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "how many orders did Priya Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Priya Sato'"}
+{"q": "which furniture products cost less than 50? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "how many orders have a total above 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "sum the totals of paid orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "how many orders have a total above 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "count the orders by Ines Voss", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Voss'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country DE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "names of kitchen products under 200", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 200"}
+{"q": "number of orders with status cancelled", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "which customers are based in Berlin? names only", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "names of stationery products under 100", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 100"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders did Aiko Cole place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Aiko Cole'"}
+{"q": "mean price in furniture", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count customers in country IE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "number of orders from Sofia Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sofia Cole'"}
+{"q": "what is the total revenue from refunded orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "list the names of customers in Rome", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which furniture products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 100"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "list the names of customers in Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "number of orders from Omar Khan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Omar Khan'"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "average furniture price", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "number of orders from Omar Khan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Omar Khan'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list stationery products cheaper than 200", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 200"}
+{"q": "how many orders did Nadia Lowe place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Lowe'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "number of orders from Dev Sato", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Sato'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many orders did Esra Roy place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Esra Roy'"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "number of orders with status pending", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "names of customers from Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list the names of customers in Munich", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "list stationery products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 50"}
+{"q": "names of customers from Lyon", "sql": "SELECT name FROM customers WHERE city = 'Lyon'"}
+{"q": "number of orders from Hans Aziz", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Hans Aziz'"}
+{"q": "names of electronics products under 100", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 100"}
+{"q": "list the names of customers in Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count customers in country PT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "which customers are based in Lyon? names only", "sql": "SELECT name FROM customers WHERE city = 'Lyon'"}
+{"q": "how many orders did Jonas Marin place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Jonas Marin'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "names of customers from Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "names of customers from Paris", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "names of furniture products under 50", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "how many orders have a total above 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "which customers are based in Vienna? names only", "sql": "SELECT name FROM customers WHERE city = 'Vienna'"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list garden products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 50"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count customers in country AT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "average electronics price", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "average garden price", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "how many orders have a total above 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "count the orders by Yuki Vega", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Vega'"}
+{"q": "names of customers from Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country IE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "list the names of customers in Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "how many orders did Nadia Vega place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Vega'"}
+{"q": "number of orders from Ines Lowe", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Lowe'"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "which electronics products cost less than 500? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 500"}
+{"q": "number of orders from Yuki Petrov", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Petrov'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "which customers are based in Munich? names only", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "count the paid orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "which stationery products cost less than 50? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 50"}
+{"q": "names of electronics products under 500", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 500"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "which electronics products cost less than 500? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 500"}
+{"q": "how many orders have a total above 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "count the orders by Yuki Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Marin'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "count customers in country PT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders have a total above 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "number of orders with status pending", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which customers are based in Paris? names only", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "number of orders with status paid", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "which customers are based in Oslo? names only", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "sum the totals of paid orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "count the orders by Omar Khan", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Omar Khan'"}
+{"q": "which kitchen products cost less than 50? names", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 50"}
+{"q": "list the names of customers in Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "orders with total greater than 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "number of orders with status paid", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list furniture products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "which garden products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 300"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many customers are from ES?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "names of stationery products under 200", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 200"}
+{"q": "which stationery products cost less than 50? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 50"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count the orders by Bruno Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Bruno Roy'"}
+{"q": "how many orders did Ben Frey place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ben Frey'"}
+{"q": "how many orders have a total above 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the average price of electronics products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "names of electronics products under 100", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 100"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "count the orders by Bruno Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Bruno Roy'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "mean price in furniture", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "orders with total greater than 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "list kitchen products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 100"}
+{"q": "revenue from orders that are paid", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "names of customers from Berlin", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "which furniture products cost less than 300? names", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 300"}
+{"q": "average furniture price", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "count customers in country IT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "list kitchen products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 300"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "names of kitchen products under 200", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 200"}
+{"q": "list the names of customers in Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "count the orders by Esra Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Esra Roy'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count orders over 500", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "mean price in garden", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which customers are based in Munich? names only", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "list the names of customers in Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "count customers in country DE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "names of customers from Munich", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "how many orders did Elise Blum place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Elise Blum'"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "list electronics products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 50"}
+{"q": "orders with total greater than 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "count the pending orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "orders with total greater than 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "how many orders did Yuki Vega place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Vega'"}
+{"q": "which customers are based in Rome? names only", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "number of orders with status cancelled", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "which garden products cost less than 200? names", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 200"}
+{"q": "list furniture products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "list electronics products cheaper than 200", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 200"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "names of customers from Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which customers are based in Berlin? names only", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "count the pending orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list the names of customers in Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "average electronics price", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count the orders by Hans Aziz", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Hans Aziz'"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "number of orders with status pending", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "number of orders with status paid", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many customers are from IT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "count customers in country AT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders did Hans Aziz place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Hans Aziz'"}
+{"q": "how many orders did Yuki Voss place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Voss'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "which stationery products cost less than 200? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 200"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "number of orders from Ines Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Roy'"}
+{"q": "count customers in country FR", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "which electronics products cost less than 200? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 200"}
+{"q": "orders with total greater than 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "mean price in electronics", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "names of customers from Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "list furniture products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Priya Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Priya Sato'"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "number of orders from Bruno Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Bruno Marin'"}
+{"q": "count orders over 500", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "count orders over 500", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "count the paid orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "list electronics products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 300"}
+{"q": "count the orders by Nadia Vega", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Vega'"}
+{"q": "how many customers are from PT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'PT'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "names of furniture products under 500", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 500"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "average electronics price", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many customers are from IT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "sum the totals of refunded orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "revenue from orders that are paid", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "list the names of customers in Berlin", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "list stationery products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 50"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders did Marcus Aziz place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Marcus Aziz'"}
+{"q": "which electronics products cost less than 50? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 50"}
+{"q": "list the names of customers in Paris", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "count customers in country IT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "orders with total greater than 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "count customers in country IT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "number of orders from Nadia Ng", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Nadia Ng'"}
+{"q": "how many customers are from FR?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "number of orders from Carmen Park", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Carmen Park'"}
+{"q": "count customers in country IT", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "how many orders did Elise Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Elise Sato'"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders did Esra Roy place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Esra Roy'"}
+{"q": "how many orders have a total above 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "mean price in garden", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "number of orders from Carmen Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Carmen Marin'"}
+{"q": "revenue from orders that are cancelled", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "count orders over 300", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "what is the average price of electronics products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list the names of customers in Dublin", "sql": "SELECT name FROM customers WHERE city = 'Dublin'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "which customers are based in Paris? names only", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "names of customers from Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "what is the average price of electronics products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "which 3 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "mean price in stationery", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "mean price in kitchen", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "how many customers are from IT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "which stationery products cost less than 100? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 100"}
+{"q": "number of orders from Yuki Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Yuki Marin'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "orders with total greater than 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "how many orders did Bruno Marin place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Bruno Marin'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "name the 5 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count customers in country FR", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "list furniture products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 50"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "average stationery price", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many customers are from FR?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "revenue from orders that are refunded", "sql": "SELECT SUM(total) FROM orders WHERE status = 'refunded'"}
+{"q": "count customers in country IE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "names of furniture products under 100", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 100"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "list kitchen products cheaper than 50", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 50"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders did Dev Khan place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Khan'"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count the refunded orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "average garden price", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what is the average price of electronics products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "how many cancelled orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count customers in country NO", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "how many customers are from DE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "how many customers are from IT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IT'"}
+{"q": "how many customers are from AT?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'AT'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "which 5 products are priced highest? names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "list furniture products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'furniture' AND price < 300"}
+{"q": "how many customers are from DE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "count the orders by Sam Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sam Marin'"}
+{"q": "count customers in country IE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "list the names of customers in Vienna", "sql": "SELECT name FROM customers WHERE city = 'Vienna'"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which customers are based in Lisbon? names only", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "names of garden products under 300", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 300"}
+{"q": "how many orders did Ines Lowe place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Lowe'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count customers in country IE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "list the names of customers in Rome", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "names of stationery products under 300", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 300"}
+{"q": "how many customers are from NO?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'NO'"}
+{"q": "how many orders have a total above 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "orders with total greater than 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "mean price in garden", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "which electronics products cost less than 500? names", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 500"}
+{"q": "what is the average price of stationery products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'stationery'"}
+{"q": "what is the average price of kitchen products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "what is the average price of electronics products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Dev Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Sato'"}
+{"q": "how many pending orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "number of orders with status cancelled", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "orders with total greater than 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "average kitchen price", "sql": "SELECT AVG(price) FROM products WHERE category = 'kitchen'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "list garden products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'garden' AND price < 100"}
+{"q": "number of orders with status pending", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'pending'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "count the orders by Ines Roy", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Roy'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "names of kitchen products under 50", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 50"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what is the total revenue from pending orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "names of customers from Rome", "sql": "SELECT name FROM customers WHERE city = 'Rome'"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "what is the average price of electronics products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'electronics'"}
+{"q": "how many customers are from FR?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'FR'"}
+{"q": "which customers are based in Berlin? names only", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "orders with total greater than 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "number of orders from Zoe Osei", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Zoe Osei'"}
+{"q": "average furniture price", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "names of kitchen products under 200", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 200"}
+{"q": "how many orders did Dev Khan place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Dev Khan'"}
+{"q": "list the names of customers in Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "count orders over 2000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "how many customers are from IE?", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'IE'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "number of orders with status refunded", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "how many paid orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'paid'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "which kitchen products cost less than 200? names", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 200"}
+{"q": "which customers are based in Lyon? names only", "sql": "SELECT name FROM customers WHERE city = 'Lyon'"}
+{"q": "number of orders from Sofia Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sofia Cole'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "names of customers from Madrid", "sql": "SELECT name FROM customers WHERE city = 'Madrid'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "sum of all order totals", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "count orders over 1000", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "list kitchen products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'kitchen' AND price < 100"}
+{"q": "how many orders have a total above 2000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 2000"}
+{"q": "sum the totals of cancelled orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "number of orders from Ines Lowe", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ines Lowe'"}
+{"q": "list the names of customers in Lyon", "sql": "SELECT name FROM customers WHERE city = 'Lyon'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "orders with total greater than 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "what is the average price of garden products?", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "count the orders by Sam Marin", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sam Marin'"}
+{"q": "what is the total number of orders?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "top 3 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "sum the totals of pending orders", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "mean price in garden", "sql": "SELECT AVG(price) FROM products WHERE category = 'garden'"}
+{"q": "names of customers from Vienna", "sql": "SELECT name FROM customers WHERE city = 'Vienna'"}
+{"q": "list all distinct cities customers are from", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Elise Sato place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Elise Sato'"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}
+{"q": "what is the total revenue across all orders?", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "what is the total revenue from cancelled orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'cancelled'"}
+{"q": "list stationery products cheaper than 100", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 100"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "orders with total greater than 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "names of customers from Munich", "sql": "SELECT name FROM customers WHERE city = 'Munich'"}
+{"q": "number of orders from Sofia Cole", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sofia Cole'"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "count the orders by Ben Park", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Ben Park'"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "mean price in furniture", "sql": "SELECT AVG(price) FROM products WHERE category = 'furniture'"}
+{"q": "which stationery products cost less than 200? names", "sql": "SELECT name FROM products WHERE category = 'stationery' AND price < 200"}
+{"q": "list electronics products cheaper than 300", "sql": "SELECT name FROM products WHERE category = 'electronics' AND price < 300"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders did Sam Marin place?", "sql": "SELECT COUNT(*) FROM orders JOIN customers ON orders.customer_id = customers.id WHERE customers.name = 'Sam Marin'"}
+{"q": "how many refunded orders are there?", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'refunded'"}
+{"q": "list the names of customers in Paris", "sql": "SELECT name FROM customers WHERE city = 'Paris'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "how many orders have a total above 300?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 300"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "list the names of customers in Berlin", "sql": "SELECT name FROM customers WHERE city = 'Berlin'"}
+{"q": "names of customers from Oslo", "sql": "SELECT name FROM customers WHERE city = 'Oslo'"}
+{"q": "how many orders have a total above 1000?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 1000"}
+{"q": "count customers in country DE", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'DE'"}
+{"q": "orders with total greater than 500?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 500"}
+{"q": "how many orders have a total above 100?", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "revenue from orders that are pending", "sql": "SELECT SUM(total) FROM orders WHERE status = 'pending'"}
+{"q": "count orders over 100", "sql": "SELECT COUNT(*) FROM orders WHERE total > 100"}
+{"q": "what is the total revenue from paid orders?", "sql": "SELECT SUM(total) FROM orders WHERE status = 'paid'"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "unique customer cities", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "name the 3 most expensive products", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 3"}
+{"q": "top 5 products by price, names", "sql": "SELECT name FROM products ORDER BY price DESC LIMIT 5"}
+{"q": "count all orders", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "how many orders are there in total?", "sql": "SELECT COUNT(*) FROM orders"}
+{"q": "count customers in country ES", "sql": "SELECT COUNT(*) FROM customers WHERE country = 'ES'"}
+{"q": "total revenue overall", "sql": "SELECT SUM(total) FROM orders"}
+{"q": "names of customers from Lisbon", "sql": "SELECT name FROM customers WHERE city = 'Lisbon'"}
+{"q": "what cities do customers live in?", "sql": "SELECT DISTINCT city FROM customers"}
+{"q": "count the cancelled orders", "sql": "SELECT COUNT(*) FROM orders WHERE status = 'cancelled'"}

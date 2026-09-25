@@ -1,0 +1,97 @@
+{
+  "run_id": "L1-llama-3-8b-q4km-1789352959",
+  "label": "L1 llama.cpp 3-card layer",
+  "level": "L1",
+  "model": "llama-3-8b-q4km",
+  "quant": "Q4_K_M",
+  "endpoint": "http://10.0.0.20:8080/v1",
+  "note": "llama.cpp -sm layer, layer, 3x RTX 3060 Ti box",
+  "prompt_set_version": 1,
+  "temperature": 0.0,
+  "started": "2026-09-14T09:29:19",
+  "prompts": {
+    "short": {
+      "ttft_ms": 19.82,
+      "total_s": 0.062,
+      "decode_s": 0.042,
+      "out_tokens": 4,
+      "in_tokens": 15,
+      "token_source": "engine",
+      "decode_tps": 95.9,
+      "prefill_tps": 756.9,
+      "prompt_chars": 23,
+      "output_sha256": "f1c76c8f7335bde8",
+      "output_head": "Tokyo!",
+      "repeats": 3
+    },
+    "medium": {
+      "ttft_ms": 34.65,
+      "total_s": 1.077,
+      "decode_s": 1.041,
+      "out_tokens": 78,
+      "in_tokens": 29,
+      "token_source": "engine",
+      "decode_tps": 74.9,
+      "prefill_tps": 836.9,
+      "prompt_chars": 101,
+      "output_sha256": "e658c3c2cc6de298",
+      "output_head": "Reading a model's weights from memory is slower than multiplying them because it requires accessing and retrieving the w",
+      "repeats": 3
+    },
+    "longctx": {
+      "ttft_ms": 32.07,
+      "total_s": 0.06,
+      "decode_s": 0.028,
+      "out_tokens": 3,
+      "in_tokens": 2060,
+      "token_source": "engine",
+      "decode_tps": 106.2,
+      "prefill_tps": 64228.2,
+      "prompt_chars": 11438,
+      "output_sha256": "ec2d191680171ca9",
+      "output_head": "Tokyo",
+      "repeats": 3
+    },
+    "code": {
+      "ttft_ms": 40.83,
+      "total_s": 1.285,
+      "decode_s": 1.244,
+      "out_tokens": 93,
+      "in_tokens": 33,
+      "token_source": "engine",
+      "decode_tps": 74.8,
+      "prefill_tps": 808.1,
+      "prompt_chars": 114,
+      "output_sha256": "cb3aae81a631ef3a",
+      "output_head": "```\nimport struct\n\ndef get_total_parameter_count(file_path):\n    with open(file_path, 'rb') as f:\n        magic = f.read",
+      "repeats": 3
+    }
+  },
+  "concurrency": {
+    "1": {
+      "wall_s": 1.069,
+      "total_tps": 72.9,
+      "per_stream_tps": 72.9,
+      "tokens": 78
+    },
+    "4": {
+      "wall_s": 1.749,
+      "total_tps": 188.7,
+      "per_stream_tps": 47.2,
+      "tokens": 330
+    },
+    "16": {
+      "wall_s": 7.566,
+      "total_tps": 174.2,
+      "per_stream_tps": 10.9,
+      "tokens": 1318
+    }
+  },
+  "vram_peak_mb": {
+    "0": 1919,
+    "1": 1869,
+    "2": 2179
+  },
+  "host_rss_peak_mb": 1219,
+  "finished": "2026-09-14T09:29:38"
+}

@@ -1,0 +1,459 @@
+{"q": "What is the size of one Llama-3-8B layer?", "a": "231 MB", "doc": "11-llamacpp.html"}
+{"q": "How much video memory is available?", "a": "8,192 MB", "doc": "10-ollama.html"}
+{"q": "How fast can each card read its memory?", "a": "448 gigabytes per second.", "doc": "06-the-box.html"}
+{"q": "How many graphics cards does the box have?", "a": "Three", "doc": "09-what-an-engine-does.html"}
+{"q": "What is left to do?", "a": "The arithmetic is fixed.", "doc": "09-what-an-engine-does.html"}
+{"q": "What is the limit that \"Temperature 0\" approaches?", "a": "Approaches infinity", "doc": "15-our-engine.html"}
+{"q": "What is the length of the catalogue?", "a": "32,664", "doc": "02-a-file-of-numbers.html"}
+{"q": "How many tokens fit into one second?", "a": "**50,000/s**", "doc": "08-how-fast.html"}
+{"q": "What happens to the vector's length?", "a": "It remains unchanged.", "doc": "15-our-engine.html"}
+{"q": "What is being studied in this chapter?", "a": "The link.", "doc": "18-parallelism-measured.html"}
+{"q": "What is the peak memory stayed at between runs?", "a": "1,073 MB", "doc": "10-ollama.html"}
+{"q": "What percentage of utilization was achieved by the engine?", "a": "89.2%", "doc": "19-three-cards-one-sequence.html"}
+{"q": "What type of weights were used for every engine?", "a": "16-bit weights", "doc": "14-four-engines-compared.html"}
+{"q": "What is the largest DeepSeek this machine can hold?", "a": "90.9 GB", "doc": "30-choosing-a-model.html"}
+{"q": "What is the number of steps in the loop?", "a": "Five", "doc": "21-the-agent-loop.html"}
+{"q": "What is the minimum version of CUDA required?", "a": "CUDA 12.8", "doc": "12-vllm.html"}
+{"q": "What size is the fp16 format?", "a": "2 bytes", "doc": "07-what-fits.html"}
+{"q": "What kind of task does a fine-tuned small model win at?", "a": "Obeying a convention", "doc": "33-when-small-beats-large.html"}
+{"q": "What is the flag that specifies the number of layers to run on the graphics card?", "a": "`-ngl 99`", "doc": "11-llamacpp.html"}
+{"q": "What is the purpose of RMSNorm?", "a": "Rescales a vector to a standard size.", "doc": "15-our-engine.html"}
+{"q": "What is the analogy for the token comparison?", "a": "Two clock hands.", "doc": "04-predicting-language.html"}
+{"q": "What is the version of the engine measured?", "a": "0.5.19", "doc": "13-sglang.html"}
+{"q": "What is the peak value of SGLang?", "a": "2,069", "doc": "14-four-engines-compared.html"}
+{"q": "What year are the Xeons running expert matrix multiplications?", "a": "2012", "doc": "30-choosing-a-model.html"}
+{"q": "How many machines are described as using DGX Spark?", "a": "Four", "doc": "30-choosing-a-model.html"}
+{"q": "Which engine will run a model bigger than the card?", "a": "llama.cpp", "doc": "14-four-engines-compared.html"}
+{"q": "What is the only variable in the control track?", "a": "The engine", "doc": "09-what-an-engine-does.html"}
+{"q": "How many multiplications does an [960, 960] grid hold?", "a": "921,600", "doc": "03-what-numbers-do.html"}
+{"q": "What is the purpose of the equipment in the kitchen?", "a": "Each station needs only its own third.", "doc": "16-what-parallelism-means.html"}
+{"q": "How many FLOPs are used in matmuls per token?", "a": "723,517,440", "doc": "03-what-numbers-do.html"}
+{"q": "What is the reference's own batch-dependence?", "a": "two of four", "doc": "15-our-engine.html"}
+{"q": "How many independent engines produced identical output?", "a": "Four", "doc": "15-our-engine.html"}
+{"q": "What is the mean bandwidth of the six ordered pairs?", "a": "5.16 GB/s", "doc": "pcie-vs-nvlink.html"}
+{"q": "What happens to a masked position's weight?", "a": "Exactly 0", "doc": "15-our-engine.html"}
+{"q": "What is the size of the vLLM install?", "a": "7.6 GB", "doc": "12-vllm.html"}
+{"q": "What sets the pace in attention?", "a": "Memory traffic", "doc": "07-what-fits.html"}
+{"q": "What does the conditional bar represent?", "a": "what we want to know", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the file size of the GGUF file?", "a": "507 MB", "doc": "33-when-small-beats-large.html"}
+{"q": "What does the Root of the Mean of the Squares formula do?", "a": "It does not subtract the mean.", "doc": "15-our-engine.html"}
+{"q": "What is the speed of a card reading its own memory?", "a": "423.9 GB/s", "doc": "17-the-interconnect.html"}
+{"q": "What is the winning percentage of the model on extraction?", "a": "99.5", "doc": "33-when-small-beats-large.html"}
+{"q": "At what batch size does memory become binding?", "a": "Batch 37", "doc": "08-how-fast.html"}
+{"q": "What does GPU stand for?", "a": "Graphics Processing Unit", "doc": "06-the-box.html"}
+{"q": "What holds the card?", "a": "a persistent ollama process", "doc": "10-ollama.html"}
+{"q": "How long does a single matrix multiply operation take?", "a": "0.170 ms", "doc": "18-parallelism-measured.html"}
+{"q": "What is the cost of remembering one token of the conversation?", "a": "bytes per token", "doc": "07-what-fits.html"}
+{"q": "What is the result of the dot product operation?", "a": "One number comes out.", "doc": "03-what-numbers-do.html"}
+{"q": "What is the total throughput when there are 16 concurrent requests?", "a": "288.1 tok/s", "doc": "10-ollama.html"}
+{"q": "What is a kernel in the context of the passage?", "a": "One small program the card runs", "doc": "15-our-engine.html"}
+{"q": "What is the phase called that takes 62.1 ms per token?", "a": "Decode", "doc": "05-running-it.html"}
+{"q": "What is the consequence of decoding being serial?", "a": "A single stream never gets faster.", "doc": "25-speculative.html"}
+{"q": "What is the effect measured in this chapter?", "a": "An order of magnitude.", "doc": "13-sglang.html"}
+{"q": "How many batch sizes does SGLang capture?", "a": "As many as it can afford.", "doc": "13-sglang.html"}
+{"q": "What is the size of host memory?", "a": "125 GB", "doc": "past-the-wall.html"}
+{"q": "What changed when the transfer was removed?", "a": "Nothing.", "doc": "19-three-cards-one-sequence.html"}
+{"q": "What is established in Chapter 17?", "a": "The price of a crossing.", "doc": "16-what-parallelism-means.html"}
+{"q": "What does the RTX 3060 Ti have?", "a": "No such connector", "doc": "pcie-vs-nvlink.html"}
+{"q": "Who wrote \"Transformer Inference Arithmetic\"?", "a": "kipply", "doc": "05-running-it.html"}
+{"q": "What is the actual speed of the cards?", "a": "4.87 to 5.81 GB/s", "doc": "17-the-interconnect.html"}
+{"q": "At what rate did the throughput climb on the box?", "a": "1,200 tok/s", "doc": "14-four-engines-compared.html"}
+{"q": "What is the estimated VRAM needed for 8B Q4, 32k context 1?", "a": "~7.2 GB", "doc": "07-what-fits.html"}
+{"q": "How many tokens were in the long prompt?", "a": "34,000", "doc": "the-harness.html"}
+{"q": "What percentage of the ceiling was Ollama?", "a": "**51%**", "doc": "10-ollama.html"}
+{"q": "What is the reference?", "a": "The minority opinion", "doc": "15-our-engine.html"}
+{"q": "What is stored in the card?", "a": "Weights", "doc": "01-what-is-an-llm.html"}
+{"q": "How many prompt tokens were cached?", "a": "34 of 35", "doc": "10-ollama.html"}
+{"q": "How is a 960 \u00d7 960 grid stored?", "a": "As 921,600 numbers in one long row.", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the ratio at which a model gets the most from compute spent on it?", "a": "Chinchilla-optimal", "doc": "26-training-costs.html"}
+{"q": "What is the stride instruction?", "a": "It says how many steps along the line to move.", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the cost of the KV cache?", "a": "per-token cost", "doc": "07-what-fits.html"}
+{"q": "What percentage of tokens is ' '?", "a": "72.48%", "doc": "05-running-it.html"}
+{"q": "How many tokens per second is the 8-bit target alone?", "a": "13.6 tok/s", "doc": "25-speculative.html"}
+{"q": "How many steps are in the loop?", "a": "Five", "doc": "21-the-agent-loop.html"}
+{"q": "What is the total bytes read per token at batch 64?", "a": "0.011 GB", "doc": "08-how-fast.html"}
+{"q": "What is the total memory usage during one step?", "a": "7,436 MB", "doc": "26-training-costs.html"}
+{"q": "What percentage of the conversation was wasted?", "a": "4.6\u00d7", "doc": "22-evaluation.html"}
+{"q": "What decides the split between the two tiers?", "a": "The flag", "doc": "past-the-wall.html"}
+{"q": "What is the size of the matrix timed on?", "a": "8192 \u00d7 8192", "doc": "02-a-file-of-numbers.html"}
+{"q": "How large is the original safetensors file?", "a": "~60 GB", "doc": "the-format-divide.html"}
+{"q": "How many tokens are in SmolLM2's 360 million parameters?", "a": "7.2 billion tokens", "doc": "26-training-costs.html"}
+{"q": "What is computed on the Xeons?", "a": "Expert matrix multiplications.", "doc": "31-the-frontier-run.html"}
+{"q": "What is the file size of the model?", "a": "723,674,912", "doc": "02-a-file-of-numbers.html"}
+{"q": "What percentage of the hardware's allowance did the model run at?", "a": "2.8%", "doc": "05-running-it.html"}
+{"q": "What percentage of the weights does attention hold?", "a": "21.7%", "doc": "15-our-engine.html"}
+{"q": "What is the loss at step 1,000?", "a": "3.895", "doc": "28-the-run.html"}
+{"q": "How many bytes are saved by the 8-bit cache?", "a": "57 MB", "doc": "23-kv-quantization.html"}
+{"q": "What happens to the input in each block?", "a": "It adds to it", "doc": "03-what-numbers-do.html"}
+{"q": "How many tokens can one card process per second?", "a": "1,059 tokens/second", "doc": "26-training-costs.html"}
+{"q": "What happens when the model fits one card?", "a": "Many requests data", "doc": "18-parallelism-measured.html"}
+{"q": "What is the bf16 matrix multiply performance?", "a": "~40 TFLOPS", "doc": "03-what-numbers-do.html"}
+{"q": "How is the batch padded?", "a": "Left-padded", "doc": "15-our-engine.html"}
+{"q": "What is attributed to \"divine benevolence\"?", "a": "Gains.", "doc": "03-what-numbers-do.html"}
+{"q": "What is the score difference between the tuned model and the specialist on task 3?", "a": "12.2", "doc": "33-when-small-beats-large.html"}
+{"q": "What format do the training world publishes in?", "a": "Tensors-plus-JSON-header format", "doc": "the-format-divide.html"}
+{"q": "What is the speed of earlier-generation NVLink?", "a": "~600 GB/s", "doc": "pcie-vs-nvlink.html"}
+{"q": "What does GPU0's traffic cross?", "a": "CPU interconnect", "doc": "06-the-box.html"}
+{"q": "How many categories does the support ticket classification task have?", "a": "Twelve", "doc": "33-when-small-beats-large.html"}
+{"q": "What is the name of the file \"llama.cpp\"?", "a": "llama.cpp", "doc": "14-four-engines-compared.html"}
+{"q": "How much host memory does the engine use?", "a": "40 MB", "doc": "15-our-engine.html"}
+{"q": "What is the size of a Llama-3-8B layer?", "a": "231 MB", "doc": "11-llamacpp.html"}
+{"q": "What is the speed of NVLink?", "a": "600 GB/s", "doc": "16-what-parallelism-means.html"}
+{"q": "What is the memory transfer rate inside one card?", "a": "423.9 GB/s", "doc": "17-the-interconnect.html"}
+{"q": "What is the type of bus used for GDDR6 on a 256-bit bus?", "a": "448 GB/s per card", "doc": "past-the-wall.html"}
+{"q": "What is a graphics card compared to?", "a": "thousands of slow ones", "doc": "05-running-it.html"}
+{"q": "What is the theoretical rate of a Gen 1 link?", "a": "4.0 GB/s", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the speed of llama.cpp?", "a": "284 tok/s", "doc": "14-four-engines-compared.html"}
+{"q": "What is the issuing rate of one card?", "a": "314.1", "doc": "19-three-cards-one-sequence.html"}
+{"q": "How many tensors does Layer 0 hold?", "a": "Nine", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the function of gate_proj?", "a": "to suppress parts of what follows", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the Matrix Time for a whole card?", "a": "0.170 ms", "doc": "pcie-vs-nvlink.html"}
+{"q": "What sources did the guide's numbers come from?", "a": "One of these two files", "doc": "the-harness.html"}
+{"q": "What is a kernel?", "a": "One small program", "doc": "05-running-it.html"}
+{"q": "What is the download size of the model?", "a": "Roughly 148.5 GB.", "doc": "30-choosing-a-model.html"}
+{"q": "What is the difference in outbound GB/s between the card and ordinary memory?", "a": "5.60 against 11.75 GB/s", "doc": "17-the-interconnect.html"}
+{"q": "How much memory does SGLang use?", "a": "12,687 MB", "doc": "14-four-engines-compared.html"}
+{"q": "What is the measured speed of one hop in pinned memory?", "a": "11.75 GB/s", "doc": "17-the-interconnect.html"}
+{"q": "What is the simplest possible predictor?", "a": "tomorrow's temperature is today's, multiplied by", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the memory controller bottleneck in?", "a": "The memory-bound workload", "doc": "30-choosing-a-model.html"}
+{"q": "What is the format of the file?", "a": "PyTorch", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the purpose of byte offsets in the file?", "a": "So chapter seven can be opened without reading chapters one through six.", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the size of the first shard of a GGUF?", "a": "A few megabytes", "doc": "30-choosing-a-model.html"}
+{"q": "What is the size of one layer's activations in MB?", "a": "3.93 MB", "doc": "17-the-interconnect.html"}
+{"q": "What is the error that is not produced at the end?", "a": "Accumulated.", "doc": "15-our-engine.html"}
+{"q": "What is the number of tokens trained on?", "a": "4 trillion", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the duration of Part V's training runs?", "a": "Days long.", "doc": "the-harness.html"}
+{"q": "What is the name of the chapter's token counts source?", "a": "Usage field", "doc": "20-the-endpoint.html"}
+{"q": "How much memory is available before activations?", "a": "16 GB", "doc": "26-training-costs.html"}
+{"q": "What is the maximum token limit for the engine?", "a": "16,384", "doc": "24-long-context.html"}
+{"q": "What was the binding constraint in the data?", "a": "the data", "doc": "28-the-run.html"}
+{"q": "What happens when a file is added to the directory?", "a": "It rots the stored answer key.", "doc": "22-evaluation.html"}
+{"q": "What is the rate at which cards talk?", "a": "about 5 GB/s", "doc": "pcie-vs-nvlink.html"}
+{"q": "Where was the backward pass built?", "a": "In chapter 15.", "doc": "28-the-run.html"}
+{"q": "What was the time per turn in the 5-token run?", "a": "0.24 s", "doc": "20-the-endpoint.html"}
+{"q": "What is the benchmark built to measure?", "a": "Single questions", "doc": "20-the-endpoint.html"}
+{"q": "What is the KV cache used for?", "a": "working memory for the conversation", "doc": "07-what-fits.html"}
+{"q": "What is the value of w?", "a": "0.95", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the ratio of three cards delivering exactly one card's throughput?", "a": "1.04\u00d7", "doc": "pcie-vs-nvlink.html"}
+{"q": "What does Ollama hide internally?", "a": "Everything", "doc": "10-ollama.html"}
+{"q": "What is the default draft depth of tokens?", "a": "Three", "doc": "25-speculative.html"}
+{"q": "What year is the SOSP paper published?", "a": "2023", "doc": "09-what-an-engine-does.html"}
+{"q": "What is the CPU doing slowly?", "a": "The multiply", "doc": "31-the-frontier-run.html"}
+{"q": "What is the speed of the Eager engine compared to the engine it was built to match?", "a": "Seventeen times slower.", "doc": "15-our-engine.html"}
+{"q": "What is the additional cost of moving a tensor to another card?", "a": "Eighty times what the guides assume.", "doc": "17-the-interconnect.html"}
+{"q": "What is checked against the target's own probabilities?", "a": "A guess", "doc": "25-speculative.html"}
+{"q": "What is the focus of Magar & Schwartz's paper?", "a": "Data Contamination", "doc": "22-evaluation.html"}
+{"q": "Does the model store or learn?", "a": "Nothing is stored, nothing is learned.", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the name of the chapter's instrument?", "a": "Part V", "doc": "22-evaluation.html"}
+{"q": "What is the range of the raw link speed measured in chapter 17?", "a": "4.87\u20135.81 GB/s", "doc": "11-llamacpp.html"}
+{"q": "What is the largest real row size?", "a": "Thirty-seven times larger", "doc": "08-how-fast.html"}
+{"q": "What is the prediction for tensor parallelism?", "a": "2.3\u00d7", "doc": "17-the-interconnect.html"}
+{"q": "What is the ranking produced by the harness?", "a": "360M, then 4-bit, then 8-bit.", "doc": "22-evaluation.html"}
+{"q": "What is the speed of reading host memory?", "a": "23.4 GB/s", "doc": "30-choosing-a-model.html"}
+{"q": "What is the value of epsilon?", "a": "1e-5", "doc": "15-our-engine.html"}
+{"q": "What is time-consuming and unstable in vLLM?", "a": "Some models with large vocab size", "doc": "the-format-divide.html"}
+{"q": "What is the number of draws checked against in L4d?", "a": "200,000", "doc": "15-our-engine.html"}
+{"q": "What was the batch time per step for batch 1?", "a": "61.9 ms", "doc": "08-how-fast.html"}
+{"q": "What is the memory bandwidth speed of host memory?", "a": "23.4 GB/s", "doc": "30-choosing-a-model.html"}
+{"q": "What is a FLOP?", "a": "Fl oating-point op erations", "doc": "03-what-numbers-do.html"}
+{"q": "What is the percentage difference in prediction?", "a": "4.6%", "doc": "23-kv-quantization.html"}
+{"q": "Why does a GGUF model work alone?", "a": "It bakes the tokenizer into the single file.", "doc": "the-format-divide.html"}
+{"q": "What is the memory floor in milliseconds?", "a": "1.71 ms", "doc": "08-how-fast.html"}
+{"q": "What is a model in the field of language?", "a": "A mathematical function", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the format of the numbers used in the engine?", "a": "16-bit", "doc": "14-four-engines-compared.html"}
+{"q": "What was the 36\u00d7 gap in the experiment?", "a": "algorithm", "doc": "28-the-run.html"}
+{"q": "What is the gap between observed and intended in T = 1.0?", "a": "0.00107", "doc": "15-our-engine.html"}
+{"q": "What is the default network address the server listens to?", "a": "0.0.0.0", "doc": "10-ollama.html"}
+{"q": "How many bytes one weight costs?", "a": "Half a byte", "doc": "07-what-fits.html"}
+{"q": "What is the reading cost per token?", "a": "0.3 ms", "doc": "24-long-context.html"}
+{"q": "What is written on the index card?", "a": "The K and the V", "doc": "05-running-it.html"}
+{"q": "What is the advertised memory bandwidth of the graphics card?", "a": "448 GB/s", "doc": "08-how-fast.html"}
+{"q": "What is baked into a GGUF?", "a": "The tokenizer.", "doc": "the-format-divide.html"}
+{"q": "How many bytes are actually pulled through memory per token?", "a": "a fraction of 18.6 GB", "doc": "past-the-wall.html"}
+{"q": "What is a model in this context?", "a": "A file of numbers.", "doc": "08-how-fast.html"}
+{"q": "What is the size of the model in Chapter 11?", "a": "8.5 GB", "doc": "07-what-fits.html"}
+{"q": "What is the SQL metric?", "a": "Execution accuracy", "doc": "33-when-small-beats-large.html"}
+{"q": "What is the error at position 10?", "a": "1.9e-03", "doc": "15-our-engine.html"}
+{"q": "How many dot products does q_proj have?", "a": "921,600", "doc": "03-what-numbers-do.html"}
+{"q": "What did chapter 23 halve?", "a": "memory", "doc": "24-long-context.html"}
+{"q": "Why does llama.cpp not refuse a model?", "a": "It will spill the remainder into system memory.", "doc": "11-llamacpp.html"}
+{"q": "What is the relative movement of data in a ring all-reduce?", "a": "1.33 times the tensor", "doc": "18-parallelism-measured.html"}
+{"q": "What is the measured ceiling for one stream?", "a": "584 tokens per second", "doc": "12-vllm.html"}
+{"q": "What is the file format for storing objects?", "a": "safetensors", "doc": "02-a-file-of-numbers.html"}
+{"q": "What does the endpoint re-send in full, every turn?", "a": "Itself", "doc": "20-the-endpoint.html"}
+{"q": "What is the model's parameter count?", "a": "8 billion", "doc": "11-llamacpp.html"}
+{"q": "What is the engine's speed when command recording is added?", "a": "132.8 tok/s", "doc": "15-our-engine.html"}
+{"q": "How long would it take to read the file aloud at one number per second?", "a": "Eleven and a half years.", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the size of the private corpus?", "a": "323,933 tokens", "doc": "27-the-data.html"}
+{"q": "What is the loss of a model that guesses uniformly from a 49,152-token vocabulary?", "a": "**10.803**", "doc": "28-the-run.html"}
+{"q": "How many lines does nanoGPT contain?", "a": "About 300 lines.", "doc": "01-what-is-an-llm.html"}
+{"q": "What does \"Large\" refer to?", "a": "The count of numbers inside.", "doc": "01-what-is-an-llm.html"}
+{"q": "What does VRAM stand for?", "a": "Video Random Access Memory", "doc": "07-what-fits.html"}
+{"q": "How fast is the card compared to reaching across the link?", "a": "12\u00d7 faster", "doc": "11-llamacpp.html"}
+{"q": "What is the output of the model with temperature off?", "a": "Single highest-scoring token.", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the practical cost of vLLM?", "a": "Latency", "doc": "12-vllm.html"}
+{"q": "What does a fine-tuned small model win at?", "a": "Obeying a convention", "doc": "33-when-small-beats-large.html"}
+{"q": "What makes Chapter 22's evaluation harness immune to contamination?", "a": "Its questions are about this repository", "doc": "27-the-data.html"}
+{"q": "What is the fixed cost as a percentage of the pass at 128 crossings?", "a": "Under 3%", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the reason published benchmark numbers are hard to trust?", "a": "Contamination", "doc": "22-evaluation.html"}
+{"q": "What is the third cost of splitting a matrix across cards?", "a": "The interconnect", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the constraint enforced in the machine?", "a": "Not assumed.", "doc": "09-what-an-engine-does.html"}
+{"q": "What is the size of the Q8 file compared to Q4?", "a": "1.7\u00d7", "doc": "11-llamacpp.html"}
+{"q": "How many tokens does a modern model know about?", "a": "roughly 130,000", "doc": "01-what-is-an-llm.html"}
+{"q": "What are the two file formats used to store a model?", "a": "GGUF and safetensors", "doc": "the-format-divide.html"}
+{"q": "What was the cache's effect at 200 tokens?", "a": "1.1\u00d7", "doc": "05-running-it.html"}
+{"q": "What is the ratio of tensor parallelism?", "a": "1.07\u00d7", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the format of the data that llama.cpp engine reads?", "a": "GGUF", "doc": "the-format-divide.html"}
+{"q": "What is the benefit of cutting the matrix to a third?", "a": "8% faster.", "doc": "18-parallelism-measured.html"}
+{"q": "What type of memory do llama.cpp use for computation?", "a": "Host memory", "doc": "30-choosing-a-model.html"}
+{"q": "What is the source of the 6.2% and 12.5% overheads?", "a": "Block layouts", "doc": "23-kv-quantization.html"}
+{"q": "What sets speed in a model?", "a": "A different number entirely", "doc": "07-what-fits.html"}
+{"q": "What is the name of the model that gave up?", "a": "SmolLM2-360M", "doc": "22-evaluation.html"}
+{"q": "What is the fixed cost of a crossing?", "a": "43.8 \u00b5s", "doc": "pcie-vs-nvlink.html"}
+{"q": "What are cards competing for?", "a": "The attention of a single program", "doc": "19-three-cards-one-sequence.html"}
+{"q": "What is the number format for storing weights?", "a": "bf16 brain float", "doc": "15-our-engine.html"}
+{"q": "How many parameters are in the model?", "a": "17,108,224", "doc": "28-the-run.html"}
+{"q": "What is the memory used by the SGLang in MB?", "a": "5,434 MB", "doc": "13-sglang.html"}
+{"q": "What is not a coincidence?", "a": "Identical text", "doc": "12-vllm.html"}
+{"q": "Does a model have memory?", "a": "No memory.", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the finding related to halving the precision of every cached number?", "a": "Produced identical text.", "doc": "23-kv-quantization.html"}
+{"q": "What is the token count for English prose?", "a": "5.00", "doc": "27-the-data.html"}
+{"q": "What is the amount of VRAM per card?", "a": "8 GB", "doc": "06-the-box.html"}
+{"q": "What is the graphics memory size?", "a": "24 GB", "doc": "30-choosing-a-model.html"}
+{"q": "What is the normalisation method used in this model?", "a": "RMSNorm", "doc": "03-what-numbers-do.html"}
+{"q": "What is the precision of the cache in the model?", "a": "Most precise", "doc": "23-kv-quantization.html"}
+{"q": "What does a conversation cost to hold?", "a": "The square of its length", "doc": "20-the-endpoint.html"}
+{"q": "What is the error percentage in the first example?", "a": "+16.9%", "doc": "11-llamacpp.html"}
+{"q": "What is the score for \"Paris\"?", "a": "0.92", "doc": "01-what-is-an-llm.html"}
+{"q": "Why does the model always take its single highest-scoring token?", "a": "With it off.", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the bottleneck of llama.cpp?", "a": "The crowd.", "doc": "14-four-engines-compared.html"}
+{"q": "What is the size of the original file?", "a": "723.7 MB", "doc": "10-ollama.html"}
+{"q": "What is the dimension of the embedding grid?", "a": "49,152 \u00d7 960", "doc": "04-predicting-language.html"}
+{"q": "What is the engine model for L0 Ollama?", "a": "same model", "doc": "12-vllm.html"}
+{"q": "What is the memory-bandwidth ceiling?", "a": "584.", "doc": "15-our-engine.html"}
+{"q": "How many tokens does the model train on?", "a": "8192", "doc": "24-long-context.html"}
+{"q": "How many bytes is the model at full precision?", "a": "16 GB", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the purpose of the guide?", "a": "To keep putting real numbers on the parts that are knowable.", "doc": "04-predicting-language.html"}
+{"q": "What is the maximum usable context for one sequence?", "a": "8,192", "doc": "24-long-context.html"}
+{"q": "What is the crucial property of the third column of the middle row?", "a": "Pinning up the sheet costs the same.", "doc": "05-running-it.html"}
+{"q": "What is the only row in the file that had to be constructed?", "a": "The fourth row.", "doc": "02-a-file-of-numbers.html"}
+{"q": "What does the KV cache store?", "a": "Keys and values.", "doc": "04-predicting-language.html"}
+{"q": "What was the result of Chapter 22?", "a": "p = 1.00", "doc": "23-kv-quantization.html"}
+{"q": "What is the memory limit for SGLang on this card?", "a": "0.64 GB", "doc": "13-sglang.html"}
+{"q": "What is the reported rate when idle?", "a": "4.0 GB/s", "doc": "17-the-interconnect.html"}
+{"q": "What is the reason for the test failure?", "a": "Correcting both turned four passes into two failures.", "doc": "15-our-engine.html"}
+{"q": "What is the size of the UD-IQ2_M candidate?", "a": "90.9 GB", "doc": "30-choosing-a-model.html"}
+{"q": "What is the PCIe slot standard?", "a": "Peripheral Component Interconnect Express", "doc": "17-the-interconnect.html"}
+{"q": "What happens to the heads' answers without o_proj?", "a": "Stacked next to each other.", "doc": "04-predicting-language.html"}
+{"q": "Where was the paper \"Root Mean Square Layer Normalization\" published?", "a": "NeurIPS 2019", "doc": "15-our-engine.html"}
+{"q": "What is the date when the measurements were taken?", "a": "2026-09-14", "doc": "pcie-vs-nvlink.html"}
+{"q": "How many tokens were initially reported?", "a": "7,054,852", "doc": "27-the-data.html"}
+{"q": "What is the data type of the weights on disk?", "a": "Brain float", "doc": "12-vllm.html"}
+{"q": "What percentage of the model's parameters are in the embedding section?", "a": "13.0%", "doc": "15-our-engine.html"}
+{"q": "What is the compute-optimal ratio for a training budget?", "a": "The 2022 Chinchilla result.", "doc": "past-the-wall.html"}
+{"q": "What is the per-layer cost in ms?", "a": "1.61 ms", "doc": "11-llamacpp.html"}
+{"q": "What was found by a process of fitting?", "a": "Numbers", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the size of the embedding grid?", "a": "49,152 \u00d7 960", "doc": "04-predicting-language.html"}
+{"q": "What is the name of the space that a list of 960 numbers is a point in?", "a": "960-dimensional space", "doc": "03-what-numbers-do.html"}
+{"q": "At what temperature does the model always take its highest-scoring token?", "a": "At temperature 0", "doc": "09-what-an-engine-does.html"}
+{"q": "What is the smallest normal value of F16?", "a": "6.1\u00d710\u207b\u2075", "doc": "09-what-an-engine-does.html"}
+{"q": "How much host memory is used by SGLang?", "a": "5,434 MB", "doc": "14-four-engines-compared.html"}
+{"q": "What is the single-stream speed limit for this model?", "a": "~585 tok/s", "doc": "09-what-an-engine-does.html"}
+{"q": "How many numbers does each token id become?", "a": "960 numbers", "doc": "05-running-it.html"}
+{"q": "What is the purpose of the long prompt?", "a": "Prefill cost at length", "doc": "09-what-an-engine-does.html"}
+{"q": "What is the value of the guard \u03b5?", "a": "1e-5", "doc": "15-our-engine.html"}
+{"q": "What is the average bandwidth for the four routes ending at card 0?", "a": "5.31", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the limit that stopped everything?", "a": "Model file", "doc": "24-long-context.html"}
+{"q": "What is the cost of holding a conversation?", "a": "The square of its length.", "doc": "20-the-endpoint.html"}
+{"q": "Why does a GGUF need no tokenizer files?", "a": "It doesn't need any beside it.", "doc": "the-format-divide.html"}
+{"q": "What is the purpose of `ps -eo rss,comm,args`?", "a": "Sum the whole process tree", "doc": "the-harness.html"}
+{"q": "What is the size of the KV cache bytes per token?", "a": "40,960", "doc": "05-running-it.html"}
+{"q": "What was the average real output per token?", "a": "5.71 characters", "doc": "09-what-an-engine-does.html"}
+{"q": "What is the content of the file?", "a": "Only weights.", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the highest token-per-second rate achieved?", "a": "~585 tok/s", "doc": "14-four-engines-compared.html"}
+{"q": "What is the size of the cache kept in?", "a": "8-bit", "doc": "07-what-fits.html"}
+{"q": "What is the size of the Pile dataset?", "a": "An 800GB", "doc": "27-the-data.html"}
+{"q": "What is the size of the general model?", "a": "Sixty times its size.", "doc": "33-when-small-beats-large.html"}
+{"q": "What is K^{\\top}?", "a": "K on its side", "doc": "15-our-engine.html"}
+{"q": "What is the age of the CPU?", "a": "fourteen-year-old", "doc": "31-the-frontier-run.html"}
+{"q": "What is the choice of bytes in this model?", "a": "16-bit.", "doc": "07-what-fits.html"}
+{"q": "What is the size of each card?", "a": "40,960 bytes", "doc": "05-running-it.html"}
+{"q": "What is the measured matrix multiply of the RTX 3060 Ti?", "a": "~40 TFLOPS", "doc": "03-what-numbers-do.html"}
+{"q": "How many times more expensive is the eighth question?", "a": "13.6\u00d7", "doc": "20-the-endpoint.html"}
+{"q": "What happens between requests?", "a": "The server remembers nothing.", "doc": "20-the-endpoint.html"}
+{"q": "What was the version of PyTorch installed?", "a": "`2.11.0+cu128`", "doc": "06-the-box.html"}
+{"q": "What is measured in terms of speed?", "a": "36.59 TFLOPS", "doc": "03-what-numbers-do.html"}
+{"q": "What error did the compiler produce?", "a": "nvcc fatal", "doc": "13-sglang.html"}
+{"q": "What is the exact count of individual numbers in the file?", "a": "8,030,261,248", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the predicted tokens per second range?", "a": "4 to 11 tokens per second", "doc": "30-choosing-a-model.html"}
+{"q": "What is the crucial part of self-attention?", "a": "every token does this at the same time", "doc": "04-predicting-language.html"}
+{"q": "What protocol every engine in Part I speaks?", "a": "The protocol", "doc": "10-ollama.html"}
+{"q": "What is the height of the first step?", "a": "Calculated", "doc": "past-the-wall.html"}
+{"q": "What four tasks did the 8B models get wrong?", "a": "files_source, py_source, n_prompts, files_bench", "doc": "22-evaluation.html"}
+{"q": "What is the shape of the o_proj?", "a": "[960, 960]", "doc": "04-predicting-language.html"}
+{"q": "What is the memory cost of the activations row?", "a": "284 MB", "doc": "26-training-costs.html"}
+{"q": "What does an all-reduce operation actually do?", "a": "What an all-reduce actually does", "doc": "16-what-parallelism-means.html"}
+{"q": "What does the hardware accept?", "a": "One number", "doc": "02-a-file-of-numbers.html"}
+{"q": "How many cards can hold a third of a large model?", "a": "Each card", "doc": "19-three-cards-one-sequence.html"}
+{"q": "What is Ollama's default behavior?", "a": "It processes requests one after another.", "doc": "10-ollama.html"}
+{"q": "How many parameters does O cost?", "a": "921,600", "doc": "04-predicting-language.html"}
+{"q": "What has to be true for work on several devices to overlap?", "a": "Work has to be independent.", "doc": "19-three-cards-one-sequence.html"}
+{"q": "What must our engine produce at temperature 0?", "a": "Token-identical output", "doc": "15-our-engine.html"}
+{"q": "What is the storage cost per parameter for the Q4_K_M model?", "a": "~3.9 GB", "doc": "07-what-fits.html"}
+{"q": "What is the largest single number in chapter 14's table?", "a": "5,434 MB", "doc": "the-harness.html"}
+{"q": "What is a MiB unit?", "a": "A binary megabyte.", "doc": "06-the-box.html"}
+{"q": "What is the number of bytes in model.layers.0.input_layernorm.weight?", "a": "1,920", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the data type of the weight?", "a": "BF16", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the measured latency figure?", "a": "5.31 GB/s", "doc": "pcie-vs-nvlink.html"}
+{"q": "What decides the answer?", "a": "Layers, widths, and expert counts.", "doc": "30-choosing-a-model.html"}
+{"q": "How long did it take to read 361,821,120 weights?", "a": "1.71 milliseconds", "doc": "03-what-numbers-do.html"}
+{"q": "What is the fixed cost of a transfer under the crossover?", "a": "43.8 \u00b5s", "doc": "pcie-vs-nvlink.html"}
+{"q": "How many layers are deep?", "a": "Thirty-two", "doc": "04-predicting-language.html"}
+{"q": "What is the original time taken to do the whole thing?", "a": "0.170 ms", "doc": "pcie-vs-nvlink.html"}
+{"q": "What chapter's model regime is far below?", "a": "This chapter's model regime", "doc": "18-parallelism-measured.html"}
+{"q": "What sets the price of the interconnect?", "a": "The topology", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the remaining overhead per token?", "a": "1.65 ms", "doc": "10-ollama.html"}
+{"q": "What is the per-field accuracy of the 30B model?", "a": "99.5%", "doc": "33-when-small-beats-large.html"}
+{"q": "What is the purpose of the KV cache?", "a": "Fix a meeting situation", "doc": "05-running-it.html"}
+{"q": "What is the formal name for the loop above?", "a": "Autoregressive", "doc": "01-what-is-an-llm.html"}
+{"q": "What are the groupings that fell out of predicting text?", "a": "numbers, colours, or European capitals", "doc": "04-predicting-language.html"}
+{"q": "Where did the missing time go?", "a": "Into CPU compute.", "doc": "31-the-frontier-run.html"}
+{"q": "What is the focus of the matrix multiplications?", "a": "The matrix multiplications are a solved problem", "doc": "15-our-engine.html"}
+{"q": "What is the problem addressed in the environment-variable reference?", "a": "CUDA version problem", "doc": "12-vllm.html"}
+{"q": "How much host memory read bandwidth is best?", "a": "23.4 GB/s", "doc": "30-choosing-a-model.html"}
+{"q": "What is the shape of the k_proj layer?", "a": "(320, 960)", "doc": "15-our-engine.html"}
+{"q": "What is the cost of asking the card to do things?", "a": "63.8 ms", "doc": "08-how-fast.html"}
+{"q": "What is the topic of the \"SOSP 2023\" paper?", "a": "Efficient Memory Management for LLM Serving", "doc": "07-what-fits.html"}
+{"q": "How many pairs of tokens are there?", "a": "32 pairs", "doc": "15-our-engine.html"}
+{"q": "What engine wins the most rows here?", "a": "Accelerating", "doc": "14-four-engines-compared.html"}
+{"q": "What is the maximum number of tokens for this model?", "a": "8,192", "doc": "23-kv-quantization.html"}
+{"q": "What is the cost of the wrapper?", "a": "almost nothing", "doc": "11-llamacpp.html"}
+{"q": "How many errors were in the measuring apparatus?", "a": "Five", "doc": "the-harness.html"}
+{"q": "What is the surprising part about parameters?", "a": "Grammar, arithmetic, and the capital of France.", "doc": "01-what-is-an-llm.html"}
+{"q": "How many numbers look like that?", "a": "361,821,120", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the total size of parameters in bytes?", "a": "16,060,522,496 bytes", "doc": "01-what-is-an-llm.html"}
+{"q": "What is GGUF?", "a": "Makes a 30B model fit", "doc": "the-format-divide.html"}
+{"q": "What is the total score in the passage?", "a": "4 of 4", "doc": "15-our-engine.html"}
+{"q": "What is the maximum memory situation?", "a": "8,192", "doc": "24-long-context.html"}
+{"q": "At what cache size is the speedup 1.1\u00d7?", "a": "1.2 MB", "doc": "15-our-engine.html"}
+{"q": "What is the actual 16-bit value of 21 3C?", "a": "0x3C21", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the purpose of keeping the index cards?", "a": "Avoid doing the work twice.", "doc": "05-running-it.html"}
+{"q": "What is the cost per token?", "a": "Every two-thirds of a second.", "doc": "31-the-frontier-run.html"}
+{"q": "What is the shape of the tensor parallelism issues?", "a": "many small programs per layer", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the purpose of the \"Add back\" step?", "a": "It writes a correction onto the vector.", "doc": "15-our-engine.html"}
+{"q": "What is the dull objective that is optimized?", "a": "one dull objective", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the licence used in the tuned models?", "a": "Apache-2.0", "doc": "33-when-small-beats-large.html"}
+{"q": "What does \"logit\" stand for?", "a": "log-odds score", "doc": "15-our-engine.html"}
+{"q": "What is the size of the \"UD-Q3_K_M\" file?", "a": "128.1 GB", "doc": "30-choosing-a-model.html"}
+{"q": "What is the ratio of the external bandwidth figure to the measured bandwidth?", "a": "About 113", "doc": "pcie-vs-nvlink.html"}
+{"q": "What proportion of a model's output is solid?", "a": "Two thirds", "doc": "22-evaluation.html"}
+{"q": "What is the rate of the link on NVLink hardware?", "a": "~600 GB/s", "doc": "pcie-vs-nvlink.html"}
+{"q": "What does section 2 explicitly not measure?", "a": "pass@k", "doc": "the-harness.html"}
+{"q": "How many lines are in `README.md`?", "a": "159 lines long.", "doc": "21-the-agent-loop.html"}
+{"q": "What was the speed per stream before a request arriving at batch 10?", "a": "258.6 tokens per second", "doc": "13-sglang.html"}
+{"q": "What is the reason for the slowdown?", "a": "Every figure on this page", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the score for \"happy\" and \"sad\"?", "a": "0.317", "doc": "04-predicting-language.html"}
+{"q": "What is the default token source?", "a": "\"engine\"", "doc": "the-harness.html"}
+{"q": "What is the link between the processor and the GPU?", "a": "CPU-GPU interconnect", "doc": "30-choosing-a-model.html"}
+{"q": "What is the year of Liu et al.'s paper?", "a": "2024", "doc": "23-kv-quantization.html"}
+{"q": "What is the rate of a one-hop card-to-host transfer?", "a": "11.75 GB/s", "doc": "17-the-interconnect.html"}
+{"q": "What is the vendor spec for GDDR6 on a 256-bit bus?", "a": "448 GB/s per card", "doc": "past-the-wall.html"}
+{"q": "How much does each word cost without cards?", "a": "A little more than the last, forever.", "doc": "05-running-it.html"}
+{"q": "What does \"Parallelism\" mean in this context?", "a": "Splitting something up.", "doc": "16-what-parallelism-means.html"}
+{"q": "What happens in step 1 of the forward pass?", "a": "Look up the embedding.", "doc": "15-our-engine.html"}
+{"q": "Why is the link between cards slower?", "a": "Because of a driver decision.", "doc": "pcie-vs-nvlink.html"}
+{"q": "How much RAM is available?", "a": "125 GB", "doc": "06-the-box.html"}
+{"q": "What is the reason the app loads llama.cpp by default?", "a": "Every model on the box is GGUF.", "doc": "14-four-engines-compared.html"}
+{"q": "What is the agreed shape of requests accepted by an engine?", "a": "an API", "doc": "09-what-an-engine-does.html"}
+{"q": "What is a tensor?", "a": "A block of numbers.", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the total memory of the machine?", "a": "149 GB", "doc": "30-choosing-a-model.html"}
+{"q": "What do everyone holds in the room?", "a": "Q, K, V, O", "doc": "04-predicting-language.html"}
+{"q": "How many faders are in a model file grid?", "a": "921,600", "doc": "03-what-numbers-do.html"}
+{"q": "What did the model do to produce the table?", "a": "Ran a fixed pile of arithmetic", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the measured total time for the work?", "a": "194.5 ms", "doc": "pcie-vs-nvlink.html"}
+{"q": "What decides how many model layers live on the graphics card?", "a": "The flag `-ngl`", "doc": "11-llamacpp.html"}
+{"q": "How many tokens has the model seen?", "a": "12,288,000", "doc": "28-the-run.html"}
+{"q": "What is the hardware limit of tokens per second?", "a": "584 tokens per second", "doc": "14-four-engines-compared.html"}
+{"q": "What is the command used to get peak RSS?", "a": "ps -eo rss,comm,args", "doc": "the-harness.html"}
+{"q": "What was the length that layers 1 through 31 saw?", "a": "five tokens too long", "doc": "15-our-engine.html"}
+{"q": "What is the error code returned by the driver?", "a": "cudaErrorPeerAccessUnsupported", "doc": "17-the-interconnect.html"}
+{"q": "What are the bytes \"21 3C\" meaningful as?", "a": "0.00983", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the size of the first value stored?", "a": "eight bytes", "doc": "02-a-file-of-numbers.html"}
+{"q": "How many times does the block repeat?", "a": "Thirty-two times", "doc": "04-predicting-language.html"}
+{"q": "What is the problem this chapter measured?", "a": "The idle-stage problem", "doc": "19-three-cards-one-sequence.html"}
+{"q": "What is the easiest thing to forget?", "a": "Pin every host buffer", "doc": "pcie-vs-nvlink.html"}
+{"q": "What was the highest single-stream token processing rate held?", "a": "~585 tok/s", "doc": "14-four-engines-compared.html"}
+{"q": "What is the initial state of the model's numbers?", "a": "Random noise", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the size of an 8B safetensors?", "a": "16\u00a0GB", "doc": "the-format-divide.html"}
+{"q": "What is the size of K and V compared to Q?", "a": "A third the size of Q", "doc": "02-a-file-of-numbers.html"}
+{"q": "How does the sampler draw the distribution?", "a": "The sampler draws the distribution it claims to.", "doc": "15-our-engine.html"}
+{"q": "What is the largest single item in the optimizer?", "a": "8 bytes per parameter", "doc": "26-training-costs.html"}
+{"q": "What is the total memory used during a training step?", "a": "7,436 MB", "doc": "26-training-costs.html"}
+{"q": "What is the capacity of the server?", "a": "16 GB", "doc": "14-four-engines-compared.html"}
+{"q": "How much memory did vLLM hold on the card?", "a": "6,859 MB", "doc": "13-sglang.html"}
+{"q": "What is the measured rate of a card-to-card copy?", "a": "5.81 GB/s", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the purpose of the reference command?", "a": "to be the reference the other four must match", "doc": "09-what-an-engine-does.html"}
+{"q": "What is the number of nearest neighbors found?", "a": "eight", "doc": "04-predicting-language.html"}
+{"q": "What is the abbreviation for Video Random Access Memory?", "a": "VRAM", "doc": "past-the-wall.html"}
+{"q": "What type of problem is decoding?", "a": "Bandwidth", "doc": "past-the-wall.html"}
+{"q": "What is the number of rows in the 49,152-row matrix?", "a": "49,152", "doc": "15-our-engine.html"}
+{"q": "What is the typical value of \"params\"?", "a": "the count of individual numbers", "doc": "07-what-fits.html"}
+{"q": "What is the size of the model file?", "a": "723,674,912 bytes", "doc": "02-a-file-of-numbers.html"}
+{"q": "How many prompts does the reference disagree with itself on?", "a": "Three", "doc": "15-our-engine.html"}
+{"q": "What is the primary use case for GGUF?", "a": "Running one conversation on a laptop.", "doc": "the-format-divide.html"}
+{"q": "What used to be the scarce resource?", "a": "Compute", "doc": "past-the-wall.html"}
+{"q": "What is the ratio of the time taken by three cards versus one card for 1024 \u00d7 1024 matrix multiply?", "a": "1.92\u00d7", "doc": "19-three-cards-one-sequence.html"}
+{"q": "What is the focus of Part V?", "a": "Building the data", "doc": "past-the-wall.html"}
+{"q": "What is in the small GGUF shard?", "a": "First shard.", "doc": "30-choosing-a-model.html"}
+{"q": "What is the difference between the batched and single-sequence engines?", "a": "8.1\u00d7", "doc": "15-our-engine.html"}
+{"q": "What percentage of the rated bandwidth does the 8B reach?", "a": "86.5%", "doc": "past-the-wall.html"}
+{"q": "What were the modifications made to the forward pass?", "a": "Tensor and pipeline parallelism", "doc": "18-parallelism-measured.html"}
+{"q": "What is the number of orders of magnitude the loss fell by?", "a": "Three", "doc": "28-the-run.html"}
+{"q": "What is the waste factor in what is transmitted?", "a": "The 4.6\u00d7", "doc": "20-the-endpoint.html"}
+{"q": "What is the speedup of llama.cpp compared to one card?", "a": "1.07\u00d7", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is an alternative to parsing free text for actions?", "a": "Function calling", "doc": "21-the-agent-loop.html"}
+{"q": "What is the name of the mechanism used by vLLM?", "a": "Continuous batching", "doc": "12-vllm.html"}
+{"q": "What is the storage capacity of the card?", "a": "8 GB", "doc": "10-ollama.html"}
+{"q": "How many tokens are needed for a cheapest run?", "a": "100,000,000", "doc": "27-the-data.html"}
+{"q": "What is the cost of burning 200 tokens?", "a": "16.0 tok/s", "doc": "05-running-it.html"}
+{"q": "What is the size of the stored grid?", "a": "[960, 960]", "doc": "02-a-file-of-numbers.html"}
+{"q": "Who wrote the article \"GLU Variants Improve Transformer\"?", "a": "Noam Shazeer", "doc": "03-what-numbers-do.html"}
+{"q": "How many times the work is done?", "a": "Three times", "doc": "16-what-parallelism-means.html"}
+{"q": "How many note-takers are there?", "a": "Thirty-two", "doc": "05-running-it.html"}
+{"q": "What is the shard-inefficiency measurement taken on?", "a": "A single card with no transfers at all.", "doc": "18-parallelism-measured.html"}
+{"q": "What is the purpose of step 4 in the loop?", "a": "Append the result to the conversation.", "doc": "21-the-agent-loop.html"}
+{"q": "What is the measurement of the engine's return?", "a": "one chapter", "doc": "18-parallelism-measured.html"}
+{"q": "Who else is on the root complex?", "a": "Every other device in the machine", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the token speed for Llama-3-8B, 8-bit?", "a": "13.4 tok/s", "doc": "25-speculative.html"}
+{"q": "What is the total footprint of the graphics card?", "a": "Not mentioned", "doc": "13-sglang.html"}
+{"q": "What is the name for a single row in a spreadsheet?", "a": "a vector", "doc": "02-a-file-of-numbers.html"}
+{"q": "How many prompts were byte-identical across all four independent engines?", "a": "Three", "doc": "15-our-engine.html"}
+{"q": "How are shapes written in a file?", "a": "Outermost-first.", "doc": "02-a-file-of-numbers.html"}
+{"q": "What is the memory subsystem behind the 448 GB/s figure?", "a": "The specification", "doc": "past-the-wall.html"}
+{"q": "What does \"sm_86\" mean?", "a": "NVIDIA Ampere Architecture In-Depth", "doc": "06-the-box.html"}
+{"q": "How many numbers does the real model take in?", "a": "4,096", "doc": "01-what-is-an-llm.html"}
+{"q": "What is the slowdown accounted for by bandwidth?", "a": "1.48\u00d7", "doc": "18-parallelism-measured.html"}
+{"q": "What is the number of parameters dominated by expert layers?", "a": "277 billion", "doc": "30-choosing-a-model.html"}
+{"q": "What is the total memory of the three GPUs?", "a": "24 GB", "doc": "06-the-box.html"}
+{"q": "What was the issue with the model list?", "a": "It only scanned one folder.", "doc": "the-format-divide.html"}
+{"q": "What is the default number format for modern models?", "a": "bf16", "doc": "06-the-box.html"}
+{"q": "What is the size of an 8B safetensors download?", "a": "~16 GB", "doc": "the-format-divide.html"}
+{"q": "What is the size of the feed-forward matrices in the 360M model?", "a": "2,560 \u00d7 960", "doc": "18-parallelism-measured.html"}
+{"q": "What lives in the operating system's file cache?", "a": "The offloaded layers' weights", "doc": "31-the-frontier-run.html"}
+{"q": "What is the predicted bandwidth for tokens per second?", "a": "11 tok/s", "doc": "31-the-frontier-run.html"}
+{"q": "What is the token length at which the depth effect was not found?", "a": "6,040", "doc": "24-long-context.html"}
+{"q": "What is the maximum single-stream speed for this model?", "a": "~585 tok/s", "doc": "08-how-fast.html"}
+{"q": "What is a different aspect between the two engines?", "a": "A different kernel", "doc": "11-llamacpp.html"}
+{"q": "What is the model size in the passage?", "a": "0.7 GB", "doc": "12-vllm.html"}
+{"q": "What stopped everything?", "a": "Property of the model file", "doc": "24-long-context.html"}
+{"q": "What is the value that was found by fitting data?", "a": "0.80", "doc": "01-what-is-an-llm.html"}
+{"q": "What error does cudaDeviceEnablePeerAccess return?", "a": "cudaErrorPeerAccessUnsupported", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the spare host memory available?", "a": "Roughly 35 GB", "doc": "past-the-wall.html"}
+{"q": "What is the predicted transfer speed?", "a": "5.88", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the 4-bit model's token speed?", "a": "74.5 tok/s", "doc": "25-speculative.html"}
+{"q": "What is the measured one-hop transfer rate?", "a": "11.75 GB/s", "doc": "pcie-vs-nvlink.html"}
+{"q": "What is the topic of Chapter 17?", "a": "The interconnect", "doc": "16-what-parallelism-means.html"}
+{"q": "What happens when the temperature is zero?", "a": "No randomness, same answer every time.", "doc": "05-running-it.html"}
+{"q": "What is 1.45 tokens per second actually?", "a": "Two thirds of a second between words.", "doc": "31-the-frontier-run.html"}
+{"q": "What stage follows the parameter count being fixed?", "a": "Post-training", "doc": "past-the-wall.html"}
+{"q": "What is the rate of tokens per second for ngl 0?", "a": "4 +2.38", "doc": "11-llamacpp.html"}

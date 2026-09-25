@@ -1,0 +1,27 @@
+{
+ "model": "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf",
+ "cards": 3,
+ "when": "2026-09-14 18:02",
+ "prompts": [],
+ "concurrency": [],
+ "gpus": [
+  {
+   "card": 0,
+   "peak_mb": 6613,
+   "util_mean": 0.0,
+   "util_max": 0
+  },
+  {
+   "card": 1,
+   "peak_mb": 6101,
+   "util_mean": 0.0,
+   "util_max": 0
+  },
+  {
+   "card": 2,
+   "peak_mb": 6151,
+   "util_mean": 0.0,
+   "util_max": 0
+  }
+ ]
+}

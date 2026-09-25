@@ -1,0 +1,120 @@
+[
+ {
+  "ok": true,
+  "answer": "159",
+  "steps": [
+   {
+    "step": 1,
+    "sent": 128,
+    "out": 7,
+    "s": 0.25,
+    "kind": "tool",
+    "what": "list_files"
+   },
+   {
+    "step": 2,
+    "sent": 390,
+    "out": 2,
+    "s": 0.13,
+    "kind": "bad",
+    "what": "no TOOL: or ANSWER: line found"
+   },
+   {
+    "step": 3,
+    "sent": 430,
+    "out": 7,
+    "s": 0.12,
+    "kind": "tool",
+    "what": "count_lines"
+   },
+   {
+    "step": 4,
+    "sent": 469,
+    "out": 8,
+    "s": 0.14,
+    "kind": "tool",
+    "what": "count_lines"
+   },
+   {
+    "step": 5,
+    "sent": 509,
+    "out": 9,
+    "s": 0.16,
+    "kind": "tool",
+    "what": "count_lines"
+   },
+   {
+    "step": 6,
+    "sent": 554,
+    "out": 8,
+    "s": 0.14,
+    "kind": "tool",
+    "what": "count_lines"
+   },
+   {
+    "step": 7,
+    "sent": 574,
+    "out": 6,
+    "s": 0.11,
+    "kind": "answer",
+    "what": "ANSWER"
+   }
+  ],
+  "sent": 3054,
+  "out": 47,
+  "wall": 1.05113204792724,
+  "name": "count_source"
+ },
+ {
+  "ok": true,
+  "answer": "yes",
+  "steps": [
+   {
+    "step": 1,
+    "sent": 129,
+    "out": 8,
+    "s": 0.2,
+    "kind": "tool",
+    "what": "grep"
+   },
+   {
+    "step": 2,
+    "sent": 285,
+    "out": 5,
+    "s": 0.14,
+    "kind": "answer",
+    "what": "ANSWER"
+   }
+  ],
+  "sent": 414,
+  "out": 13,
+  "wall": 0.34551066800486296,
+  "name": "find_bench"
+ },
+ {
+  "ok": true,
+  "answer": "39",
+  "steps": [
+   {
+    "step": 1,
+    "sent": 130,
+    "out": 10,
+    "s": 0.19,
+    "kind": "tool",
+    "what": "count_lines"
+   },
+   {
+    "step": 2,
+    "sent": 152,
+    "out": 6,
+    "s": 0.1,
+    "kind": "answer",
+    "what": "ANSWER"
+   }
+  ],
+  "sent": 282,
+  "out": 16,
+  "wall": 0.2963472580013331,
+  "name": "read_prompts"
+ }
+]

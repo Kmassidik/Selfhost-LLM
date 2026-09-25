@@ -1,0 +1,65 @@
+# ── Weights and data. These are the reason this file exists. ──────────
+# The model files here run to hundreds of megabytes each and belong on
+# Hugging Face, not in git. models/configs/ IS committed — it is a few KB
+# of JSON and it is what makes the architecture claims reproducible.
+models/hf/
+models/gguf/
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+!models/configs/**/*.json
+
+# ── Environments ──────────────────────────────────────────────────────
+.venv/
+engines/*/.venv/
+__pycache__/
+*.py[cod]
+uv.lock
+
+# ── Output: runs, checkpoints, logs, scratch ──────────────────────────
+runs/
+checkpoints/
+scratch/
+data/raw/
+data/tokenized/
+*.log
+*.mp4
+*.wav
+
+# ── Measurements ARE committed — bench/results/*.json is the data the
+#    comparison tables read. Raw artefacts are not.
+gpu-samples/
+
+# ── Never ─────────────────────────────────────────────────────────────
+.env
+*.pem
+*.key
+id_*
+.DS_Store
+
+# ── Training outputs (regenerable adapters + checkpoints) ──────────────
+**/checkpoint-*/
+training/train/*/adapter/
+training/train/*/adapter_*/
+training/train/*/quant/
+training/rag/r3_adapter/
+
+# ── Engine source clones & local builds ───────────────────────────────
+#    Third-party upstream clones (each has its own .git) + local builds,
+#    gigabytes each. Keep only dir placeholders and our wrapper scripts.
+engines/llamacpp/*
+!engines/llamacpp/.gitkeep
+engines/vllm-src/
+engines/sglang-src/
+engines/vllm/*
+engines/sglang/*
+!engines/*/.gitkeep
+!engines/vllm/serve.sh
+!engines/sglang/serve.sh
+
+# secrets — API tokens live on the box only, never in git
+*.token
+# PrismML llama.cpp fork (huge upstream clone with its own .git)
+engines/prismml-llamacpp/

@@ -1,0 +1,27 @@
+CMD: env CUDA_VISIBLE_DEVICES=0,1,2 VLLM_USE_FLASHINFER_SAMPLER=0 PATH=/root/Desktop/selfhostllm/engines/vllm/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin NCCL_P2P_DISABLE=1 /root/Desktop/selfhostllm/engines/vllm/.venv/bin/vllm serve /root/Desktop/selfhostllm/models/hf/SmolLM2-360M-Instruct --served-model-name SmolLM2-360M-Instruct --dtype float16 --max-model-len 8192 --gpu-memory-utilization 0.85 --pipeline-parallel-size 3 --host 10.0.0.20 --port 8081
+READY after 57s
+--- GPU after load ---
+0, 6983 MiB, 0 %
+1, 6913 MiB, 0 %
+2, 6519 MiB, 0 %
+L2 vLLM PP=3 noP2P
+  endpoint http://10.0.0.20:8081/v1
+  model    SmolLM2-360M-Instruct
+  run id   L2-SmolLM2-360M-Instruct-1789354738
+
+  short     ttft    40.3 ms    137.9 tok/s     32 tok (engine)   hash 60d9e656b9d5b6a1
+  medium    ttft    38.0 ms    141.1 tok/s     93 tok (engine)   hash 8c88988bce2536da
+  longctx   ttft    51.7 ms    197.6 tok/s      4 tok (engine)   hash 4f54b2a7620fe65f
+  code      ttft    41.7 ms    138.5 tok/s    183 tok (engine)   hash 7e10b432e823c1c7
+
+  concurrency 1      128.9 tok/s total    128.9 per stream   (93 tokens in 0.72s)
+  concurrency 4      245.5 tok/s total     61.4 per stream   (372 tokens in 1.52s)
+  concurrency 16    1268.7 tok/s total     79.3 per stream   (1488 tokens in 1.17s)
+
+  peak VRAM per card : {0: 7023, 1: 6953, 2: 6519}  (on the graphics card)
+  peak system RAM    : 1,310 MB  (host memory, engine process tree)
+  -> /root/Desktop/selfhostllm/bench/results/L2-SmolLM2-360M-Instruct-1789354738.json
+--- GPU during run ---
+card 0: peak  7023 MiB | max util 100% | mean util  93.2% | samples>5% util: 24/25
+card 1: peak  6953 MiB | max util 100% | mean util  70.7% | samples>5% util: 24/25
+card 2: peak  6519 MiB | max util  24% | mean util  16.4% | samples>5% util: 23/25

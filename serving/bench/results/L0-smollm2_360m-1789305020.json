@@ -1,0 +1,97 @@
+{
+  "run_id": "L0-smollm2_360m-1789305020",
+  "label": "L0 \u00b7 Ollama \u00b7 SmolLM2-360M F16",
+  "level": "L0",
+  "model": "smollm2:360m",
+  "quant": "F16",
+  "endpoint": "http://10.0.0.20:11434/v1",
+  "note": "ollama 0.34.0, ONE CARD; VRAM + host RAM",
+  "prompt_set_version": 1,
+  "temperature": 0.0,
+  "started": "2026-09-13T20:10:20",
+  "prompts": {
+    "short": {
+      "ttft_ms": 10.21,
+      "total_s": 0.116,
+      "decode_s": 0.106,
+      "out_tokens": 32,
+      "in_tokens": 35,
+      "token_source": "engine",
+      "decode_tps": 302.2,
+      "prefill_tps": 3427.5,
+      "prompt_chars": 23,
+      "output_sha256": "60d9e656b9d5b6a1",
+      "output_head": "I'm sorry for any confusion, but as a chatbot, I don't have the ability to access or provide real-time information about",
+      "repeats": 3
+    },
+    "medium": {
+      "ttft_ms": 19.68,
+      "total_s": 0.34,
+      "decode_s": 0.321,
+      "out_tokens": 93,
+      "in_tokens": 48,
+      "token_source": "engine",
+      "decode_tps": 290.1,
+      "prefill_tps": 2438.6,
+      "prompt_chars": 101,
+      "output_sha256": "8c88988bce2536da",
+      "output_head": "Reading a model's weights from memory is slower than multiplying them because it involves retrieving the weights from me",
+      "repeats": 3
+    },
+    "longctx": {
+      "ttft_ms": 55.88,
+      "total_s": 0.068,
+      "decode_s": 0.012,
+      "out_tokens": 4,
+      "in_tokens": 2201,
+      "token_source": "engine",
+      "decode_tps": 337.4,
+      "prefill_tps": 39388.1,
+      "prompt_chars": 11438,
+      "output_sha256": "4f54b2a7620fe65f",
+      "output_head": "Tokio",
+      "repeats": 3
+    },
+    "code": {
+      "ttft_ms": 23.81,
+      "total_s": 0.683,
+      "decode_s": 0.659,
+      "out_tokens": 192,
+      "in_tokens": 53,
+      "token_source": "engine",
+      "decode_tps": 291.4,
+      "prefill_tps": 2226.0,
+      "prompt_chars": 114,
+      "output_sha256": "9e34bfd309e4daec",
+      "output_head": "```python\nimport os\n\ndef read_safetensors_file_header(file_path):\n    \"\"\"\n    Reads a safetensors file header and return",
+      "repeats": 3
+    }
+  },
+  "concurrency": {
+    "1": {
+      "wall_s": 0.338,
+      "total_tps": 275.5,
+      "per_stream_tps": 275.5,
+      "tokens": 93
+    },
+    "4": {
+      "wall_s": 1.302,
+      "total_tps": 285.8,
+      "per_stream_tps": 71.4,
+      "tokens": 372
+    },
+    "16": {
+      "wall_s": 5.113,
+      "total_tps": 291.0,
+      "per_stream_tps": 18.2,
+      "tokens": 1488
+    }
+  },
+  "vram_peak_mb": {
+    "0": 1091,
+    "1": 15,
+    "2": 15
+  },
+  "host_rss_peak_mb": 739,
+  "finished": "2026-09-13T20:10:31"
+}

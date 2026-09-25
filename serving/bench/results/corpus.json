@@ -1,0 +1,26 @@
+{
+ "total_tokens": 89130,
+ "total_chars": 268611,
+ "by_ext": {
+  ".md": {
+   "files": 6,
+   "chars": 34040,
+   "tokens": 10660
+  },
+  ".toml": {
+   "files": 1,
+   "chars": 577,
+   "tokens": 194
+  },
+  ".py": {
+   "files": 50,
+   "chars": 232277,
+   "tokens": 77802
+  },
+  ".json": {
+   "files": 1,
+   "chars": 1717,
+   "tokens": 474
+  }
+ }
+}

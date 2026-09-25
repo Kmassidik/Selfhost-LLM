@@ -1,0 +1,124 @@
+{
+ "label": "llama3-8b-q8",
+ "model": "llama3",
+ "endpoint": "http://10.0.0.20:8087/v1",
+ "n": 10,
+ "correct": 6,
+ "wrong": 3,
+ "gave_up": 1,
+ "sent": 16931,
+ "out": 482,
+ "wall": 73.8,
+ "rows": [
+  {
+   "task": "files_source",
+   "truth": "40",
+   "got": "159",
+   "ok": false,
+   "answered": true,
+   "steps": 7,
+   "sent": 3078,
+   "out": 47,
+   "wall": 6.41
+  },
+  {
+   "task": "py_source",
+   "truth": "38",
+   "got": null,
+   "ok": false,
+   "answered": false,
+   "steps": 8,
+   "sent": 2670,
+   "out": 126,
+   "wall": 12.59
+  },
+  {
+   "task": "run_exists",
+   "truth": "yes",
+   "got": "yes",
+   "ok": true,
+   "answered": true,
+   "steps": 2,
+   "sent": 414,
+   "out": 13,
+   "wall": 1.7
+  },
+  {
+   "task": "ghost_exists",
+   "truth": "no",
+   "got": "no",
+   "ok": true,
+   "answered": true,
+   "steps": 7,
+   "sent": 1688,
+   "out": 32,
+   "wall": 4.63
+  },
+  {
+   "task": "n_prompts",
+   "truth": "4",
+   "got": "39",
+   "ok": false,
+   "answered": true,
+   "steps": 2,
+   "sent": 300,
+   "out": 16,
+   "wall": 1.66
+  },
+  {
+   "task": "readme_lines",
+   "truth": "159",
+   "got": "159",
+   "ok": true,
+   "answered": true,
+   "steps": 2,
+   "sent": 274,
+   "out": 14,
+   "wall": 1.36
+  },
+  {
+   "task": "layers",
+   "truth": "32",
+   "got": "32",
+   "ok": true,
+   "answered": true,
+   "steps": 5,
+   "sent": 2002,
+   "out": 71,
+   "wall": 7.35
+  },
+  {
+   "task": "kv_heads",
+   "truth": "5",
+   "got": "5",
+   "ok": true,
+   "answered": true,
+   "steps": 4,
+   "sent": 1707,
+   "out": 53,
+   "wall": 5.72
+  },
+  {
+   "task": "vocab",
+   "truth": "49152",
+   "got": "49152",
+   "ok": true,
+   "answered": true,
+   "steps": 6,
+   "sent": 3797,
+   "out": 79,
+   "wall": 8.55
+  },
+  {
+   "task": "files_bench",
+   "truth": "6",
+   "got": "273",
+   "ok": false,
+   "answered": true,
+   "steps": 5,
+   "sent": 1001,
+   "out": 31,
+   "wall": 3.75
+  }
+ ]
+}

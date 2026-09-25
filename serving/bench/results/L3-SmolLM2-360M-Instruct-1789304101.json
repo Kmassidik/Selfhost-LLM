@@ -1,0 +1,97 @@
+{
+  "run_id": "L3-SmolLM2-360M-Instruct-1789304101",
+  "label": "L3 \u00b7 SGLang \u00b7 SmolLM2-360M F16",
+  "level": "L3",
+  "model": "SmolLM2-360M-Instruct",
+  "quant": "F16",
+  "endpoint": "http://10.0.0.20:30000/v1",
+  "note": "sglang 0.5.19, triton backend, ONE CARD; VRAM + host RAM",
+  "prompt_set_version": 1,
+  "temperature": 0.0,
+  "started": "2026-09-13T19:55:01",
+  "prompts": {
+    "short": {
+      "ttft_ms": 51.04,
+      "total_s": 0.135,
+      "decode_s": 0.084,
+      "out_tokens": 32,
+      "in_tokens": 35,
+      "token_source": "engine",
+      "decode_tps": 379.1,
+      "prefill_tps": 685.7,
+      "prompt_chars": 23,
+      "output_sha256": "60d9e656b9d5b6a1",
+      "output_head": "I'm sorry for any confusion, but as a chatbot, I don't have the ability to access or provide real-time information about",
+      "repeats": 3
+    },
+    "medium": {
+      "ttft_ms": 49.49,
+      "total_s": 0.298,
+      "decode_s": 0.249,
+      "out_tokens": 93,
+      "in_tokens": 48,
+      "token_source": "engine",
+      "decode_tps": 373.6,
+      "prefill_tps": 969.9,
+      "prompt_chars": 101,
+      "output_sha256": "8c88988bce2536da",
+      "output_head": "Reading a model's weights from memory is slower than multiplying them because it involves retrieving the weights from me",
+      "repeats": 3
+    },
+    "longctx": {
+      "ttft_ms": 56.54,
+      "total_s": 0.064,
+      "decode_s": 0.008,
+      "out_tokens": 4,
+      "in_tokens": 2201,
+      "token_source": "engine",
+      "decode_tps": 505.9,
+      "prefill_tps": 38928.6,
+      "prompt_chars": 11438,
+      "output_sha256": "4f54b2a7620fe65f",
+      "output_head": "Tokio",
+      "repeats": 3
+    },
+    "code": {
+      "ttft_ms": 48.23,
+      "total_s": 0.545,
+      "decode_s": 0.495,
+      "out_tokens": 183,
+      "in_tokens": 53,
+      "token_source": "engine",
+      "decode_tps": 369.6,
+      "prefill_tps": 1098.9,
+      "prompt_chars": 114,
+      "output_sha256": "7e10b432e823c1c7",
+      "output_head": "```python\ndef read_safetensors_file_header(file_path):\n    \"\"\"\n    Reads a safetensors file header and returns the total",
+      "repeats": 3
+    }
+  },
+  "concurrency": {
+    "1": {
+      "wall_s": 0.302,
+      "total_tps": 307.7,
+      "per_stream_tps": 307.7,
+      "tokens": 93
+    },
+    "4": {
+      "wall_s": 0.333,
+      "total_tps": 1116.0,
+      "per_stream_tps": 279.0,
+      "tokens": 372
+    },
+    "8": {
+      "wall_s": 0.355,
+      "total_tps": 2098.1,
+      "per_stream_tps": 262.3,
+      "tokens": 744
+    }
+  },
+  "vram_peak_mb": {
+    "0": 7253,
+    "1": 15,
+    "2": 15
+  },
+  "host_rss_peak_mb": 5434,
+  "finished": "2026-09-13T19:55:05"
+}

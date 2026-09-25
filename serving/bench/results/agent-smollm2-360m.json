@@ -1,0 +1,47 @@
+{
+ "label": "smollm2-360m",
+ "n": 4,
+ "solved": 0,
+ "rows": [
+  {
+   "solved": false,
+   "steps": 14,
+   "sent": 43157,
+   "out": 9800,
+   "wall": 45.5546450659167,
+   "tested": false,
+   "why": "ran out of steps",
+   "task": "t1_offbyone"
+  },
+  {
+   "solved": false,
+   "steps": 14,
+   "sent": 43157,
+   "out": 9800,
+   "wall": 43.148325630056206,
+   "tested": false,
+   "why": "ran out of steps",
+   "task": "t2_bytes"
+  },
+  {
+   "solved": false,
+   "steps": 14,
+   "sent": 15029,
+   "out": 1358,
+   "wall": 5.523399508092552,
+   "tested": false,
+   "why": "ran out of steps",
+   "task": "t3_empty"
+  },
+  {
+   "solved": false,
+   "steps": 14,
+   "sent": 43271,
+   "out": 9800,
+   "wall": 42.753118126129266,
+   "tested": false,
+   "why": "ran out of steps",
+   "task": "t4_twofiles"
+  }
+ ]
+}

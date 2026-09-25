@@ -1,0 +1,307 @@
+{
+ "base": [
+  {
+   "kind": "prose",
+   "rep": 0,
+   "gen": 256,
+   "decode_tok_s": 33.3,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "prose",
+   "rep": 1,
+   "gen": 256,
+   "decode_tok_s": 33.2,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "prose",
+   "rep": 2,
+   "gen": 256,
+   "decode_tok_s": 33.1,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 0,
+   "gen": 192,
+   "decode_tok_s": 33.0,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 1,
+   "gen": 192,
+   "decode_tok_s": 33.0,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 2,
+   "gen": 192,
+   "decode_tok_s": 33.0,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "gpu_after": [
+    "0, 40, 210 MHz, 0 %, 0x0000000000000001",
+    "1, 80, 1875 MHz, 29 %, 0x0000000000000004",
+    "2, 67, 1905 MHz, 48 %, 0x0000000000000000"
+   ]
+  }
+ ],
+ "ngram-simple": [
+  {
+   "kind": "prose",
+   "rep": 0,
+   "gen": 256,
+   "decode_tok_s": 33.1,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "prose",
+   "rep": 1,
+   "gen": 256,
+   "decode_tok_s": 33.0,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "prose",
+   "rep": 2,
+   "gen": 256,
+   "decode_tok_s": 33.0,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 0,
+   "gen": 192,
+   "decode_tok_s": 51.3,
+   "draft_n": 240,
+   "draft_accepted": 120,
+   "accept_rate": 0.5
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 1,
+   "gen": 192,
+   "decode_tok_s": 52.6,
+   "draft_n": 240,
+   "draft_accepted": 120,
+   "accept_rate": 0.5
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 2,
+   "gen": 192,
+   "decode_tok_s": 52.9,
+   "draft_n": 240,
+   "draft_accepted": 120,
+   "accept_rate": 0.5
+  },
+  {
+   "gpu_after": [
+    "0, 43, 210 MHz, 0 %, 0x0000000000000001",
+    "1, 78, 1860 MHz, 7 %, 0x0000000000000004",
+    "2, 66, 1905 MHz, 51 %, 0x0000000000000004"
+   ]
+  }
+ ],
+ "ngram-mod": [
+  {
+   "kind": "prose",
+   "rep": 0,
+   "gen": 256,
+   "decode_tok_s": 32.9,
+   "draft_n": null,
+   "draft_accepted": null
+  },
+  {
+   "kind": "prose",
+   "rep": 1,
+   "gen": 256,
+   "decode_tok_s": 60.2,
+   "draft_n": 256,
+   "draft_accepted": 156,
+   "accept_rate": 0.609
+  },
+  {
+   "kind": "prose",
+   "rep": 2,
+   "gen": 256,
+   "decode_tok_s": 207.8,
+   "draft_n": 244,
+   "draft_accepted": 244,
+   "accept_rate": 1.0
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 0,
+   "gen": 192,
+   "decode_tok_s": 37.3,
+   "draft_n": 256,
+   "draft_accepted": 73,
+   "accept_rate": 0.285
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 1,
+   "gen": 192,
+   "decode_tok_s": 70.5,
+   "draft_n": 256,
+   "draft_accepted": 154,
+   "accept_rate": 0.602
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 2,
+   "gen": 192,
+   "decode_tok_s": 71.0,
+   "draft_n": 256,
+   "draft_accepted": 154,
+   "accept_rate": 0.602
+  },
+  {
+   "gpu_after": [
+    "0, 45, 210 MHz, 0 %, 0x0000000000000001",
+    "1, 76, 1875 MHz, 8 %, 0x0000000000000004",
+    "2, 65, 1905 MHz, 11 %, 0x0000000000000004"
+   ]
+  }
+ ],
+ "draft3": [
+  {
+   "kind": "prose",
+   "rep": 0,
+   "gen": 256,
+   "decode_tok_s": 13.3,
+   "draft_n": 476,
+   "draft_accepted": 95,
+   "accept_rate": 0.2
+  },
+  {
+   "kind": "prose",
+   "rep": 1,
+   "gen": 256,
+   "decode_tok_s": 13.3,
+   "draft_n": 476,
+   "draft_accepted": 95,
+   "accept_rate": 0.2
+  },
+  {
+   "kind": "prose",
+   "rep": 2,
+   "gen": 256,
+   "decode_tok_s": 13.3,
+   "draft_n": 476,
+   "draft_accepted": 95,
+   "accept_rate": 0.2
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 0,
+   "gen": 192,
+   "decode_tok_s": 27.7,
+   "draft_n": 168,
+   "draft_accepted": 137,
+   "accept_rate": 0.815
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 1,
+   "gen": 192,
+   "decode_tok_s": 27.7,
+   "draft_n": 168,
+   "draft_accepted": 137,
+   "accept_rate": 0.815
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 2,
+   "gen": 192,
+   "decode_tok_s": 27.7,
+   "draft_n": 168,
+   "draft_accepted": 137,
+   "accept_rate": 0.815
+  },
+  {
+   "gpu_after": [
+    "0, 48, 210 MHz, 0 %, 0x0000000000000001",
+    "1, 81, 1860 MHz, 32 %, 0x0000000000000000",
+    "2, 64, 1905 MHz, 56 %, 0x0000000000000000"
+   ]
+  }
+ ],
+ "draft8": [
+  {
+   "kind": "prose",
+   "rep": 0,
+   "gen": 256,
+   "decode_tok_s": 11.5,
+   "draft_n": 1555,
+   "draft_accepted": 58,
+   "accept_rate": 0.037
+  },
+  {
+   "kind": "prose",
+   "rep": 1,
+   "gen": 256,
+   "decode_tok_s": 12.1,
+   "draft_n": 1477,
+   "draft_accepted": 67,
+   "accept_rate": 0.045
+  },
+  {
+   "kind": "prose",
+   "rep": 2,
+   "gen": 256,
+   "decode_tok_s": 14.2,
+   "draft_n": 1245,
+   "draft_accepted": 96,
+   "accept_rate": 0.077
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 0,
+   "gen": 192,
+   "decode_tok_s": 35.3,
+   "draft_n": 376,
+   "draft_accepted": 147,
+   "accept_rate": 0.391
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 1,
+   "gen": 192,
+   "decode_tok_s": 49.6,
+   "draft_n": 264,
+   "draft_accepted": 158,
+   "accept_rate": 0.598
+  },
+  {
+   "kind": "code-rewrite",
+   "rep": 2,
+   "gen": 192,
+   "decode_tok_s": 40.3,
+   "draft_n": 328,
+   "draft_accepted": 150,
+   "accept_rate": 0.457
+  },
+  {
+   "gpu_after": [
+    "0, 50, 210 MHz, 0 %, 0x0000000000000001",
+    "1, 81, 1860 MHz, 34 %, 0x0000000000000004",
+    "2, 65, 1905 MHz, 48 %, 0x0000000000000004"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1800 @@
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "the router doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the desk lamp stopped working after a day", "label": "product_defect"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "the blender arrived broken", "label": "product_defect"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "I want to return the monitor", "label": "product_return"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the headset arrived broken", "label": "product_defect"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I want to return the monitor", "label": "product_return"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the headset doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the headset arrived broken", "label": "product_defect"}
+{"text": "I want to return the headset", "label": "product_return"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the blender stopped working after a day", "label": "product_defect"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "how do I send the kettle back", "label": "product_return"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the desk lamp doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the desk lamp doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "I want to return my tablet", "label": "product_return"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "there's a crack in the router, it's faulty", "label": "product_defect"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "how do I send the headset back", "label": "product_return"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the kettle is defective out of the box", "label": "product_defect"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "how do I send the monitor back", "label": "product_return"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "how do I send my tablet back", "label": "product_return"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "the desk lamp stopped working after a day", "label": "product_defect"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "the headset arrived broken", "label": "product_defect"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "need to return the router for a different size", "label": "product_return"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "how do I send the router back", "label": "product_return"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "there's a crack in the headset, it's faulty", "label": "product_defect"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "the router arrived broken", "label": "product_defect"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the router arrived broken", "label": "product_defect"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "how do I send the router back", "label": "product_return"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the kettle arrived broken", "label": "product_defect"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "how do I send the blender back", "label": "product_return"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "the desk lamp doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "my tablet stopped working after a day", "label": "product_defect"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the headset is defective out of the box", "label": "product_defect"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "I want to return the monitor", "label": "product_return"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "how do I send the desk lamp back", "label": "product_return"}
+{"text": "my tablet doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "there's a crack in the headset, it's faulty", "label": "product_defect"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "there's a crack in the monitor, it's faulty", "label": "product_defect"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "how do I send the blender back", "label": "product_return"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "my tablet arrived broken", "label": "product_defect"}
+{"text": "need to return the router for a different size", "label": "product_return"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the kettle is defective out of the box", "label": "product_defect"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "how do I send the blender back", "label": "product_return"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "my tablet doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "the monitor arrived broken", "label": "product_defect"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my tablet is defective out of the box", "label": "product_defect"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "how do I send the kettle back", "label": "product_return"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "my tablet is defective out of the box", "label": "product_defect"}
+{"text": "my tablet doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "how do I send the headset back", "label": "product_return"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "I want to return the blender", "label": "product_return"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "how do I send the router back", "label": "product_return"}
+{"text": "how do I send my tablet back", "label": "product_return"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I want to return my tablet", "label": "product_return"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "need to return the router for a different size", "label": "product_return"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "the blender doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "I want to return the headset", "label": "product_return"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "how do I send my tablet back", "label": "product_return"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "the kettle doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "there's a crack in the headset, it's faulty", "label": "product_defect"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the desk lamp doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "there's a crack in the router, it's faulty", "label": "product_defect"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "there's a crack in the router, it's faulty", "label": "product_defect"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "the router is defective out of the box", "label": "product_defect"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "there's a crack in the headset, it's faulty", "label": "product_defect"}
+{"text": "how do I send the headset back", "label": "product_return"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the router stopped working after a day", "label": "product_defect"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "my tablet arrived broken", "label": "product_defect"}
+{"text": "I want to return the monitor", "label": "product_return"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "how do I send the monitor back", "label": "product_return"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the router doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "my tablet doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "the desk lamp doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "I want to return the kettle", "label": "product_return"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "how do I send the kettle back", "label": "product_return"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my tablet is defective out of the box", "label": "product_defect"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "the blender arrived broken", "label": "product_defect"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "the blender doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "there's a crack in the kettle, it's faulty", "label": "product_defect"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "my tablet arrived broken", "label": "product_defect"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "my tablet stopped working after a day", "label": "product_defect"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "I want to return the kettle", "label": "product_return"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the headset stopped working after a day", "label": "product_defect"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "need to return the headset for a different size", "label": "product_return"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "there's a crack in the monitor, it's faulty", "label": "product_defect"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "how do I send the kettle back", "label": "product_return"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "the blender stopped working after a day", "label": "product_defect"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "how do I send the blender back", "label": "product_return"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "how do I send the kettle back", "label": "product_return"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the desk lamp stopped working after a day", "label": "product_defect"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the router doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "the blender stopped working after a day", "label": "product_defect"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "the headset stopped working after a day", "label": "product_defect"}
+{"text": "the headset is defective out of the box", "label": "product_defect"}
+{"text": "need to return the blender for a different size", "label": "product_return"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the monitor arrived broken", "label": "product_defect"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the kettle doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "the blender stopped working after a day", "label": "product_defect"}
+{"text": "the blender stopped working after a day", "label": "product_defect"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "the router doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "how do I send the headset back", "label": "product_return"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the blender arrived broken", "label": "product_defect"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "I want to return the desk lamp", "label": "product_return"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "the headset arrived broken", "label": "product_defect"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "need to return the headset for a different size", "label": "product_return"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "there's a crack in the blender, it's faulty", "label": "product_defect"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the headset arrived broken", "label": "product_defect"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "how do I send the monitor back", "label": "product_return"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the headset stopped working after a day", "label": "product_defect"}
+{"text": "the kettle is defective out of the box", "label": "product_defect"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the kettle doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "I want to return the headset", "label": "product_return"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "need to return the desk lamp for a different size", "label": "product_return"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "how do I send the kettle back", "label": "product_return"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "need to return the headset for a different size", "label": "product_return"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "I want to return the blender", "label": "product_return"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "need to return the monitor for a different size", "label": "product_return"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "I want to return the headset", "label": "product_return"}
+{"text": "my tablet doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "the headset is defective out of the box", "label": "product_defect"}
+{"text": "there's a crack in the blender, it's faulty", "label": "product_defect"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the desk lamp doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "there's a crack in the headset, it's faulty", "label": "product_defect"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "I want to return the kettle", "label": "product_return"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the kettle is defective out of the box", "label": "product_defect"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "there's a crack in the blender, it's faulty", "label": "product_defect"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "I want to return the blender", "label": "product_return"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my tablet stopped working after a day", "label": "product_defect"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "I want to return the headset", "label": "product_return"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "how do I send the desk lamp back", "label": "product_return"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the kettle stopped working after a day", "label": "product_defect"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the kettle doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "there's a crack in the kettle, it's faulty", "label": "product_defect"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "need to return the blender for a different size", "label": "product_return"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "the router stopped working after a day", "label": "product_defect"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "how do I send the kettle back", "label": "product_return"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "how do I send the headset back", "label": "product_return"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "my tablet arrived broken", "label": "product_defect"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the desk lamp doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "the router stopped working after a day", "label": "product_defect"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "I want to return the kettle", "label": "product_return"}
+{"text": "the headset doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "my tablet arrived broken", "label": "product_defect"}
+{"text": "the desk lamp stopped working after a day", "label": "product_defect"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "there's a crack in the blender, it's faulty", "label": "product_defect"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "need to return the headset for a different size", "label": "product_return"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "how do I send my tablet back", "label": "product_return"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the desk lamp doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "the kettle stopped working after a day", "label": "product_defect"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "there's a crack in the kettle, it's faulty", "label": "product_defect"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "there's a crack in the headset, it's faulty", "label": "product_defect"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "I want to return the monitor", "label": "product_return"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "how do I send the headset back", "label": "product_return"}
+{"text": "I want to return the blender", "label": "product_return"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "need to return the router for a different size", "label": "product_return"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "my tablet doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the headset doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "my tablet arrived broken", "label": "product_defect"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "I want to return the headset", "label": "product_return"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "need to return the headset for a different size", "label": "product_return"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "the kettle arrived broken", "label": "product_defect"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "there's a crack in the router, it's faulty", "label": "product_defect"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the monitor arrived broken", "label": "product_defect"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "how do I send the router back", "label": "product_return"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the router arrived broken", "label": "product_defect"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the monitor arrived broken", "label": "product_defect"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the desk lamp is defective out of the box", "label": "product_defect"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "need to return the headset for a different size", "label": "product_return"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "need to return the kettle for a different size", "label": "product_return"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "the router arrived broken", "label": "product_defect"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the monitor arrived broken", "label": "product_defect"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "my tablet doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "the router stopped working after a day", "label": "product_defect"}
+{"text": "there's a crack in my tablet, it's faulty", "label": "product_defect"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "need to return my tablet for a different size", "label": "product_return"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "need to return the desk lamp for a different size", "label": "product_return"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "the desk lamp arrived broken", "label": "product_defect"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "need to return the kettle for a different size", "label": "product_return"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "the headset stopped working after a day", "label": "product_defect"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "the monitor arrived broken", "label": "product_defect"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "my tablet doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "there's a crack in the headset, it's faulty", "label": "product_defect"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "the router is defective out of the box", "label": "product_defect"}
+{"text": "the monitor stopped working after a day", "label": "product_defect"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "there's a crack in the desk lamp, it's faulty", "label": "product_defect"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the headset is defective out of the box", "label": "product_defect"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "the router doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "how do I send the monitor back", "label": "product_return"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "need to return the blender for a different size", "label": "product_return"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "there's a crack in the headset, it's faulty", "label": "product_defect"}
+{"text": "the kettle doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "unable to access my account, login fails", "label": "account_login"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I want to return the headset", "label": "product_return"}
+{"text": "the headset arrived broken", "label": "product_defect"}
+{"text": "the kettle stopped working after a day", "label": "product_defect"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "there's a crack in the kettle, it's faulty", "label": "product_defect"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "I can't log into my account", "label": "account_login"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "the headset is defective out of the box", "label": "product_defect"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the blender is defective out of the box", "label": "product_defect"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "need to return the desk lamp for a different size", "label": "product_return"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "send me a password reset link please", "label": "account_password_reset"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "how do I set a new password", "label": "account_password_reset"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "how do I send the desk lamp back", "label": "product_return"}
+{"text": "I want to return my tablet", "label": "product_return"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the button does nothing when I click it", "label": "technical_bug"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "how do I send the kettle back", "label": "product_return"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "could you add a dark mode", "label": "feature_request"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "there's a bug in the checkout page", "label": "technical_bug"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "how do I send the desk lamp back", "label": "product_return"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "your service is unavailable, nothing loads", "label": "technical_outage"}
+{"text": "I want to return my tablet", "label": "product_return"}
+{"text": "the monitor doesn't fit, I'd like to return it", "label": "product_return"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the blender stopped working after a day", "label": "product_defect"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "need to return the kettle for a different size", "label": "product_return"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "need to return the monitor for a different size", "label": "product_return"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "how do I send the monitor back", "label": "product_return"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "I want to return the kettle", "label": "product_return"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "order marked delivered but I never got it", "label": "shipping_lost"}
+{"text": "how do I send the desk lamp back", "label": "product_return"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "the desk lamp stopped working after a day", "label": "product_defect"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "can you tell me more about your company", "label": "general_inquiry"}
+{"text": "my shipment seems to be lost", "label": "shipping_lost"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "the charge won't go through, card error", "label": "billing_payment_failure"}
+{"text": "the monitor is defective out of the box", "label": "product_defect"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "forgot my password, how do I change it", "label": "account_password_reset"}
+{"text": "the package hasn't arrived and it's overdue", "label": "shipping_delay"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "the headset stopped working after a day", "label": "product_defect"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "my tablet stopped working after a day", "label": "product_defect"}
+{"text": "the whole site is down right now", "label": "technical_outage"}
+{"text": "I'd love a mobile app version", "label": "feature_request"}
+{"text": "need to return the desk lamp for a different size", "label": "product_return"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "login isn't working for me", "label": "account_login"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "need to return the monitor for a different size", "label": "product_return"}
+{"text": "need to return the headset for a different size", "label": "product_return"}
+{"text": "I want to return the headset", "label": "product_return"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "shipping is taking way longer than promised", "label": "shipping_delay"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "do you ship internationally", "label": "general_inquiry"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "my parcel never arrived, tracking is stuck", "label": "shipping_lost"}
+{"text": "it would be great to have export to CSV", "label": "feature_request"}
+{"text": "the headset is defective out of the box", "label": "product_defect"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "my delivery is delayed by a week", "label": "shipping_delay"}
+{"text": "payment keeps failing when I try to pay", "label": "billing_payment_failure"}
+{"text": "I can't complete payment, it errors out", "label": "billing_payment_failure"}
+{"text": "the app crashes when I open settings", "label": "technical_bug"}
+{"text": "how do I get my money back for this", "label": "billing_refund"}
+{"text": "my order is late, where is it", "label": "shipping_delay"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "how do I send the blender back", "label": "product_return"}
+{"text": "please refund me, I was charged wrongly", "label": "billing_refund"}
+{"text": "what are your opening hours", "label": "general_inquiry"}
+{"text": "I want a refund for my last order", "label": "billing_refund"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "the courier lost my package", "label": "shipping_lost"}
+{"text": "how do I send the monitor back", "label": "product_return"}
+{"text": "where are you located", "label": "general_inquiry"}
+{"text": "please consider adding two-factor auth", "label": "feature_request"}
+{"text": "my card was declined at checkout twice", "label": "billing_payment_failure"}
+{"text": "I want to return the router", "label": "product_return"}
+{"text": "I need to reset my password", "label": "account_password_reset"}
+{"text": "the site throws an error on submit", "label": "technical_bug"}
+{"text": "requesting a refund on the duplicate charge", "label": "billing_refund"}
+{"text": "everything is offline, is there an outage", "label": "technical_outage"}
+{"text": "the API is returning 503 for everyone", "label": "technical_outage"}
+{"text": "it says my credentials are wrong when I sign in", "label": "account_login"}
