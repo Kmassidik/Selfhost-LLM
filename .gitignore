@@ -63,3 +63,4 @@ engines/sglang/*
 *.token
 # PrismML llama.cpp fork (huge upstream clone with its own .git)
 engines/prismml-llamacpp/
+engines/tabbyapi/

@@ -158,16 +158,32 @@ python3 source/01_budget_from_config.py models/configs/*/config.json
 ```
 
 ```
-model                       params     bf16     Q4   KV/tok  shape
-Meta-Llama-3-8B      8,030,261,248    15.0G   4.1G     128K  h4096 L32 32/8 ffn14336
-Mistral-7B-v0.3      7,248,023,552    13.5G   3.7G     128K  h4096 L32 32/8 ffn14336
-Qwen2.5-7B           7,615,487,488    14.2G   3.9G      56K  h3584 L28 28/4 ffn18944
-Qwen3-8B             8,190,726,144    15.3G   4.2G     144K  h4096 L36 32/8 ffn12288
+model                                   params   active    bf16     Q4  KV/tok   state  shape
+Meta-Llama-3-8B                  8,030,261,248      all   15.0G   4.1G    128K       -  h4096 L32 32/8 ffn14336
+Mistral-7B-v0.3                  7,248,023,552      all   13.5G   3.7G    128K       -  h4096 L32 32/8 ffn14336
+Qwen2.5-7B                       7,615,616,512      all   14.2G   3.9G     56K       -  h3584 L28 28/4 ffn18944
+Qwen3.5-0.8B                       752,393,024      all    1.4G   0.4G     12K     19M  h1024 L24(6attn+18lin) 8/2 ffn3584
+Qwen3.5-27B                     26,895,998,464      all   50.1G  13.8G     64K    150M  h5120 L64(16attn+48lin) 24/4 ffn17408
+Qwen3-8B                         8,190,735,360      all   15.3G   4.2G    144K       -  h4096 L36 32/8 ffn12288
+Qwen3-Coder-30B-A3B-Instruct    30,532,122,624     3.4B   56.9G  15.6G     96K       -  h2048 L48 32/4 moe128x768 top8
 ```
 
-The KV column is why the table exists: **Qwen2.5-7B needs less than half the conversation
-memory of Llama-3-8B** (28 layers and 4 key/value heads, against 32 and 8). At 32k context
-that is 1.75 GiB against 4.00 GiB — on an 8 GB card, the difference between running and not.
+**Every row is exact.** Each total was checked against a real file — published safetensors
+sizes for Qwen2.5 and Qwen3, the GGUF files on this box for the rest — and matches to the
+parameter.
+
+The KV column is why the table exists. Three things it shows:
+
+- **Qwen2.5-7B needs less than half the conversation memory of Llama-3-8B** (28 layers and
+  4 key/value heads, against 32 and 8). At 32k context that is 1.75 GiB against 4.00 GiB — on
+  an 8 GB card, the difference between running and not.
+- **Qwen3.5-27B has 3.4× Llama-3-8B's parameters but half its KV cache per token.** Only 16 of
+  its 64 layers are full attention; the other 48 are linear attention (Gated DeltaNet), which
+  carries a fixed 150 MiB state per conversation instead of a cache that grows. This is the
+  architecture of Ternary Bonsai 2 27B (`research/r25/`) — and why its full 262k-token window
+  fits on two 8 GB cards.
+- **Qwen3-Coder-30B-A3B stores 30.5B parameters but computes with 3.4B per token** — 8 of 128
+  experts per layer. Stored size sets the memory bill; active size sets the speed.
 
 Next, `source/02_inspect_model.py` predicts a model's parameter count from its config, then
 reads the real file and compares:

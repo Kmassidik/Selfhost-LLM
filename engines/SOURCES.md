@@ -10,5 +10,8 @@ Recorded 2026-09-26, before their `.git` folders were removed. Re-fetch with
 | `engines/prismml-llamacpp` | https://github.com/PrismML-Eng/llama.cpp | prism | 842b1880415d6f508f03b789e5ce70194def7bfd |
 | `engines/vllm-src` | https://github.com/vllm-project/vllm | main | 5a6ccc589281b4302791cc301e258adcbcc5fead |
 | `engines/sglang-src` | https://github.com/sgl-project/sglang | main | 46ae84df159e261fa67d5cce3647f3342fe365a7 |
+| `engines/tabbyapi` | https://github.com/theroyallab/tabbyAPI | main | f07131cd8fe34e449fe87cdd3a066b52b96d3cac |
 
 The PrismML fork must be built from source on this box (no AVX2; prebuilt binaries crash).
+TabbyAPI (added for R29) serves EXL3 checkpoints through exllamav3 1.5.1, in its own
+`engines/tabbyapi/.venv` (torch 2.9 + cu128), separate from the project venv.
