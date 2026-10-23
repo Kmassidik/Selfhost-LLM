@@ -10,8 +10,13 @@
 <body class="bg-white text-slate-900 min-h-screen">
 <div class="max-w-2xl mx-auto px-4 py-10">
 
-  <h1 class="text-xl font-semibold tracking-tight">Glicc model switch</h1>
-  <p class="text-sm text-slate-500 mt-1">Self-hosted LLM endpoint &middot; llm.glicc.id</p>
+  <div class="flex items-center justify-between">
+    <div>
+      <h1 class="text-xl font-semibold tracking-tight">Glicc model switch</h1>
+      <p class="text-sm text-slate-500 mt-1">Self-hosted LLM endpoint &middot; llm.glicc.id</p>
+    </div>
+    <button id="logout-btn" class="text-xs text-slate-400 hover:text-slate-700">Sign out</button>
+  </div>
 
   <!-- status card -->
   <div class="mt-6 rounded-lg border border-slate-200 shadow-sm p-5">
@@ -39,21 +44,41 @@
   <p class="text-xs text-slate-400 mt-8">Switching a model stops the current server and starts the new one &mdash; a few seconds of downtime each time.</p>
 </div>
 
+<!-- toast container -->
+<div id="toast-root" class="fixed bottom-4 right-4 flex flex-col gap-2 z-50"></div>
+
 <script>
-const MODEL_META = {
-  qwen36:  { badge: "Active by default" },
-  davidau: { badge: "Comparison candidate" },
-};
+function toast(msg, kind) {
+  kind = kind || "info"; // "info" | "success" | "error"
+  const colors = {
+    info:    "bg-slate-900 text-white",
+    success: "bg-emerald-600 text-white",
+    error:   "bg-red-600 text-white",
+  };
+  const el = document.createElement("div");
+  el.className = `${colors[kind]} text-sm rounded-md shadow-lg px-4 py-2.5 max-w-sm
+                   transition-opacity duration-300 opacity-0 whitespace-pre-wrap`;
+  el.textContent = msg;
+  document.getElementById("toast-root").appendChild(el);
+  requestAnimationFrame(() => el.classList.remove("opacity-0"));
+  setTimeout(() => {
+    el.classList.add("opacity-0");
+    setTimeout(() => el.remove(), 300);
+  }, 4500);
+}
 
 async function api(path, opts) {
   const r = await fetch(path, opts);
+  if (r.status === 401) {
+    window.location.href = "/login";
+    throw new Error("not authenticated");
+  }
   const body = await r.json();
   if (!r.ok) throw body;
   return body;
 }
 
-function card(key, info, currentId) {
-  const isCurrent = currentId === info.model_id_hint;
+function card(key, info) {
   const ready = info.ready;
   const div = document.createElement("div");
   div.className = "rounded-lg border border-slate-200 shadow-sm p-5 flex items-center justify-between";
@@ -81,21 +106,22 @@ async function refresh() {
   const list = document.getElementById("models");
   list.innerHTML = "";
   for (const [key, info] of Object.entries(s.models)) {
-    const el = card(key, { ...info, model_id_hint: info.label }, s.model_id);
-    list.appendChild(el);
+    list.appendChild(card(key, info));
   }
   list.querySelectorAll("button[data-key]").forEach(btn => {
     btn.addEventListener("click", async () => {
       btn.disabled = true;
       btn.textContent = "Switching\u2026";
+      toast(`Switching to ${btn.closest("div.flex").querySelector("p.font-medium").textContent}\u2026`, "info");
       try {
         const res = await api("/api/switch", {
           method: "POST", headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ model: btn.dataset.key }),
         });
-        alert(res.ok ? `Switched. (${res.seconds}s)` : `Failed after ${res.seconds}s:\n${res.stderr_tail || res.stdout_tail}`);
+        toast(res.ok ? `Switched. (${res.seconds}s)` : `Failed after ${res.seconds}s:\n${(res.stderr_tail || res.stdout_tail || "").slice(0,300)}`,
+              res.ok ? "success" : "error");
       } catch (e) {
-        alert("Error: " + (e.error || JSON.stringify(e)));
+        toast("Error: " + (e.error || JSON.stringify(e)), "error");
       }
       refresh();
     });
@@ -127,6 +153,11 @@ async function loadDocs() {
 `curl https://llm.glicc.id/v1/models \\
   -H "Authorization: Bearer ${tok}"`;
 }
+
+document.getElementById("logout-btn").addEventListener("click", async () => {
+  await fetch("/api/logout", { method: "POST" });
+  window.location.href = "/login";
+});
 
 refresh();
 loadDocs();
