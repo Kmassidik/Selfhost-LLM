@@ -142,6 +142,7 @@ numbers will be corrected here when it is.)*
     docs/SETUP.md                how the box was built — drivers, engines, uv
     docs/WORKSPACE.md            where everything lives on disk
     docs/DOWNLOADING-MODELS.md   getting a model from Hugging Face, step by step
+    docs/CLOUDFLARE-SUBDOMAINS.md adding a new <name>.glicc.id route to the tunnel
     serve/README.md              the Arena — chat, model management, benchmarks
 
 The knowledge base — 28 chapters and the reference pages, every number measured
