@@ -3,165 +3,249 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Glicc Model Switch</title>
-<script src="https://cdn.tailwindcss.com/3.4.13"></script>
-<style>body{background:#ffffff}</style>
+<title>Glicc Operations</title>
+<style>
+:root{
+  --bg:#ffffff; --panel:#ffffff; --panel2:#f8fafc; --line:#dbe3ee;
+  --text:#0f172a; --muted:#64748b; --accent:#0f766e; --blue:#2563eb;
+  --green:#15803d; --amber:#b45309; --red:#b91c1c;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1280px;margin:0 auto;padding:28px 20px 48px}
+header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h1{font-size:24px;margin:0;letter-spacing:-.02em}
+.sub{color:var(--muted);font-size:12px;margin-top:4px}
+.pill{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--panel);border-radius:999px;padding:6px 11px;font-size:12px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.dot.ok{background:var(--green);box-shadow:0 0 0 4px #34d39918}
+.dot.bad{background:var(--red);box-shadow:0 0 0 4px #f8717118}
+.ghost{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:7px;padding:6px 10px;cursor:pointer;font-size:12px}
+.ghost:hover{color:var(--text);border-color:#94a3b8}
+.grid{display:grid;gap:12px}
+.cards{grid-template-columns:repeat(4,minmax(0,1fr));margin-top:22px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;min-width:0;box-shadow:0 1px 2px #0f172a0a}
+.k{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.v{font-size:24px;font-weight:700;margin-top:5px;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.v small{font-size:12px;color:var(--muted);font-weight:500;margin-left:3px}
+.note{font-size:11px;color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar{height:5px;background:#e6edf5;border-radius:99px;margin-top:10px;overflow:hidden}
+.bar > span{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--accent));border-radius:99px;transition:width .4s}
+section{margin-top:14px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+.head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.head h2{font-size:13px;margin:0;font-weight:650;letter-spacing:.01em}
+.legend{display:flex;gap:14px;color:var(--muted);font-size:11px}
+.legend i{display:inline-block;width:12px;height:2px;vertical-align:middle;margin-right:5px}
+svg.chart{width:100%;height:155px;display:block;overflow:visible}
+.chart .gridline{stroke:#e6edf5;stroke-width:1}
+.chart .axis{fill:var(--muted);font-size:10px}
+.chart .tps{fill:none;stroke:var(--accent);stroke-width:2;vector-effect:non-scaling-stroke}
+.chart .fill{fill:none;stroke:var(--blue);stroke-width:1.5;stroke-dasharray:4 4;vector-effect:non-scaling-stroke}
+.two{grid-template-columns:1.35fr 1fr}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{text-align:left;color:var(--muted);font-weight:500;border-bottom:1px solid var(--line);padding:7px 8px}
+td{padding:8px;border-bottom:1px solid #eef2f7;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px}
+.tag{font-size:10px;border:1px solid var(--line);border-radius:5px;padding:2px 6px;color:var(--muted)}
+.tag.live{color:var(--green);border-color:#1f6b50}
+.tag.idle{color:var(--muted)}
+.models{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.model{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:13px;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.model p{margin:0}
+.model .name{font-weight:600}
+.model .sub{font-size:11px;margin-top:2px}
+.switch{border:1px solid #38507a;background:#152741;color:var(--text);border-radius:7px;padding:6px 11px;font-size:12px;cursor:pointer;white-space:nowrap}
+.switch:disabled{opacity:.4;cursor:not-allowed}
+pre{background:#f8fafc;border:1px solid var(--line);border-radius:8px;padding:11px;overflow:auto;font:11px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:#1e293b}
+details summary{cursor:pointer;color:var(--muted);font-size:12px}
+.footer{color:#607089;font-size:11px;margin-top:22px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+#toasts{position:fixed;right:16px;bottom:16px;display:flex;flex-direction:column;gap:8px;z-index:50}
+.toast{background:#ffffff;border:1px solid #cbd5e1;border-radius:8px;padding:10px 13px;font-size:12px;max-width:360px;box-shadow:0 8px 30px #0f172a1a;white-space:pre-wrap}
+.toast.err{border-color:#fca5a5;background:#fef2f2}.toast.ok{border-color:#86efac;background:#f0fdf4}
+@media(max-width:1000px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.two{grid-template-columns:1fr}}
+@media(max-width:600px){.cards,.models{grid-template-columns:1fr}.wrap{padding:18px 12px 36px}.v{font-size:21px}}
+</style>
 </head>
-<body class="bg-white text-slate-900 min-h-screen">
-<div class="max-w-2xl mx-auto px-4 py-10">
-
-  <div class="flex items-center justify-between">
+<body>
+<div class="wrap">
+  <header>
     <div>
-      <h1 class="text-xl font-semibold tracking-tight">Glicc model switch</h1>
-      <p class="text-sm text-slate-500 mt-1">Self-hosted LLM endpoint &middot; llm.glicc.id</p>
+      <h1>Glicc Operations</h1>
+      <div class="sub">Self-hosted inference · llm.glicc.id</div>
     </div>
-    <button id="logout-btn" class="text-xs text-slate-400 hover:text-slate-700">Sign out</button>
-  </div>
-
-  <!-- status card -->
-  <div class="mt-6 rounded-lg border border-slate-200 shadow-sm p-5">
-    <div class="flex items-center justify-between">
-      <span class="text-sm font-medium text-slate-700">Status</span>
-      <span id="health-dot" class="inline-flex items-center gap-1.5 text-xs font-medium text-slate-400">
-        <span class="h-2 w-2 rounded-full bg-slate-300"></span> checking&hellip;
-      </span>
+    <div style="display:flex;gap:8px;align-items:center">
+      <span class="pill"><span id="healthDot" class="dot"></span><span id="healthText">checking</span></span>
+      <span class="pill" id="roleBadge" style="display:none;color:var(--amber)">read-only</span>
+      <button class="ghost" id="logoutBtn">Sign out</button>
     </div>
-    <p id="current-model" class="mt-2 text-lg font-semibold text-slate-900">&mdash;</p>
+  </header>
+
+  <div class="grid cards">
+    <div class="card"><div class="k">Requests · current run</div><div class="v" id="requests">—</div><div class="note" id="requestNote">from server log</div></div>
+    <div class="card"><div class="k">Tokens generated</div><div class="v" id="tokens">—</div><div class="note" id="tokenNote">prompt / cached</div></div>
+    <div class="card"><div class="k">Decode speed</div><div class="v"><span id="decodeTps">—</span><small>tok/s</small></div><div class="note" id="prefillTps">prefill —</div></div>
+    <div class="card"><div class="k">Context / KV fill</div><div class="v"><span id="fillPct">—</span><small>%</small></div><div class="bar"><span id="fillBar" style="width:0"></span></div><div class="note" id="fillNote">high-water —</div></div>
+    <div class="card"><div class="k">In flight</div><div class="v" id="inflight">—</div><div class="note" id="inflightNote">processing / deferred</div></div>
+    <div class="card"><div class="k">Cache reuse</div><div class="v"><span id="cacheHit">—</span><small>%</small></div><div class="note">prompt tokens from cache</div></div>
+    <div class="card"><div class="k">VRAM used</div><div class="v"><span id="vram">—</span><small>GiB</small></div><div class="bar"><span id="vramBar" style="width:0"></span></div><div class="note" id="vramNote">of —</div></div>
+    <div class="card"><div class="k">Server uptime</div><div class="v" id="uptime">—</div><div class="note" id="modelId">—</div></div>
   </div>
 
-  <!-- model cards -->
-  <div id="models" class="mt-4 grid gap-3"></div>
+  <section class="panel">
+    <div class="head">
+      <h2>Throughput and context pressure</h2>
+      <div class="legend"><span><i style="background:var(--accent)"></i>decode tok/s</span><span><i style="background:var(--blue)"></i>context fill %</span></div>
+    </div>
+    <svg class="chart" viewBox="0 0 700 155" preserveAspectRatio="none" aria-label="Live throughput and context chart">
+      <g id="grid"></g>
+      <polyline id="fillLine" class="fill" points=""></polyline>
+      <polyline id="tpsLine" class="tps" points=""></polyline>
+    </svg>
+    <div style="display:flex;justify-content:space-between;color:var(--muted);font-size:10px;margin-top:4px"><span>last 3 minutes</span><span>3s refresh</span></div>
+  </section>
 
-  <!-- docs -->
-  <div class="mt-8 rounded-lg border border-slate-200 shadow-sm p-5">
-    <h2 class="text-sm font-medium text-slate-700">Use this model from OpenCode</h2>
-    <p class="text-xs text-slate-500 mt-1">Paste this into <code class="bg-slate-100 px-1 rounded">~/.config/opencode/opencode.jsonc</code> on your laptop, inside <code class="bg-slate-100 px-1 rounded">provider</code>. Start a new OpenCode session after saving.</p>
-    <pre id="opencode-snippet" class="mt-3 text-xs bg-slate-900 text-slate-100 rounded-md p-3 overflow-x-auto">loading&hellip;</pre>
-    <p class="text-xs text-slate-500 mt-3">Quick check it's alive, from any terminal:</p>
-    <pre id="curl-snippet" class="mt-2 text-xs bg-slate-900 text-slate-100 rounded-md p-3 overflow-x-auto">loading&hellip;</pre>
+  <div class="grid two">
+    <section class="panel">
+      <div class="head"><h2>Slots</h2><span class="tag" id="slotCount">0</span></div>
+      <table><thead><tr><th>ID</th><th>State</th><th>Context</th><th>Task</th><th>Cache</th></tr></thead><tbody id="slots"></tbody></table>
+    </section>
+    <section class="panel">
+      <div class="head"><h2>GPUs</h2><span class="tag" id="gpuCount">0</span></div>
+      <table><thead><tr><th>#</th><th>VRAM</th><th>Util</th><th>Temp</th><th>Power</th></tr></thead><tbody id="gpus"></tbody></table>
+    </section>
   </div>
 
-  <p class="text-xs text-slate-400 mt-8">Switching a model stops the current server and starts the new one &mdash; a few seconds of downtime each time.</p>
+  <section class="panel">
+    <div class="head"><h2>Speculative decoding</h2><span class="tag" id="acceptPill">—</span></div>
+    <div class="grid" style="grid-template-columns:repeat(4,minmax(0,1fr))">
+      <div><div class="k">Draft tokens</div><div class="v" id="draft">—</div></div>
+      <div><div class="k">Accepted</div><div class="v" id="accepted">—</div></div>
+      <div><div class="k">Acceptance</div><div class="v"><span id="acceptance">—</span><small>%</small></div></div>
+      <div><div class="k">Verification steps</div><div class="v" id="steps">—</div></div>
+    </div>
+  </section>
+
+  <section class="panel" id="apiPanel">
+    <details>
+      <summary>API endpoint and token</summary>
+      <p class="sub" style="margin:10px 0 6px">OpenAI-compatible base URL: <span class="mono">https://llm.glicc.id/v1</span></p>
+      <pre id="tokenText">loading…</pre>
+    </details>
+  </section>
+
+  <div class="footer"><span>Requests are counted from the active llama-server log and reset when the server restarts. KV bytes are not exposed by llama.cpp; context high-water is the fill proxy.</span><span id="clock"></span></div>
 </div>
 
-<!-- toast container -->
-<div id="toast-root" class="fixed bottom-4 right-4 flex flex-col gap-2 z-50"></div>
-
+<div id="toasts"></div>
 <script>
-function toast(msg, kind) {
-  kind = kind || "info"; // "info" | "success" | "error"
-  const colors = {
-    info:    "bg-slate-900 text-white",
-    success: "bg-emerald-600 text-white",
-    error:   "bg-red-600 text-white",
-  };
-  const el = document.createElement("div");
-  el.className = `${colors[kind]} text-sm rounded-md shadow-lg px-4 py-2.5 max-w-sm
-                   transition-opacity duration-300 opacity-0 whitespace-pre-wrap`;
-  el.textContent = msg;
-  document.getElementById("toast-root").appendChild(el);
-  requestAnimationFrame(() => el.classList.remove("opacity-0"));
-  setTimeout(() => {
-    el.classList.add("opacity-0");
-    setTimeout(() => el.remove(), 300);
-  }, 4500);
-}
+const $ = id => document.getElementById(id);
+const history = [];
 
-async function api(path, opts) {
-  const r = await fetch(path, opts);
-  if (r.status === 401) {
-    window.location.href = "/login";
-    throw new Error("not authenticated");
-  }
-  const body = await r.json();
-  if (!r.ok) throw body;
+function toast(msg, kind){
+  const el=document.createElement("div"); el.className="toast "+(kind||"");
+  el.textContent=msg; $("toasts").appendChild(el);
+  setTimeout(()=>el.remove(), 4500);
+}
+async function api(path, opts){
+  const r=await fetch(path, opts||{});
+  if(r.status===401){ location.href="/login"; throw new Error("not authenticated"); }
+  const body=await r.json();
+  if(!r.ok) throw body;
   return body;
 }
-
-function card(key, info) {
-  const ready = info.ready;
-  const div = document.createElement("div");
-  div.className = "rounded-lg border border-slate-200 shadow-sm p-5 flex items-center justify-between";
-  div.innerHTML = `
-    <div>
-      <p class="font-medium text-slate-900">${info.label}</p>
-      <p class="text-xs text-slate-500">${info.sublabel}</p>
-      ${!ready ? '<p class="text-xs text-amber-600 mt-1">still downloading &mdash; not switchable yet</p>' : ''}
-    </div>
-    <button data-key="${key}" ${!ready ? 'disabled' : ''}
-      class="text-sm font-medium px-3 py-1.5 rounded-md border ${ready ? 'border-slate-300 hover:bg-slate-50 text-slate-900' : 'border-slate-200 text-slate-300 cursor-not-allowed'}">
-      Switch
-    </button>`;
-  return div;
+function fmt(n){ return n==null ? "—" : Number(n).toLocaleString(); }
+function fmtBytes(mb){ return mb==null ? "—" : (mb/1024).toFixed(1); }
+function pct(n){ return n==null ? "—" : Number(n).toFixed(1); }
+function dur(s){
+  if(!s) return "—";
+  const d=Math.floor(s/86400), h=Math.floor(s%86400/3600), m=Math.floor(s%3600/60);
+  return d ? `${d}d ${h}h` : h ? `${h}h ${m}m` : `${m}m`;
+}
+function setHealth(ok, text){
+  $("healthDot").className="dot "+(ok?"ok":"bad");
+  $("healthText").textContent=text;
+}
+function setBar(id, value){
+  const el=$(id); if(el) el.style.width=Math.max(0,Math.min(100,value||0))+"%";
 }
 
-async function refresh() {
-  const s = await api("/api/status");
-  const dot = document.getElementById("health-dot");
-  dot.innerHTML = s.healthy
-    ? '<span class="h-2 w-2 rounded-full bg-emerald-500"></span> healthy'
-    : '<span class="h-2 w-2 rounded-full bg-red-400"></span> not responding';
-  document.getElementById("current-model").textContent = s.model_id || "(no model running)";
-
-  const list = document.getElementById("models");
-  list.innerHTML = "";
-  for (const [key, info] of Object.entries(s.models)) {
-    list.appendChild(card(key, info));
-  }
-  list.querySelectorAll("button[data-key]").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      btn.disabled = true;
-      btn.textContent = "Switching\u2026";
-      toast(`Switching to ${btn.closest("div.flex").querySelector("p.font-medium").textContent}\u2026`, "info");
-      try {
-        const res = await api("/api/switch", {
-          method: "POST", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ model: btn.dataset.key }),
-        });
-        toast(res.ok ? `Switched. (${res.seconds}s)` : `Failed after ${res.seconds}s:\n${(res.stderr_tail || res.stdout_tail || "").slice(0,300)}`,
-              res.ok ? "success" : "error");
-      } catch (e) {
-        toast("Error: " + (e.error || JSON.stringify(e)), "error");
-      }
-      refresh();
-    });
-  });
+function drawChart(){
+  const w=700,h=155,pad=10;
+  const vals=history.map(x=>x.tps), fills=history.map(x=>x.fill);
+  const max=Math.max(1,...vals);
+  const pts=(arr,maxv)=>arr.map((v,i)=>{
+    const x=pad+(w-pad*2)*(i/Math.max(1,history.length-1));
+    const y=h-pad-(h-pad*2)*(Math.max(0,v)/maxv);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(" ");
+  $("tpsLine").setAttribute("points", pts(vals,max));
+  $("fillLine").setAttribute("points", pts(fills,100));
+  let g="";
+  for(let i=0;i<=4;i++){ const y=pad+(h-pad*2)*i/4; g+=`<line class="gridline" x1="${pad}" y1="${y}" x2="${w-pad}" y2="${y}"/>`; }
+  $("grid").innerHTML=g;
 }
 
-async function loadDocs() {
-  const t = await api("/api/token");
-  const tok = t.token || "<token not found on server>";
-  document.getElementById("opencode-snippet").textContent =
-`"glicc": {
-  "npm": "@ai-sdk/openai-compatible",
-  "name": "Glicc",
-  "options": {
-    "baseURL": "https://llm.glicc.id/v1",
-    "apiKey": "${tok}"
-  },
-  "models": {
-    "qwen3.6-35b-a3b": {
-      "name": "Self Host Model",
-      "reasoning": true,
-      "tool_call": true,
-      "temperature": true,
-      "limit": { "context": 262144, "output": 8192 }
-    }
-  }
-}`;
-  document.getElementById("curl-snippet").textContent =
-`curl https://llm.glicc.id/v1/models \\
-  -H "Authorization: Bearer ${tok}"`;
+async function loadToken(){
+  try{ const t=await api("/api/token"); $("tokenText").textContent=t.token||"(token not found)"; }
+  catch(e){ $("tokenText").textContent="(not available)"; }
 }
 
-document.getElementById("logout-btn").addEventListener("click", async () => {
-  await fetch("/api/logout", { method: "POST" });
-  window.location.href = "/login";
-});
+function render(live){
+  const ok=live.ok; setHealth(ok, ok?"healthy":"not responding");
+  const guest=live.role==="guest";
+  $("roleBadge").style.display=guest?"inline-flex":"none";
+  $("apiPanel").style.display=guest?"none":"block";
+  const req=live.requests||{}, tok=live.tokens||{}, speed=live.speed||{}, ctx=live.context||{}, spec=live.spec||{};
+  $("requests").textContent=fmt(req.total_seen);
+  $("requestNote").textContent=`processing ${fmt(req.processing)} · deferred ${fmt(req.deferred)}`;
+  $("tokens").textContent=fmt(tok.generated);
+  $("tokenNote").textContent=`prompt ${fmt(tok.prompt)} · cached ${fmt(tok.cached)}`;
+  const liveTps = speed.decode_tps || speed.avg_decode_tps || 0;
+  $("decodeTps").textContent=pct(liveTps);
+  $("prefillTps").textContent="prefill "+pct(speed.prefill_tps || speed.avg_prefill_tps)+" tok/s";
+  $("fillPct").textContent=pct(ctx.fill_pct);
+  setBar("fillBar", ctx.fill_pct);
+  $("fillNote").textContent=`high-water ${fmt(ctx.high_water_tokens)} / ${fmt(ctx.n_ctx)}`;
+  $("inflight").textContent=fmt(req.processing);
+  $("inflightNote").textContent=`processing ${fmt(req.processing)} · deferred ${fmt(req.deferred)}`;
+  $("cacheHit").textContent=pct(live.cache_hit_pct);
+  const mem=(live.gpus||[]).reduce((a,g)=>({used:a.used+(g.memory_used_mb||0),total:a.total+(g.memory_total_mb||0)}),{used:0,total:0});
+  $("vram").textContent=(mem.used/1024).toFixed(1);
+  setBar("vramBar", mem.total?100*mem.used/mem.total:0);
+  $("vramNote").textContent="of "+(mem.total/1024).toFixed(1)+" GiB";
+  $("uptime").textContent=dur(live.server.uptime_s);
+  $("modelId").textContent=live.model_id||"(no model)";
+  $("draft").textContent=fmt(spec.draft); $("accepted").textContent=fmt(spec.accepted);
+  $("acceptance").textContent=pct(spec.acceptance_pct); $("steps").textContent=fmt(spec.verification_steps);
+  $("acceptPill").textContent=spec.acceptance_pct==null?"no data":pct(spec.acceptance_pct)+"% acceptance";
 
-refresh();
-loadDocs();
-setInterval(refresh, 15000);
+  $("slotCount").textContent=(live.slots||[]).length;
+  $("slots").innerHTML=(live.slots||[]).map(s=>{
+    const used=s.n_prompt_tokens||0, total=s.n_ctx||0;
+    return `<tr><td class="mono">${s.id}</td><td><span class="tag ${s.is_processing?'live':'idle'}">${s.is_processing?'processing':'idle'}</span></td><td class="mono">${fmt(used)} / ${fmt(total)}</td><td class="mono">${fmt(s.id_task)}</td><td class="mono">${fmt(s.n_prompt_tokens_cache)}</td></tr>`;
+  }).join("")||'<tr><td colspan="5" style="color:var(--muted)">no slots</td></tr>';
+
+  $("gpuCount").textContent=(live.gpus||[]).length;
+  $("gpus").innerHTML=(live.gpus||[]).map(g=>`<tr><td>${g.index}</td><td class="mono">${fmtBytes(g.memory_used_mb)} / ${fmtBytes(g.memory_total_mb)} GiB</td><td class="mono">${g.util_pct??"—"}%</td><td class="mono">${g.temp_c??"—"}°C</td><td class="mono">${g.power_w??"—"}W</td></tr>`).join("");
+
+  history.push({tps:liveTps, fill:ctx.fill_pct||0});
+  if(history.length>60) history.shift();
+  drawChart();
+  $("clock").textContent="updated "+new Date().toLocaleTimeString();
+}
+
+async function refresh(){
+  try{ render(await api("/api/live")); }
+  catch(e){ setHealth(false,"dashboard error"); }
+}
+
+$("logoutBtn").onclick=async()=>{ await fetch("/api/logout",{method:"POST"}); location.href="/login"; };
+loadToken(); refresh();
+setInterval(refresh,3000);
 </script>
 </body>
 </html>

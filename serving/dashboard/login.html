@@ -4,14 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sign in &middot; Glicc</title>
+<meta name="color-scheme" content="light">
 <script src="https://cdn.tailwindcss.com/3.4.13"></script>
-<style>body{background:#ffffff}</style>
+<style>html,body{background:#ffffff!important;color-scheme:light}body{color:#0f172a}</style>
 </head>
 <body class="bg-white text-slate-900 min-h-screen flex items-center justify-center">
 <div class="w-full max-w-sm px-4">
-  <div class="rounded-lg border border-slate-200 shadow-sm p-6">
-    <h1 class="text-lg font-semibold tracking-tight">Glicc model switch</h1>
-    <p class="text-sm text-slate-500 mt-1">Sign in to continue</p>
+  <div class="rounded-lg border border-slate-200 shadow-sm p-6 bg-white">
+    <h1 class="text-lg font-semibold tracking-tight">Glicc Operations</h1>
+    <p class="text-sm text-slate-500 mt-1">Sign in to manage, or watch live without credentials</p>
 
     <form id="login-form" class="mt-5 space-y-3">
       <div>
@@ -33,6 +34,12 @@
         Sign in
       </button>
     </form>
+
+    <button id="watch-btn" type="button"
+      class="mt-3 w-full rounded-md border border-slate-300 bg-white text-slate-700 text-sm font-medium py-2
+             hover:bg-slate-50 transition">
+      Watch live &middot; read only
+    </button>
   </div>
   <p class="text-xs text-slate-400 mt-4 text-center">llminferences.glicc.id</p>
 </div>
@@ -69,6 +76,25 @@ form.addEventListener("submit", async (e) => {
   }
   btn.disabled = false;
   btn.textContent = "Sign in";
+});
+
+document.getElementById("watch-btn").addEventListener("click", async () => {
+  const watch = document.getElementById("watch-btn");
+  watch.disabled = true;
+  watch.textContent = "Opening live view…";
+  try {
+    const r = await fetch("/api/watch", { method: "POST" });
+    if (r.ok) {
+      window.location.href = "/";
+      return;
+    }
+    throw new Error("watch failed");
+  } catch (e) {
+    err.textContent = "Could not open the live view.";
+    err.classList.remove("hidden");
+    watch.disabled = false;
+    watch.textContent = "Watch live · read only";
+  }
 });
 </script>
 </body>
