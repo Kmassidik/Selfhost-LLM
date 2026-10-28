@@ -12,27 +12,26 @@ Slots:    1
 
 ## API keys
 
-There are two different key systems.
+Create per-client keys in the UI:
 
-### 1. Live endpoint — global key
-
-The public endpoint currently authenticates against one global llama.cpp key.
-
-```bash
-cat /root/Desktop/selfhostllm/glicc-api.token
+```text
+https://llminferences.glicc.id/keys
 ```
 
-Use it as:
+Sign in, enter a client name and RPM, then copy the key immediately. It is shown once; only its SHA-256 hash is stored.
 
-```bash
-export GLICC_API_KEY="$(cat /root/Desktop/selfhostllm/glicc-api.token)"
+Revoke a key from the same page. Revocation is immediate for new requests.
+
+The public inference host is the queue gateway:
+
+```text
+llm.glicc.id -> 127.0.0.1:8081 gateway
+                  -> 127.0.0.1:8084 llama.cpp
 ```
 
-This key is shared by every client. It does not support per-client revocation or quota.
+The llama.cpp global key is now backend-only and no longer works on the public endpoint.
 
-### 2. Per-client keys — gateway (not public yet)
-
-The queue gateway can issue separate keys with per-key queue and RPM limits:
+CLI fallback:
 
 ```bash
 cd /root/Desktop/gpu-optimized/gateway
@@ -41,11 +40,7 @@ cd /root/Desktop/gpu-optimized/gateway
 .venv/bin/python manage_keys.py revoke alice
 ```
 
-The plaintext key is printed once; only its SHA-256 hash is stored in `keys.json`.
-
-Important: `glicc-gateway.service` is currently **stopped**, and `llm.glicc.id` still points directly at llama on `8081`. A gateway key will not work on the public endpoint until the Cloudflare ingress is cut over to the gateway.
-
-Do not put the global key in a repository. Use an environment variable or local secret store.
+Do not put a key in a repository. Use an environment variable or local secret store.
 
 ## Quick test
 
